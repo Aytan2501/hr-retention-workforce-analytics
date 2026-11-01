@@ -1,0 +1,8 @@
+PostgreSQL / pgAdmin import order (CSV files include headers):
+1. data/departments.csv -> public.departments
+2. data/employees.csv -> public.employees
+3. data/contracts.csv -> public.contracts
+4. data/performance_reviews.csv -> public.performance_reviews
+5. data/employee_exits.csv -> public.employee_exits
+
+Create database hr_retention_analysis, run 01_schema.sql first, then import CSVs using pgAdmin Import/Export Data > Import, format CSV, Header enabled. Use matching column order. After imports, run 03_join_view.sql and 04_analytics.sql. 01_schema.sql drops existing tables; use only on a fresh project database. Do not use it on production data.
