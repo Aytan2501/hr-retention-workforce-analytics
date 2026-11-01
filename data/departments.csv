@@ -1,0 +1,9 @@
+department_id,department_name,office_city,division,annual_budget_eur,active
+1,People & Culture,Munich,Corporate,1250000.0,True
+2,Digital Products,Berlin,Technology,4100000.0,True
+3,Customer Success,Hamburg,Commercial,2250000.0,True
+4,Supply Chain,Leipzig,Operations,3100000.0,True
+5,Finance & Risk,Frankfurt,Corporate,1900000.0,True
+6,Sales Operations,Cologne,Commercial,2850000.0,True
+7,Data & Insights,Munich,Technology,2400000.0,True
+8,Field Services,Dresden,Operations,1800000.0,True

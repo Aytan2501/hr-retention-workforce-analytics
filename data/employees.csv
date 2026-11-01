@@ -1,0 +1,901 @@
+employee_id,employee_code,first_name,last_name,age,gender,department_id,job_title,hire_date,employment_status,work_arrangement,job_level,education_level,commute_km,overtime,job_satisfaction,work_life_balance,monthly_salary_eur,currency,contract_type,full_time,created_at
+1,E00001,David,Wagner,54,Female,4,Recruiter,2024-12-31,Active,Remote,5,Master,53,False,2,2,6562.97,EUR,Permanent,False,2026-10-20 10:30:00
+2,E00002,Nina,Hassan,33,Female,2,Project Manager,2017-04-11,Active,Remote,3,Master,8,False,2,4,4399.33,EUR,Permanent,True,2026-10-20 10:30:00
+3,E00003,Elena,Schmidt,60,Male,1,Software Engineer,2021-12-30,Active,Hybrid,4,Doctorate,37,True,2,3,3414.63,EUR,Permanent,True,2026-10-20 10:30:00
+4,E00004,Elena,Aliyev,52,Male,7,Operations Coordinator,2021-04-25,Active,On-site,3,Bachelor,32,False,3,3,5553.04,EUR,Permanent,True,2026-10-20 10:30:00
+5,E00005,Tara,Weber,27,Female,5,HR Business Partner,2019-04-26,Active,Remote,4,Master,17,False,2,3,6825.96,EUR,Permanent,True,2026-10-20 10:30:00
+6,E00006,David,Schmidt,50,Nonbinary,7,Financial Analyst,2021-08-19,Active,On-site,3,Bachelor,28,False,2,4,5446.46,EUR,Permanent,True,2026-10-20 10:30:00
+7,E00007,Felix,Meyer,28,Nonbinary,4,HR Business Partner,2014-02-21,Active,Remote,2,Vocational,41,False,4,3,6090.29,EUR,Fixed-term,True,2026-10-20 10:30:00
+8,E00008,Omar,Klein,42,Male,2,Recruiter,2025-02-27,Active,On-site,4,Master,3,True,4,3,5164.91,EUR,Permanent,True,2026-10-20 10:30:00
+9,E00009,Rosa,Weber,46,Male,8,Financial Analyst,2016-02-02,Active,On-site,1,Doctorate,40,True,2,2,6505.81,EUR,Permanent,False,2026-10-20 10:30:00
+10,E00010,Nora,Weber,56,Nonbinary,4,HR Specialist,2017-03-17,Active,On-site,2,Doctorate,12,False,4,2,5814.32,EUR,Permanent,True,2026-10-20 10:30:00
+11,E00011,Mira,Wolf,46,Female,1,Operations Coordinator,2024-09-01,Active,Remote,2,Master,3,False,2,3,6076.85,EUR,Fixed-term,False,2026-10-20 10:30:00
+12,E00012,Deniz,Becker,36,Nonbinary,8,HR Specialist,2020-09-03,Active,Hybrid,4,Doctorate,20,False,4,3,5376.35,EUR,Permanent,True,2026-10-20 10:30:00
+13,E00013,David,Aliyev,52,Male,6,HR Business Partner,2022-08-20,Exited,Hybrid,3,Vocational,37,False,4,3,3950.37,EUR,Permanent,True,2026-10-20 10:30:00
+14,E00014,Lena,Wagner,42,Male,3,Financial Analyst,2022-09-05,Active,Remote,3,Bachelor,14,False,4,2,4272.71,EUR,Fixed-term,True,2026-10-20 10:30:00
+15,E00015,Mira,Weber,36,Nonbinary,4,Recruiter,2025-04-11,Active,Remote,3,Bachelor,31,False,1,3,3928.99,EUR,Permanent,False,2026-10-20 10:30:00
+16,E00016,Jonas,Schmidt,49,Female,6,Software Engineer,2015-11-03,Active,Remote,3,Bachelor,52,False,3,1,4892.95,EUR,Fixed-term,True,2026-10-20 10:30:00
+17,E00017,Nina,Kaya,28,Nonbinary,5,Account Manager,2014-08-04,Active,Remote,4,Master,22,False,3,4,7232.73,EUR,Permanent,False,2026-10-20 10:30:00
+18,E00018,Tara,Yilmaz,49,Nonbinary,3,Recruiter,2022-06-18,Active,Remote,5,Bachelor,36,False,1,3,4723.79,EUR,Fixed-term,True,2026-10-20 10:30:00
+19,E00019,Leyla,Novak,58,Nonbinary,5,HR Specialist,2025-07-08,Active,On-site,1,Master,28,True,2,1,4389.47,EUR,Permanent,True,2026-10-20 10:30:00
+20,E00020,Elena,Kaya,23,Male,2,Financial Analyst,2016-01-01,Active,Remote,2,Doctorate,14,False,3,4,6071.66,EUR,Fixed-term,True,2026-10-20 10:30:00
+21,E00021,Omar,Meyer,23,Female,1,Operations Coordinator,2023-09-20,Active,Hybrid,3,Vocational,40,False,4,3,3934.34,EUR,Permanent,True,2026-10-20 10:30:00
+22,E00022,Sofia,Yilmaz,21,Male,2,Account Manager,2014-06-05,Active,Remote,5,Doctorate,2,True,3,1,6131.19,EUR,Permanent,True,2026-10-20 10:30:00
+23,E00023,Jonas,Hoffmann,42,Female,3,Sales Executive,2021-02-17,Exited,Hybrid,4,Master,31,False,2,3,4392.54,EUR,Permanent,True,2026-10-20 10:30:00
+24,E00024,Amir,Wagner,25,Female,2,HR Specialist,2019-03-22,Active,Hybrid,1,Master,2,False,3,3,5027.11,EUR,Fixed-term,True,2026-10-20 10:30:00
+25,E00025,Leyla,Yilmaz,38,Male,2,Project Manager,2019-06-21,Active,Remote,2,Bachelor,12,False,1,4,5579.91,EUR,Permanent,True,2026-10-20 10:30:00
+26,E00026,Omar,Yilmaz,36,Male,8,HR Business Partner,2026-03-01,Active,Remote,3,Doctorate,2,True,3,3,2576.67,EUR,Fixed-term,False,2026-10-20 10:30:00
+27,E00027,Felix,Aliyev,60,Nonbinary,8,HR Specialist,2014-06-03,Active,On-site,3,Doctorate,37,True,1,1,5901.55,EUR,Permanent,False,2026-10-20 10:30:00
+28,E00028,Tara,Demir,60,Female,8,HR Business Partner,2017-05-07,Active,On-site,3,Vocational,28,True,4,3,4940.74,EUR,Fixed-term,True,2026-10-20 10:30:00
+29,E00029,David,Kaya,60,Nonbinary,4,HR Business Partner,2016-03-23,Exited,Hybrid,5,Master,39,True,1,2,6659.81,EUR,Fixed-term,True,2026-10-20 10:30:00
+30,E00030,Jonas,Hoffmann,45,Male,5,HR Business Partner,2014-09-22,Active,Remote,5,Master,3,False,2,3,6935.76,EUR,Permanent,True,2026-10-20 10:30:00
+31,E00031,Tara,Yilmaz,54,Female,1,Software Engineer,2015-12-11,Active,Remote,5,Master,12,False,3,1,5557.57,EUR,Fixed-term,True,2026-10-20 10:30:00
+32,E00032,Maya,Hoffmann,55,Nonbinary,7,Recruiter,2017-04-29,Exited,Remote,1,Doctorate,53,True,1,2,7799.54,EUR,Permanent,False,2026-10-20 10:30:00
+33,E00033,Nina,Hoffmann,46,Nonbinary,8,Software Engineer,2016-02-25,Active,Remote,1,Bachelor,50,True,1,3,5082.36,EUR,Permanent,True,2026-10-20 10:30:00
+34,E00034,Tara,Wolf,39,Nonbinary,6,Recruiter,2023-05-21,Active,Hybrid,3,Vocational,3,False,2,3,3114.67,EUR,Permanent,False,2026-10-20 10:30:00
+35,E00035,Deniz,Novak,54,Male,3,Sales Executive,2015-06-01,Active,Hybrid,1,Vocational,19,False,1,4,6508.01,EUR,Permanent,True,2026-10-20 10:30:00
+36,E00036,Nora,Yilmaz,24,Male,2,Account Manager,2023-08-18,Active,Hybrid,3,Master,50,False,4,3,5253.95,EUR,Permanent,True,2026-10-20 10:30:00
+37,E00037,Sofia,Hoffmann,26,Male,4,Recruiter,2017-02-10,Exited,Remote,4,Doctorate,23,True,4,3,3736.57,EUR,Fixed-term,False,2026-10-20 10:30:00
+38,E00038,Omar,Wolf,24,Nonbinary,6,Data Analyst,2015-07-22,Active,On-site,3,Vocational,13,False,4,4,6216.4,EUR,Fixed-term,True,2026-10-20 10:30:00
+39,E00039,Omar,Klein,45,Female,2,HR Specialist,2017-04-20,Active,On-site,4,Vocational,43,False,4,4,7663.42,EUR,Fixed-term,True,2026-10-20 10:30:00
+40,E00040,Leyla,Klein,59,Female,1,Sales Executive,2017-12-31,Exited,Remote,2,Master,4,False,1,3,4026.23,EUR,Fixed-term,True,2026-10-20 10:30:00
+41,E00041,Rosa,Novak,56,Female,1,Account Manager,2026-06-18,Active,Hybrid,2,Vocational,53,False,3,2,4384.79,EUR,Permanent,True,2026-10-20 10:30:00
+42,E00042,Elena,Demir,28,Male,7,Software Engineer,2018-02-21,Active,Remote,4,Doctorate,5,True,4,3,7563.18,EUR,Permanent,False,2026-10-20 10:30:00
+43,E00043,Elena,Meyer,43,Male,6,Sales Executive,2017-07-15,Active,On-site,5,Doctorate,51,False,3,3,4137.92,EUR,Fixed-term,True,2026-10-20 10:30:00
+44,E00044,Rosa,Fischer,30,Male,4,Product Analyst,2018-05-31,Active,Hybrid,1,Bachelor,27,False,4,2,5967.01,EUR,Fixed-term,True,2026-10-20 10:30:00
+45,E00045,Amir,Kaya,48,Nonbinary,3,Project Manager,2015-09-30,Exited,Hybrid,5,Vocational,28,True,2,4,6139.14,EUR,Permanent,True,2026-10-20 10:30:00
+46,E00046,Emil,Novak,57,Nonbinary,2,Financial Analyst,2019-12-11,Active,Remote,4,Master,55,False,4,2,6283.5,EUR,Fixed-term,True,2026-10-20 10:30:00
+47,E00047,Milan,Aliyev,30,Female,3,Recruiter,2020-11-18,Active,Remote,3,Doctorate,3,False,3,4,3741.94,EUR,Permanent,True,2026-10-20 10:30:00
+48,E00048,Felix,Novak,41,Male,7,Recruiter,2025-07-16,Active,Hybrid,4,Master,23,False,2,1,3590.41,EUR,Permanent,True,2026-10-20 10:30:00
+49,E00049,David,Wolf,50,Male,7,Recruiter,2025-07-25,Active,On-site,1,Bachelor,14,False,2,3,4724.68,EUR,Permanent,False,2026-10-20 10:30:00
+50,E00050,Deniz,Fischer,54,Female,3,HR Specialist,2015-12-10,Exited,Hybrid,5,Bachelor,10,False,2,3,4820.49,EUR,Permanent,True,2026-10-20 10:30:00
+51,E00051,David,Wagner,35,Male,6,HR Specialist,2015-07-14,Active,Hybrid,1,Doctorate,48,False,2,2,6396.5,EUR,Fixed-term,True,2026-10-20 10:30:00
+52,E00052,Lena,Weber,40,Male,3,HR Specialist,2015-11-24,Active,Hybrid,1,Vocational,55,False,2,4,6955.52,EUR,Fixed-term,True,2026-10-20 10:30:00
+53,E00053,Emil,Yilmaz,56,Nonbinary,6,Software Engineer,2024-11-25,Exited,Remote,4,Master,28,False,1,4,2738.27,EUR,Permanent,True,2026-10-20 10:30:00
+54,E00054,Omar,Klein,57,Male,6,Sales Executive,2015-03-19,Active,On-site,4,Doctorate,20,True,3,3,7012.02,EUR,Permanent,True,2026-10-20 10:30:00
+55,E00055,Elena,Aliyev,26,Male,8,Account Manager,2016-10-23,Exited,Remote,1,Doctorate,35,False,1,2,7209.2,EUR,Fixed-term,True,2026-10-20 10:30:00
+56,E00056,Nina,Meyer,52,Nonbinary,2,Sales Executive,2025-12-27,Active,Remote,2,Vocational,17,False,3,3,4950.99,EUR,Fixed-term,True,2026-10-20 10:30:00
+57,E00057,Alex,Klein,34,Female,5,HR Business Partner,2023-04-28,Exited,On-site,3,Bachelor,12,False,2,3,4783.89,EUR,Fixed-term,False,2026-10-20 10:30:00
+58,E00058,Deniz,Yilmaz,62,Female,4,Product Analyst,2017-12-13,Active,Remote,1,Vocational,30,False,3,3,5703.4,EUR,Fixed-term,False,2026-10-20 10:30:00
+59,E00059,Amir,Novak,36,Nonbinary,4,Financial Analyst,2022-06-19,Active,Hybrid,1,Bachelor,41,True,3,2,3201.06,EUR,Permanent,True,2026-10-20 10:30:00
+60,E00060,Rosa,Novak,28,Male,1,Financial Analyst,2017-12-02,Exited,Remote,5,Master,48,True,2,2,5506.59,EUR,Permanent,True,2026-10-20 10:30:00
+61,E00061,Milan,Schmidt,29,Nonbinary,1,Data Analyst,2017-02-24,Active,Remote,2,Vocational,41,False,3,3,4852.39,EUR,Fixed-term,True,2026-10-20 10:30:00
+62,E00062,Maya,Kaya,33,Female,5,Recruiter,2025-02-19,Active,Remote,2,Bachelor,14,False,3,3,6168.63,EUR,Permanent,True,2026-10-20 10:30:00
+63,E00063,Leyla,Kaya,32,Male,2,Sales Executive,2015-07-02,Active,On-site,2,Master,42,True,4,4,7033.97,EUR,Permanent,False,2026-10-20 10:30:00
+64,E00064,Elena,Weber,34,Male,7,Data Analyst,2019-12-26,Active,Remote,1,Bachelor,17,True,3,4,5519.5,EUR,Fixed-term,True,2026-10-20 10:30:00
+65,E00065,Felix,Yilmaz,46,Nonbinary,3,Product Analyst,2021-11-25,Active,On-site,4,Doctorate,46,False,2,3,5281.18,EUR,Fixed-term,True,2026-10-20 10:30:00
+66,E00066,Lena,Becker,32,Male,2,Data Analyst,2016-01-11,Active,Hybrid,5,Vocational,47,False,4,3,8996.38,EUR,Permanent,True,2026-10-20 10:30:00
+67,E00067,Leyla,Schmidt,50,Nonbinary,5,Financial Analyst,2026-02-15,Active,Remote,3,Bachelor,14,False,3,1,6565.32,EUR,Fixed-term,False,2026-10-20 10:30:00
+68,E00068,Mira,Demir,45,Male,4,Financial Analyst,2025-06-11,Active,On-site,4,Vocational,51,True,4,3,5571.17,EUR,Permanent,True,2026-10-20 10:30:00
+69,E00069,Lena,Demir,42,Nonbinary,7,HR Business Partner,2025-03-28,Exited,On-site,5,Vocational,10,False,2,4,4565.68,EUR,Permanent,True,2026-10-20 10:30:00
+70,E00070,Rosa,Schmidt,38,Nonbinary,3,Project Manager,2017-02-04,Active,On-site,3,Master,36,False,2,3,5935.3,EUR,Permanent,True,2026-10-20 10:30:00
+71,E00071,Deniz,Schmidt,28,Nonbinary,2,Sales Executive,2026-02-27,Active,Hybrid,5,Master,50,True,4,2,4304.93,EUR,Permanent,True,2026-10-20 10:30:00
+72,E00072,Omar,Weber,45,Male,3,Financial Analyst,2019-09-18,Active,On-site,2,Master,33,False,2,4,4981.72,EUR,Permanent,False,2026-10-20 10:30:00
+73,E00073,Nina,Fischer,25,Male,3,Recruiter,2021-01-24,Active,Remote,3,Bachelor,14,False,3,2,3385.2,EUR,Fixed-term,True,2026-10-20 10:30:00
+74,E00074,David,Wagner,49,Male,2,HR Business Partner,2021-09-05,Active,Hybrid,4,Vocational,47,True,3,4,6081.48,EUR,Fixed-term,True,2026-10-20 10:30:00
+75,E00075,Tara,Becker,23,Female,4,Service Technician,2014-10-14,Exited,Hybrid,4,Vocational,14,False,3,2,6725.5,EUR,Permanent,True,2026-10-20 10:30:00
+76,E00076,Alex,Demir,50,Female,2,Product Analyst,2015-12-26,Active,Hybrid,5,Vocational,20,False,2,3,7265.27,EUR,Permanent,False,2026-10-20 10:30:00
+77,E00077,Jonas,Meyer,30,Female,2,HR Specialist,2019-02-13,Active,Remote,4,Bachelor,34,True,1,4,6260.69,EUR,Permanent,True,2026-10-20 10:30:00
+78,E00078,Leyla,Kaya,46,Nonbinary,4,Recruiter,2023-12-01,Active,Hybrid,1,Doctorate,28,True,3,3,3979.78,EUR,Fixed-term,True,2026-10-20 10:30:00
+79,E00079,Milan,Hoffmann,56,Female,5,Recruiter,2018-10-29,Active,Remote,4,Bachelor,53,False,4,3,5189.07,EUR,Permanent,False,2026-10-20 10:30:00
+80,E00080,Milan,Fischer,55,Female,3,Recruiter,2026-07-01,Active,On-site,3,Doctorate,23,False,4,2,3690.41,EUR,Fixed-term,False,2026-10-20 10:30:00
+81,E00081,Emil,Becker,59,Female,2,Financial Analyst,2016-11-09,Active,On-site,2,Bachelor,26,True,2,2,7704.11,EUR,Permanent,True,2026-10-20 10:30:00
+82,E00082,Nora,Wagner,48,Nonbinary,7,Recruiter,2018-02-19,Active,On-site,4,Bachelor,29,False,4,3,7493.79,EUR,Fixed-term,True,2026-10-20 10:30:00
+83,E00083,Sofia,Novak,51,Female,7,Operations Coordinator,2021-09-10,Active,On-site,5,Vocational,49,False,3,3,6387.3,EUR,Fixed-term,True,2026-10-20 10:30:00
+84,E00084,Nora,Klein,45,Nonbinary,3,Software Engineer,2017-09-25,Active,Hybrid,5,Doctorate,9,False,3,3,5331.78,EUR,Permanent,True,2026-10-20 10:30:00
+85,E00085,Jonas,Novak,26,Nonbinary,1,HR Business Partner,2014-06-24,Active,Remote,1,Doctorate,37,True,4,3,5938.91,EUR,Fixed-term,True,2026-10-20 10:30:00
+86,E00086,Alex,Novak,36,Female,4,Project Manager,2019-09-27,Active,On-site,5,Bachelor,50,True,4,3,3974.23,EUR,Fixed-term,True,2026-10-20 10:30:00
+87,E00087,Emil,Schmidt,52,Female,4,Project Manager,2017-04-03,Active,On-site,2,Bachelor,39,True,2,3,6337.58,EUR,Permanent,True,2026-10-20 10:30:00
+88,E00088,Milan,Meyer,29,Female,1,Operations Coordinator,2026-02-07,Active,Hybrid,2,Bachelor,46,False,2,2,2483.27,EUR,Permanent,True,2026-10-20 10:30:00
+89,E00089,Leyla,Yilmaz,30,Male,7,Software Engineer,2024-04-21,Active,On-site,5,Vocational,9,False,4,3,5758.22,EUR,Fixed-term,True,2026-10-20 10:30:00
+90,E00090,Amir,Aliyev,48,Nonbinary,2,Account Manager,2016-09-13,Active,Remote,4,Vocational,30,True,2,4,7130.54,EUR,Permanent,True,2026-10-20 10:30:00
+91,E00091,Tara,Yilmaz,41,Female,5,HR Specialist,2016-06-16,Active,On-site,3,Master,15,True,3,3,7551.2,EUR,Fixed-term,True,2026-10-20 10:30:00
+92,E00092,Leyla,Novak,34,Male,2,Product Analyst,2026-02-06,Exited,Hybrid,1,Bachelor,33,False,3,2,4529.37,EUR,Permanent,True,2026-10-20 10:30:00
+93,E00093,Emil,Hassan,27,Female,6,Financial Analyst,2016-06-03,Active,Hybrid,1,Master,51,False,3,1,4481.51,EUR,Fixed-term,True,2026-10-20 10:30:00
+94,E00094,Nora,Fischer,25,Nonbinary,1,Project Manager,2013-10-06,Active,Remote,5,Vocational,26,False,4,3,5164.77,EUR,Permanent,True,2026-10-20 10:30:00
+95,E00095,Felix,Becker,22,Nonbinary,6,Financial Analyst,2022-07-17,Active,Remote,3,Bachelor,51,False,1,3,5486.51,EUR,Fixed-term,True,2026-10-20 10:30:00
+96,E00096,Milan,Yilmaz,26,Female,3,HR Business Partner,2013-11-19,Active,On-site,4,Doctorate,10,False,4,2,5803.66,EUR,Fixed-term,False,2026-10-20 10:30:00
+97,E00097,Elena,Hoffmann,37,Nonbinary,3,Sales Executive,2019-03-08,Exited,Hybrid,5,Vocational,2,True,2,3,5083.02,EUR,Permanent,False,2026-10-20 10:30:00
+98,E00098,Lena,Yilmaz,35,Female,2,Software Engineer,2019-09-28,Exited,Remote,1,Vocational,13,True,1,4,5891.56,EUR,Permanent,True,2026-10-20 10:30:00
+99,E00099,Sofia,Yilmaz,61,Male,3,Sales Executive,2020-12-28,Active,Hybrid,4,Vocational,14,False,3,3,4219.98,EUR,Fixed-term,True,2026-10-20 10:30:00
+100,E00100,Elena,Fischer,45,Nonbinary,3,Financial Analyst,2020-12-01,Active,Remote,4,Vocational,29,False,1,1,3844.18,EUR,Fixed-term,True,2026-10-20 10:30:00
+101,E00101,Elena,Meyer,56,Nonbinary,3,Recruiter,2025-03-24,Active,On-site,1,Doctorate,54,False,3,4,4851.39,EUR,Fixed-term,False,2026-10-20 10:30:00
+102,E00102,Elena,Klein,50,Female,2,Product Analyst,2023-04-04,Active,On-site,1,Bachelor,25,False,2,1,4089.77,EUR,Fixed-term,True,2026-10-20 10:30:00
+103,E00103,Maya,Demir,30,Male,4,Product Analyst,2014-01-29,Exited,Hybrid,2,Bachelor,22,False,2,3,5311.33,EUR,Fixed-term,False,2026-10-20 10:30:00
+104,E00104,Lena,Klein,45,Female,3,Software Engineer,2024-07-23,Active,Hybrid,1,Vocational,35,False,4,4,4859.22,EUR,Permanent,False,2026-10-20 10:30:00
+105,E00105,Mira,Hassan,57,Female,4,Product Analyst,2020-03-16,Active,Remote,1,Bachelor,18,True,3,1,5322.22,EUR,Fixed-term,True,2026-10-20 10:30:00
+106,E00106,Deniz,Aliyev,47,Nonbinary,7,Sales Executive,2022-06-22,Active,Remote,4,Doctorate,27,True,3,4,4739.03,EUR,Fixed-term,False,2026-10-20 10:30:00
+107,E00107,Felix,Meyer,46,Female,2,Data Analyst,2017-01-22,Active,On-site,3,Master,51,False,4,3,6171.23,EUR,Permanent,False,2026-10-20 10:30:00
+108,E00108,Amir,Demir,29,Male,5,Account Manager,2025-06-10,Active,Hybrid,2,Bachelor,40,True,3,3,4373.61,EUR,Fixed-term,True,2026-10-20 10:30:00
+109,E00109,Maya,Hoffmann,32,Nonbinary,4,Product Analyst,2017-10-31,Active,Hybrid,4,Master,53,False,3,2,6248.76,EUR,Fixed-term,True,2026-10-20 10:30:00
+110,E00110,Nora,Aliyev,35,Female,7,Project Manager,2017-06-01,Exited,Remote,4,Bachelor,54,False,2,3,6792.55,EUR,Fixed-term,True,2026-10-20 10:30:00
+111,E00111,Nina,Kaya,49,Female,1,HR Business Partner,2023-09-10,Active,Hybrid,1,Bachelor,4,False,3,4,4652.43,EUR,Permanent,True,2026-10-20 10:30:00
+112,E00112,Deniz,Wagner,61,Female,6,Sales Executive,2014-08-03,Active,On-site,4,Doctorate,36,True,3,4,4553.91,EUR,Permanent,True,2026-10-20 10:30:00
+113,E00113,Omar,Weber,28,Male,2,Recruiter,2021-05-19,Active,Hybrid,2,Vocational,8,False,3,3,6356.76,EUR,Permanent,True,2026-10-20 10:30:00
+114,E00114,Omar,Meyer,61,Male,2,Sales Executive,2020-12-19,Active,Hybrid,4,Vocational,12,False,2,4,3977.36,EUR,Permanent,True,2026-10-20 10:30:00
+115,E00115,Elena,Demir,50,Female,5,Software Engineer,2018-12-10,Active,Remote,3,Doctorate,53,False,3,3,6443.83,EUR,Permanent,True,2026-10-20 10:30:00
+116,E00116,Maya,Kaya,34,Female,3,Data Analyst,2018-09-15,Active,On-site,4,Master,21,False,4,3,6676.1,EUR,Fixed-term,True,2026-10-20 10:30:00
+117,E00117,Maya,Novak,45,Nonbinary,2,Operations Coordinator,2015-08-14,Active,On-site,1,Doctorate,40,False,1,3,6949.75,EUR,Fixed-term,True,2026-10-20 10:30:00
+118,E00118,Nora,Hassan,23,Male,7,Sales Executive,2024-02-29,Active,On-site,3,Vocational,5,True,4,4,4114.91,EUR,Permanent,False,2026-10-20 10:30:00
+119,E00119,Nina,Becker,22,Nonbinary,3,HR Business Partner,2024-06-29,Active,On-site,1,Vocational,45,False,3,4,3823.12,EUR,Permanent,True,2026-10-20 10:30:00
+120,E00120,Lena,Klein,53,Nonbinary,3,Account Manager,2026-04-14,Active,Remote,4,Master,51,True,3,1,3082.93,EUR,Permanent,True,2026-10-20 10:30:00
+121,E00121,Nora,Yilmaz,26,Male,6,Operations Coordinator,2018-12-20,Active,On-site,1,Master,11,False,3,3,5685.98,EUR,Fixed-term,True,2026-10-20 10:30:00
+122,E00122,Nina,Schmidt,44,Nonbinary,6,Service Technician,2025-06-22,Active,On-site,5,Bachelor,38,False,2,4,4069.65,EUR,Permanent,True,2026-10-20 10:30:00
+123,E00123,Jonas,Novak,48,Nonbinary,5,Data Analyst,2014-09-21,Exited,On-site,3,Bachelor,5,False,4,3,8241.69,EUR,Fixed-term,True,2026-10-20 10:30:00
+124,E00124,David,Schmidt,42,Male,4,Software Engineer,2014-01-22,Active,Remote,1,Doctorate,55,False,1,4,5189.68,EUR,Fixed-term,True,2026-10-20 10:30:00
+125,E00125,Alex,Klein,47,Nonbinary,6,Data Analyst,2024-09-17,Active,On-site,4,Master,35,False,1,4,4335.51,EUR,Fixed-term,True,2026-10-20 10:30:00
+126,E00126,Sofia,Demir,60,Female,6,HR Specialist,2022-11-19,Active,Hybrid,2,Bachelor,48,False,2,3,3835.32,EUR,Fixed-term,False,2026-10-20 10:30:00
+127,E00127,Amir,Novak,32,Female,6,Account Manager,2017-03-01,Active,Remote,3,Doctorate,34,False,4,3,5495.19,EUR,Permanent,True,2026-10-20 10:30:00
+128,E00128,Sofia,Becker,53,Nonbinary,4,Service Technician,2020-06-17,Active,Hybrid,1,Master,5,False,3,2,4844.4,EUR,Fixed-term,True,2026-10-20 10:30:00
+129,E00129,Felix,Wolf,31,Female,8,Account Manager,2023-05-17,Exited,Hybrid,3,Doctorate,30,True,4,1,3720.52,EUR,Fixed-term,True,2026-10-20 10:30:00
+130,E00130,Mira,Aliyev,37,Female,8,HR Business Partner,2016-03-07,Active,Remote,2,Doctorate,49,False,4,4,6169.02,EUR,Permanent,True,2026-10-20 10:30:00
+131,E00131,Milan,Meyer,34,Nonbinary,4,HR Specialist,2019-11-13,Active,Remote,3,Master,54,True,2,2,5530.52,EUR,Permanent,False,2026-10-20 10:30:00
+132,E00132,Felix,Klein,52,Female,4,Data Analyst,2022-05-20,Active,Remote,1,Bachelor,46,False,3,1,4171.36,EUR,Fixed-term,True,2026-10-20 10:30:00
+133,E00133,Felix,Hoffmann,31,Nonbinary,2,Recruiter,2018-11-15,Exited,Remote,1,Bachelor,46,False,2,4,6223.39,EUR,Permanent,True,2026-10-20 10:30:00
+134,E00134,Lena,Meyer,61,Male,3,Service Technician,2015-05-13,Exited,Remote,3,Master,52,False,1,4,6181.85,EUR,Permanent,True,2026-10-20 10:30:00
+135,E00135,David,Aliyev,42,Nonbinary,8,HR Business Partner,2022-11-01,Active,Remote,2,Bachelor,33,False,3,3,3001.34,EUR,Permanent,True,2026-10-20 10:30:00
+136,E00136,Noah,Schmidt,50,Male,2,Project Manager,2022-10-30,Active,Remote,2,Bachelor,19,False,2,3,7087.05,EUR,Permanent,True,2026-10-20 10:30:00
+137,E00137,Omar,Weber,28,Male,4,Sales Executive,2018-09-09,Active,On-site,1,Master,6,False,3,1,6084.93,EUR,Fixed-term,False,2026-10-20 10:30:00
+138,E00138,Omar,Yilmaz,56,Nonbinary,6,Account Manager,2020-10-19,Active,Remote,1,Master,14,False,3,3,4704.59,EUR,Permanent,True,2026-10-20 10:30:00
+139,E00139,Lena,Becker,33,Nonbinary,2,Account Manager,2016-12-01,Active,Remote,2,Bachelor,5,False,4,3,6085.69,EUR,Fixed-term,True,2026-10-20 10:30:00
+140,E00140,Elena,Demir,39,Nonbinary,4,Data Analyst,2014-08-23,Active,Remote,1,Bachelor,5,False,4,3,6269.41,EUR,Fixed-term,True,2026-10-20 10:30:00
+141,E00141,Emil,Hoffmann,23,Male,6,HR Business Partner,2020-11-18,Active,Hybrid,5,Vocational,13,True,3,3,4947.07,EUR,Permanent,True,2026-10-20 10:30:00
+142,E00142,Felix,Becker,61,Nonbinary,4,HR Business Partner,2024-05-27,Active,Hybrid,5,Bachelor,40,True,4,3,5113.44,EUR,Fixed-term,True,2026-10-20 10:30:00
+143,E00143,Deniz,Hoffmann,45,Female,8,Data Analyst,2023-02-08,Exited,Hybrid,1,Vocational,24,True,3,4,5606.51,EUR,Permanent,True,2026-10-20 10:30:00
+144,E00144,Rosa,Klein,36,Nonbinary,8,Service Technician,2015-04-20,Active,Remote,4,Bachelor,29,False,4,2,4960.48,EUR,Fixed-term,True,2026-10-20 10:30:00
+145,E00145,Mira,Weber,39,Female,2,Sales Executive,2023-07-26,Active,Hybrid,4,Doctorate,49,False,4,3,5194.12,EUR,Permanent,False,2026-10-20 10:30:00
+146,E00146,Emil,Wagner,40,Male,5,HR Business Partner,2023-08-23,Active,Remote,1,Doctorate,2,False,3,2,6288.04,EUR,Permanent,False,2026-10-20 10:30:00
+147,E00147,Emil,Klein,33,Nonbinary,4,Financial Analyst,2015-01-24,Active,Remote,5,Vocational,45,False,4,3,4765.34,EUR,Permanent,False,2026-10-20 10:30:00
+148,E00148,Deniz,Fischer,36,Male,7,HR Specialist,2020-06-04,Active,Hybrid,4,Doctorate,3,False,2,3,7203.37,EUR,Permanent,True,2026-10-20 10:30:00
+149,E00149,Omar,Fischer,29,Nonbinary,1,Recruiter,2020-01-24,Active,On-site,5,Master,47,False,2,4,3906.14,EUR,Fixed-term,True,2026-10-20 10:30:00
+150,E00150,Sofia,Novak,45,Male,4,Project Manager,2023-04-23,Exited,Remote,2,Doctorate,21,False,1,2,4668.72,EUR,Fixed-term,True,2026-10-20 10:30:00
+151,E00151,Elena,Schmidt,31,Nonbinary,7,Financial Analyst,2016-11-13,Active,Remote,2,Vocational,19,False,3,3,6234.49,EUR,Fixed-term,True,2026-10-20 10:30:00
+152,E00152,Mira,Hoffmann,47,Nonbinary,2,Sales Executive,2018-11-09,Active,Hybrid,1,Master,16,True,2,3,5899.46,EUR,Permanent,False,2026-10-20 10:30:00
+153,E00153,Amir,Becker,44,Female,3,Data Analyst,2020-06-02,Active,Remote,3,Doctorate,50,False,3,4,4992.76,EUR,Fixed-term,True,2026-10-20 10:30:00
+154,E00154,Mira,Wolf,50,Nonbinary,5,Service Technician,2021-02-11,Active,Remote,4,Master,10,False,4,4,6631.72,EUR,Permanent,True,2026-10-20 10:30:00
+155,E00155,David,Klein,40,Female,2,Service Technician,2017-06-12,Active,Hybrid,1,Vocational,30,False,4,2,6961.04,EUR,Fixed-term,True,2026-10-20 10:30:00
+156,E00156,Lena,Meyer,35,Male,2,Financial Analyst,2023-01-26,Active,Hybrid,5,Doctorate,38,True,2,3,5032.83,EUR,Fixed-term,False,2026-10-20 10:30:00
+157,E00157,Amir,Wolf,35,Male,3,Operations Coordinator,2018-07-18,Active,On-site,1,Master,48,False,3,3,4592.41,EUR,Permanent,True,2026-10-20 10:30:00
+158,E00158,Felix,Klein,48,Nonbinary,7,HR Business Partner,2024-06-08,Active,Hybrid,2,Doctorate,33,False,1,4,7127.54,EUR,Fixed-term,True,2026-10-20 10:30:00
+159,E00159,Maya,Hassan,60,Female,4,Recruiter,2022-04-15,Active,Hybrid,5,Bachelor,55,False,4,2,4022.69,EUR,Permanent,True,2026-10-20 10:30:00
+160,E00160,Nina,Becker,38,Female,6,Account Manager,2022-10-14,Active,Remote,4,Bachelor,43,False,1,4,4254.89,EUR,Permanent,True,2026-10-20 10:30:00
+161,E00161,Nina,Schmidt,21,Male,1,Account Manager,2018-12-24,Exited,Hybrid,5,Vocational,51,False,2,4,4462.83,EUR,Permanent,True,2026-10-20 10:30:00
+162,E00162,David,Wagner,52,Male,4,Software Engineer,2022-12-06,Active,Remote,5,Master,19,True,4,1,4700.46,EUR,Permanent,False,2026-10-20 10:30:00
+163,E00163,Leyla,Novak,47,Male,2,Account Manager,2017-09-14,Active,On-site,3,Doctorate,49,True,3,4,6955.59,EUR,Permanent,True,2026-10-20 10:30:00
+164,E00164,Tara,Aliyev,31,Male,2,Data Analyst,2015-04-28,Exited,Remote,5,Bachelor,36,False,2,3,7793.19,EUR,Permanent,True,2026-10-20 10:30:00
+165,E00165,Leyla,Demir,42,Male,7,Product Analyst,2015-12-18,Active,Hybrid,3,Bachelor,42,False,3,1,7027.62,EUR,Fixed-term,True,2026-10-20 10:30:00
+166,E00166,Omar,Hassan,40,Nonbinary,4,HR Business Partner,2021-08-08,Active,On-site,3,Vocational,32,True,4,4,4399.3,EUR,Permanent,True,2026-10-20 10:30:00
+167,E00167,Deniz,Wagner,52,Nonbinary,3,Project Manager,2014-06-14,Active,Remote,4,Bachelor,37,True,4,2,6098.57,EUR,Permanent,True,2026-10-20 10:30:00
+168,E00168,Sofia,Yilmaz,36,Male,2,HR Business Partner,2021-12-25,Active,Remote,2,Master,37,False,3,3,6261.06,EUR,Permanent,True,2026-10-20 10:30:00
+169,E00169,Tara,Meyer,58,Male,7,Recruiter,2016-02-08,Active,On-site,1,Master,53,True,3,4,7635.3,EUR,Fixed-term,True,2026-10-20 10:30:00
+170,E00170,Maya,Fischer,39,Female,3,Data Analyst,2023-11-14,Active,Hybrid,2,Vocational,45,False,4,4,5166.74,EUR,Fixed-term,True,2026-10-20 10:30:00
+171,E00171,Jonas,Fischer,38,Female,5,Data Analyst,2015-06-29,Active,Hybrid,5,Vocational,55,False,3,4,5902.37,EUR,Fixed-term,False,2026-10-20 10:30:00
+172,E00172,Noah,Klein,59,Male,7,Recruiter,2016-01-22,Active,Hybrid,5,Bachelor,11,False,3,2,5884.26,EUR,Permanent,True,2026-10-20 10:30:00
+173,E00173,Emil,Meyer,24,Female,8,Product Analyst,2014-01-26,Active,On-site,5,Vocational,53,False,2,3,6114.11,EUR,Fixed-term,True,2026-10-20 10:30:00
+174,E00174,David,Schmidt,39,Nonbinary,4,Operations Coordinator,2022-08-17,Active,On-site,1,Master,33,False,3,4,5627.78,EUR,Permanent,True,2026-10-20 10:30:00
+175,E00175,Alex,Klein,25,Nonbinary,4,Account Manager,2020-03-12,Active,Remote,4,Master,28,False,4,3,5026.29,EUR,Permanent,True,2026-10-20 10:30:00
+176,E00176,Mira,Kaya,21,Nonbinary,5,Software Engineer,2022-11-21,Active,On-site,5,Vocational,29,False,3,4,5869.27,EUR,Permanent,True,2026-10-20 10:30:00
+177,E00177,Leyla,Aliyev,39,Male,5,Account Manager,2023-11-11,Active,Hybrid,5,Vocational,30,False,3,3,5304.13,EUR,Permanent,True,2026-10-20 10:30:00
+178,E00178,Mira,Klein,50,Male,3,Product Analyst,2020-10-04,Exited,Hybrid,1,Vocational,14,False,2,3,4491.4,EUR,Permanent,True,2026-10-20 10:30:00
+179,E00179,Alex,Weber,53,Nonbinary,8,HR Specialist,2026-03-19,Active,Remote,5,Bachelor,28,False,3,1,3262.07,EUR,Permanent,True,2026-10-20 10:30:00
+180,E00180,Lena,Yilmaz,40,Female,2,Operations Coordinator,2015-07-23,Active,On-site,2,Master,33,False,3,2,6894.83,EUR,Permanent,True,2026-10-20 10:30:00
+181,E00181,Felix,Klein,35,Female,2,Account Manager,2022-01-10,Active,Remote,2,Vocational,46,False,4,3,5101.03,EUR,Fixed-term,True,2026-10-20 10:30:00
+182,E00182,Amir,Wagner,35,Nonbinary,8,Service Technician,2020-08-12,Active,On-site,5,Doctorate,50,False,4,4,5771.07,EUR,Permanent,True,2026-10-20 10:30:00
+183,E00183,Lena,Aliyev,42,Female,2,Financial Analyst,2020-12-27,Active,Remote,2,Doctorate,47,False,4,2,5581.05,EUR,Fixed-term,True,2026-10-20 10:30:00
+184,E00184,Deniz,Wagner,38,Male,6,Account Manager,2020-02-16,Active,Hybrid,3,Doctorate,9,False,2,3,4657.13,EUR,Permanent,True,2026-10-20 10:30:00
+185,E00185,Emil,Wolf,57,Nonbinary,6,Account Manager,2014-12-01,Exited,Remote,4,Bachelor,29,False,3,4,5459.39,EUR,Fixed-term,False,2026-10-20 10:30:00
+186,E00186,Nina,Kaya,56,Female,5,Recruiter,2019-05-17,Active,Remote,4,Bachelor,12,False,2,4,6260.59,EUR,Permanent,False,2026-10-20 10:30:00
+187,E00187,Alex,Hoffmann,44,Male,3,Service Technician,2019-04-30,Active,Hybrid,3,Bachelor,12,False,2,4,4867.93,EUR,Permanent,False,2026-10-20 10:30:00
+188,E00188,Nora,Fischer,28,Male,8,HR Specialist,2021-11-15,Exited,Hybrid,5,Vocational,40,False,3,3,3998.47,EUR,Permanent,True,2026-10-20 10:30:00
+189,E00189,Noah,Hassan,59,Female,2,Data Analyst,2023-10-30,Active,Remote,2,Doctorate,15,True,3,2,5163.1,EUR,Fixed-term,True,2026-10-20 10:30:00
+190,E00190,Mira,Klein,33,Nonbinary,3,Financial Analyst,2023-10-12,Active,Hybrid,1,Doctorate,3,False,3,3,3165.23,EUR,Fixed-term,False,2026-10-20 10:30:00
+191,E00191,Nora,Meyer,24,Female,4,Software Engineer,2024-03-22,Active,On-site,2,Doctorate,4,True,4,3,4363.11,EUR,Permanent,True,2026-10-20 10:30:00
+192,E00192,Rosa,Yilmaz,62,Nonbinary,2,Account Manager,2021-09-13,Active,On-site,2,Bachelor,30,False,4,2,6169.93,EUR,Permanent,False,2026-10-20 10:30:00
+193,E00193,Nora,Aliyev,49,Nonbinary,3,Data Analyst,2014-07-13,Active,On-site,4,Doctorate,19,False,3,4,4751.7,EUR,Permanent,True,2026-10-20 10:30:00
+194,E00194,Maya,Kaya,39,Nonbinary,4,Product Analyst,2018-03-06,Active,Hybrid,4,Master,10,False,1,3,5233.39,EUR,Fixed-term,True,2026-10-20 10:30:00
+195,E00195,Rosa,Weber,51,Nonbinary,4,Sales Executive,2022-08-25,Active,Hybrid,3,Doctorate,15,False,2,3,4637.65,EUR,Fixed-term,False,2026-10-20 10:30:00
+196,E00196,Rosa,Becker,22,Nonbinary,4,Operations Coordinator,2020-05-14,Active,Hybrid,1,Master,22,False,3,3,4300.37,EUR,Permanent,True,2026-10-20 10:30:00
+197,E00197,Elena,Hoffmann,37,Nonbinary,2,Financial Analyst,2014-12-11,Active,Hybrid,2,Vocational,34,False,4,2,5815.15,EUR,Permanent,False,2026-10-20 10:30:00
+198,E00198,Nina,Aliyev,39,Male,7,HR Business Partner,2019-02-16,Active,Hybrid,3,Doctorate,15,False,4,2,6403.52,EUR,Permanent,True,2026-10-20 10:30:00
+199,E00199,Lena,Fischer,57,Female,2,HR Business Partner,2017-07-24,Active,Hybrid,2,Vocational,20,False,4,3,7126.83,EUR,Permanent,True,2026-10-20 10:30:00
+200,E00200,Sofia,Weber,38,Male,3,Recruiter,2021-09-24,Active,On-site,5,Doctorate,14,True,4,4,5495.61,EUR,Permanent,True,2026-10-20 10:30:00
+201,E00201,Milan,Schmidt,42,Female,1,Sales Executive,2017-09-04,Active,On-site,3,Doctorate,25,True,2,4,5555.08,EUR,Permanent,True,2026-10-20 10:30:00
+202,E00202,Emil,Meyer,42,Male,2,Software Engineer,2017-09-12,Active,Hybrid,4,Bachelor,35,False,2,4,7242.25,EUR,Permanent,True,2026-10-20 10:30:00
+203,E00203,Deniz,Klein,58,Male,8,Account Manager,2016-05-27,Active,Hybrid,4,Bachelor,52,True,2,3,7084.01,EUR,Permanent,False,2026-10-20 10:30:00
+204,E00204,Deniz,Fischer,53,Female,7,Financial Analyst,2020-04-01,Active,Hybrid,4,Bachelor,31,False,2,3,7415.94,EUR,Permanent,True,2026-10-20 10:30:00
+205,E00205,Alex,Fischer,41,Female,5,HR Business Partner,2023-10-01,Active,Remote,1,Bachelor,37,False,1,3,5571.81,EUR,Fixed-term,False,2026-10-20 10:30:00
+206,E00206,Leyla,Kaya,35,Nonbinary,2,Recruiter,2014-12-30,Active,Hybrid,4,Vocational,19,False,3,4,8863.91,EUR,Fixed-term,True,2026-10-20 10:30:00
+207,E00207,Jonas,Fischer,23,Nonbinary,7,Sales Executive,2020-01-19,Active,Hybrid,4,Master,21,False,1,3,6543.73,EUR,Fixed-term,True,2026-10-20 10:30:00
+208,E00208,Tara,Kaya,46,Female,4,Sales Executive,2013-10-25,Active,Remote,1,Doctorate,36,True,4,3,6398.76,EUR,Permanent,True,2026-10-20 10:30:00
+209,E00209,Alex,Schmidt,31,Female,2,HR Specialist,2025-11-06,Active,Hybrid,2,Bachelor,37,False,4,3,4378.27,EUR,Fixed-term,True,2026-10-20 10:30:00
+210,E00210,Amir,Meyer,43,Male,7,Service Technician,2018-08-19,Exited,Remote,2,Vocational,55,False,4,2,6738.67,EUR,Fixed-term,True,2026-10-20 10:30:00
+211,E00211,Noah,Hassan,61,Male,2,Financial Analyst,2026-03-01,Active,Remote,5,Doctorate,29,False,1,2,3542.32,EUR,Permanent,True,2026-10-20 10:30:00
+212,E00212,Sofia,Kaya,43,Male,2,Financial Analyst,2023-07-20,Exited,Hybrid,4,Bachelor,3,True,3,2,6819.68,EUR,Fixed-term,True,2026-10-20 10:30:00
+213,E00213,Noah,Kaya,40,Nonbinary,3,Product Analyst,2014-02-13,Exited,Hybrid,1,Doctorate,26,False,2,2,8164.95,EUR,Permanent,True,2026-10-20 10:30:00
+214,E00214,Lena,Schmidt,29,Nonbinary,2,HR Specialist,2015-03-23,Active,Hybrid,3,Master,14,False,4,2,7479.15,EUR,Permanent,True,2026-10-20 10:30:00
+215,E00215,Leyla,Meyer,29,Female,4,Financial Analyst,2019-12-29,Active,Remote,2,Master,16,False,4,1,4858.21,EUR,Fixed-term,True,2026-10-20 10:30:00
+216,E00216,Sofia,Novak,53,Female,1,Project Manager,2019-07-12,Active,Hybrid,5,Vocational,31,False,4,3,6196.78,EUR,Fixed-term,True,2026-10-20 10:30:00
+217,E00217,Lena,Yilmaz,38,Nonbinary,4,Project Manager,2017-09-01,Active,Remote,3,Vocational,41,False,2,3,4786.32,EUR,Fixed-term,True,2026-10-20 10:30:00
+218,E00218,Emil,Yilmaz,58,Female,4,Sales Executive,2025-02-04,Exited,Remote,1,Doctorate,11,True,2,4,4439.47,EUR,Fixed-term,True,2026-10-20 10:30:00
+219,E00219,Noah,Becker,55,Nonbinary,5,Account Manager,2017-11-26,Active,On-site,5,Doctorate,18,False,3,4,7485.23,EUR,Fixed-term,True,2026-10-20 10:30:00
+220,E00220,Felix,Meyer,28,Male,1,Sales Executive,2021-08-16,Active,Remote,5,Master,35,True,3,4,5501.03,EUR,Permanent,True,2026-10-20 10:30:00
+221,E00221,Jonas,Novak,51,Female,1,HR Business Partner,2025-08-27,Active,Remote,2,Master,4,False,4,4,3569.52,EUR,Fixed-term,True,2026-10-20 10:30:00
+222,E00222,Sofia,Hoffmann,28,Female,2,Operations Coordinator,2026-03-31,Exited,Remote,5,Vocational,19,True,4,1,4619.19,EUR,Permanent,True,2026-10-20 10:30:00
+223,E00223,Leyla,Schmidt,31,Male,4,HR Specialist,2026-04-20,Active,Remote,1,Doctorate,52,False,4,4,3336.01,EUR,Fixed-term,True,2026-10-20 10:30:00
+224,E00224,Felix,Wagner,38,Female,2,HR Business Partner,2014-04-28,Active,Hybrid,4,Doctorate,46,False,3,3,7520.68,EUR,Fixed-term,True,2026-10-20 10:30:00
+225,E00225,Milan,Novak,47,Female,3,Financial Analyst,2016-06-21,Active,On-site,4,Master,48,False,3,3,5082.14,EUR,Fixed-term,True,2026-10-20 10:30:00
+226,E00226,Elena,Weber,48,Female,8,Data Analyst,2021-01-07,Active,Hybrid,1,Master,10,False,4,2,4563.01,EUR,Permanent,True,2026-10-20 10:30:00
+227,E00227,Nora,Novak,39,Male,5,Project Manager,2017-06-02,Active,Remote,4,Master,9,False,4,4,6711.12,EUR,Permanent,True,2026-10-20 10:30:00
+228,E00228,Noah,Kaya,28,Nonbinary,2,HR Business Partner,2022-05-21,Exited,Hybrid,1,Doctorate,2,True,2,4,5728.94,EUR,Permanent,True,2026-10-20 10:30:00
+229,E00229,Lena,Schmidt,42,Nonbinary,7,Software Engineer,2017-08-17,Active,On-site,4,Master,10,True,4,3,4674.48,EUR,Fixed-term,True,2026-10-20 10:30:00
+230,E00230,Rosa,Yilmaz,42,Female,6,HR Business Partner,2016-06-23,Active,Remote,3,Doctorate,29,False,3,4,6274.66,EUR,Permanent,True,2026-10-20 10:30:00
+231,E00231,Milan,Kaya,53,Male,2,Recruiter,2013-10-23,Active,Remote,3,Vocational,54,True,3,2,6808.9,EUR,Fixed-term,True,2026-10-20 10:30:00
+232,E00232,Maya,Schmidt,58,Male,5,Recruiter,2024-04-25,Exited,Hybrid,3,Doctorate,50,False,2,1,6529.74,EUR,Fixed-term,False,2026-10-20 10:30:00
+233,E00233,Elena,Klein,53,Female,1,Recruiter,2023-06-22,Active,Hybrid,3,Bachelor,44,False,3,3,4217.71,EUR,Fixed-term,True,2026-10-20 10:30:00
+234,E00234,Emil,Klein,54,Nonbinary,6,Product Analyst,2022-01-16,Active,Remote,2,Master,11,False,3,4,4832.97,EUR,Permanent,True,2026-10-20 10:30:00
+235,E00235,Mira,Klein,21,Female,2,Operations Coordinator,2013-12-12,Active,On-site,2,Doctorate,5,True,4,1,7725.11,EUR,Fixed-term,True,2026-10-20 10:30:00
+236,E00236,Maya,Hoffmann,50,Female,6,Data Analyst,2018-12-14,Active,On-site,1,Master,51,False,1,2,5772.96,EUR,Fixed-term,True,2026-10-20 10:30:00
+237,E00237,Milan,Weber,31,Female,7,Product Analyst,2024-08-28,Active,Hybrid,1,Vocational,9,False,3,3,5020.01,EUR,Permanent,True,2026-10-20 10:30:00
+238,E00238,Elena,Yilmaz,36,Nonbinary,3,Account Manager,2020-04-26,Active,Remote,4,Doctorate,30,True,2,3,6729.22,EUR,Permanent,False,2026-10-20 10:30:00
+239,E00239,Noah,Aliyev,21,Male,4,Operations Coordinator,2022-04-06,Active,Remote,4,Master,6,True,3,2,4183.85,EUR,Permanent,True,2026-10-20 10:30:00
+240,E00240,David,Yilmaz,44,Male,4,Project Manager,2014-12-07,Exited,Remote,5,Bachelor,9,False,2,3,5165.49,EUR,Permanent,True,2026-10-20 10:30:00
+241,E00241,Deniz,Aliyev,54,Nonbinary,1,Account Manager,2026-03-25,Active,Remote,1,Bachelor,54,False,2,4,3784.47,EUR,Permanent,True,2026-10-20 10:30:00
+242,E00242,Mira,Wolf,32,Male,2,Financial Analyst,2013-11-06,Active,Hybrid,5,Bachelor,52,False,4,4,8114.11,EUR,Fixed-term,True,2026-10-20 10:30:00
+243,E00243,Mira,Hassan,23,Female,6,Account Manager,2019-09-08,Active,Hybrid,3,Vocational,14,False,4,4,3778.66,EUR,Fixed-term,True,2026-10-20 10:30:00
+244,E00244,Rosa,Demir,51,Female,4,Project Manager,2020-10-27,Active,On-site,5,Doctorate,47,False,4,3,6390.58,EUR,Permanent,True,2026-10-20 10:30:00
+245,E00245,Emil,Demir,47,Nonbinary,3,HR Business Partner,2021-02-21,Active,Remote,5,Master,11,True,2,3,4195.26,EUR,Fixed-term,True,2026-10-20 10:30:00
+246,E00246,Maya,Fischer,48,Nonbinary,4,HR Specialist,2019-05-05,Exited,Hybrid,5,Doctorate,16,False,2,3,5082.44,EUR,Permanent,False,2026-10-20 10:30:00
+247,E00247,Lena,Klein,43,Female,4,HR Specialist,2015-04-28,Active,Remote,4,Bachelor,49,False,2,3,5600.57,EUR,Fixed-term,True,2026-10-20 10:30:00
+248,E00248,Sofia,Weber,37,Female,4,Project Manager,2013-10-08,Active,On-site,3,Bachelor,46,True,3,1,5004.16,EUR,Fixed-term,True,2026-10-20 10:30:00
+249,E00249,Alex,Demir,28,Female,5,Project Manager,2025-02-04,Exited,Hybrid,1,Bachelor,9,True,1,3,6055.62,EUR,Fixed-term,True,2026-10-20 10:30:00
+250,E00250,Deniz,Wagner,41,Nonbinary,7,HR Business Partner,2015-08-03,Active,On-site,1,Vocational,7,False,3,3,5555.82,EUR,Permanent,True,2026-10-20 10:30:00
+251,E00251,David,Wolf,51,Female,3,Software Engineer,2025-09-20,Active,Remote,5,Vocational,41,False,3,2,3017.51,EUR,Permanent,True,2026-10-20 10:30:00
+252,E00252,Nina,Meyer,31,Female,2,Project Manager,2014-01-08,Active,Hybrid,1,Doctorate,55,False,3,3,7820.56,EUR,Permanent,True,2026-10-20 10:30:00
+253,E00253,David,Aliyev,24,Nonbinary,5,Product Analyst,2020-03-24,Active,Hybrid,5,Vocational,6,False,2,4,4588.04,EUR,Permanent,True,2026-10-20 10:30:00
+254,E00254,Omar,Schmidt,55,Male,4,Operations Coordinator,2020-08-26,Active,Hybrid,5,Doctorate,53,False,1,3,4832.56,EUR,Fixed-term,True,2026-10-20 10:30:00
+255,E00255,Elena,Wagner,22,Male,4,Financial Analyst,2019-10-30,Exited,Remote,1,Vocational,23,True,4,3,4089.35,EUR,Permanent,True,2026-10-20 10:30:00
+256,E00256,Felix,Weber,32,Male,4,Recruiter,2024-02-14,Exited,On-site,5,Vocational,20,False,2,2,3973.71,EUR,Permanent,False,2026-10-20 10:30:00
+257,E00257,Maya,Meyer,56,Nonbinary,6,Project Manager,2020-08-03,Active,Hybrid,2,Vocational,37,True,2,4,4867.5,EUR,Fixed-term,True,2026-10-20 10:30:00
+258,E00258,Milan,Wolf,53,Nonbinary,2,Project Manager,2019-11-02,Active,Hybrid,2,Doctorate,51,True,4,3,7820.26,EUR,Fixed-term,True,2026-10-20 10:30:00
+259,E00259,Nina,Wolf,24,Nonbinary,3,Service Technician,2014-06-13,Active,On-site,2,Master,3,False,3,2,7831.44,EUR,Fixed-term,False,2026-10-20 10:30:00
+260,E00260,Mira,Aliyev,32,Female,4,HR Business Partner,2021-11-26,Active,On-site,4,Bachelor,5,False,2,3,3138.21,EUR,Permanent,True,2026-10-20 10:30:00
+261,E00261,Rosa,Demir,38,Female,6,HR Specialist,2022-08-09,Active,Hybrid,2,Bachelor,50,True,3,3,3586.33,EUR,Fixed-term,False,2026-10-20 10:30:00
+262,E00262,Amir,Becker,23,Male,6,Recruiter,2023-08-26,Active,On-site,5,Master,40,False,4,3,4996.12,EUR,Fixed-term,False,2026-10-20 10:30:00
+263,E00263,Amir,Fischer,22,Female,3,Project Manager,2018-05-31,Active,On-site,4,Master,23,True,2,2,7049.11,EUR,Fixed-term,False,2026-10-20 10:30:00
+264,E00264,Lena,Kaya,59,Male,6,Operations Coordinator,2026-03-28,Active,On-site,3,Doctorate,13,False,1,4,4137.41,EUR,Permanent,True,2026-10-20 10:30:00
+265,E00265,Rosa,Novak,37,Male,6,Financial Analyst,2021-09-17,Active,On-site,1,Bachelor,25,True,4,3,4676.05,EUR,Fixed-term,False,2026-10-20 10:30:00
+266,E00266,Amir,Becker,22,Male,4,Software Engineer,2019-07-02,Active,Hybrid,2,Master,16,False,4,3,5485.3,EUR,Permanent,False,2026-10-20 10:30:00
+267,E00267,David,Demir,28,Male,6,HR Business Partner,2022-05-29,Active,On-site,5,Master,36,True,4,2,4028.66,EUR,Fixed-term,True,2026-10-20 10:30:00
+268,E00268,Jonas,Becker,42,Male,7,Data Analyst,2023-01-11,Active,Remote,3,Doctorate,26,False,3,4,5326.47,EUR,Fixed-term,True,2026-10-20 10:30:00
+269,E00269,Omar,Hassan,52,Nonbinary,7,HR Business Partner,2016-01-10,Active,Hybrid,2,Bachelor,12,False,3,1,8513.17,EUR,Permanent,False,2026-10-20 10:30:00
+270,E00270,Emil,Wolf,53,Female,3,Software Engineer,2024-09-02,Active,Hybrid,1,Bachelor,42,False,3,3,4711.74,EUR,Fixed-term,True,2026-10-20 10:30:00
+271,E00271,Amir,Wagner,40,Male,2,Software Engineer,2025-05-06,Active,Remote,5,Bachelor,24,False,3,4,4522.77,EUR,Fixed-term,True,2026-10-20 10:30:00
+272,E00272,Elena,Schmidt,34,Female,7,Project Manager,2023-02-22,Active,On-site,3,Bachelor,7,False,3,2,5653.83,EUR,Fixed-term,True,2026-10-20 10:30:00
+273,E00273,Maya,Meyer,57,Male,1,HR Business Partner,2025-06-03,Active,Remote,3,Master,43,False,1,2,2400,EUR,Permanent,True,2026-10-20 10:30:00
+274,E00274,Noah,Aliyev,61,Nonbinary,2,Project Manager,2015-02-12,Active,Hybrid,5,Doctorate,10,True,4,4,7743.57,EUR,Permanent,True,2026-10-20 10:30:00
+275,E00275,Sofia,Yilmaz,28,Female,5,Operations Coordinator,2020-03-01,Exited,On-site,4,Vocational,10,True,3,3,5101.34,EUR,Permanent,False,2026-10-20 10:30:00
+276,E00276,Rosa,Hassan,35,Nonbinary,4,Operations Coordinator,2019-03-29,Active,Remote,3,Doctorate,48,False,3,2,5410.2,EUR,Fixed-term,True,2026-10-20 10:30:00
+277,E00277,Omar,Hassan,54,Female,2,Operations Coordinator,2024-02-06,Active,On-site,1,Bachelor,19,True,1,3,3320.78,EUR,Fixed-term,True,2026-10-20 10:30:00
+278,E00278,Rosa,Hoffmann,21,Nonbinary,2,Software Engineer,2021-08-14,Active,Remote,5,Master,47,False,2,4,5308.94,EUR,Permanent,False,2026-10-20 10:30:00
+279,E00279,Tara,Wolf,58,Male,1,Service Technician,2018-12-15,Active,Remote,3,Vocational,42,False,2,2,4101.88,EUR,Fixed-term,True,2026-10-20 10:30:00
+280,E00280,Nina,Novak,49,Female,4,HR Business Partner,2026-01-06,Active,On-site,1,Vocational,25,False,3,2,3830.83,EUR,Fixed-term,False,2026-10-20 10:30:00
+281,E00281,Nina,Fischer,54,Male,3,Account Manager,2019-06-28,Active,Hybrid,3,Bachelor,38,True,1,4,4024.17,EUR,Permanent,True,2026-10-20 10:30:00
+282,E00282,Deniz,Kaya,60,Female,6,Account Manager,2022-11-10,Active,Hybrid,5,Vocational,22,False,3,4,3883.73,EUR,Permanent,True,2026-10-20 10:30:00
+283,E00283,Mira,Demir,32,Nonbinary,1,Financial Analyst,2021-10-31,Active,Remote,2,Master,7,False,1,4,3797.88,EUR,Fixed-term,False,2026-10-20 10:30:00
+284,E00284,Nora,Novak,46,Nonbinary,2,Account Manager,2018-06-13,Active,On-site,3,Bachelor,19,False,4,1,4797.49,EUR,Permanent,True,2026-10-20 10:30:00
+285,E00285,Leyla,Demir,58,Male,1,Recruiter,2022-04-02,Active,Remote,5,Vocational,29,True,2,2,4286.17,EUR,Fixed-term,True,2026-10-20 10:30:00
+286,E00286,Sofia,Wagner,31,Nonbinary,7,Product Analyst,2024-04-01,Active,Remote,5,Vocational,20,False,4,2,3981.89,EUR,Permanent,True,2026-10-20 10:30:00
+287,E00287,Milan,Wolf,24,Male,4,HR Business Partner,2017-12-26,Active,Remote,1,Vocational,37,False,2,3,5383.51,EUR,Fixed-term,True,2026-10-20 10:30:00
+288,E00288,Jonas,Klein,31,Female,4,HR Business Partner,2025-09-17,Active,Remote,1,Bachelor,25,True,4,3,3380.58,EUR,Fixed-term,False,2026-10-20 10:30:00
+289,E00289,Nina,Fischer,31,Male,2,Service Technician,2016-06-02,Exited,Hybrid,1,Doctorate,21,False,2,2,7617.62,EUR,Fixed-term,True,2026-10-20 10:30:00
+290,E00290,Maya,Schmidt,28,Nonbinary,8,HR Business Partner,2021-05-29,Exited,Hybrid,5,Vocational,15,True,2,2,4095.41,EUR,Fixed-term,True,2026-10-20 10:30:00
+291,E00291,Milan,Hassan,37,Nonbinary,4,HR Specialist,2020-07-09,Active,Remote,3,Bachelor,11,False,4,2,3786.62,EUR,Permanent,True,2026-10-20 10:30:00
+292,E00292,Milan,Aliyev,61,Nonbinary,2,Recruiter,2026-04-01,Active,Remote,1,Master,11,False,1,2,6304.37,EUR,Fixed-term,True,2026-10-20 10:30:00
+293,E00293,Mira,Aliyev,45,Nonbinary,2,HR Business Partner,2016-09-23,Active,Remote,4,Doctorate,27,True,3,3,6935.06,EUR,Permanent,True,2026-10-20 10:30:00
+294,E00294,Nina,Kaya,51,Nonbinary,2,HR Specialist,2014-09-12,Active,On-site,4,Doctorate,36,False,2,3,7566.88,EUR,Fixed-term,True,2026-10-20 10:30:00
+295,E00295,Elena,Meyer,46,Male,3,Sales Executive,2017-07-16,Active,On-site,4,Doctorate,7,False,3,3,4418.73,EUR,Fixed-term,True,2026-10-20 10:30:00
+296,E00296,Sofia,Fischer,22,Male,6,Account Manager,2024-03-05,Active,Hybrid,2,Vocational,54,True,4,3,3406.53,EUR,Fixed-term,True,2026-10-20 10:30:00
+297,E00297,Amir,Kaya,60,Nonbinary,1,Account Manager,2022-03-17,Active,Remote,1,Bachelor,44,False,1,3,3210.67,EUR,Permanent,False,2026-10-20 10:30:00
+298,E00298,Amir,Wolf,56,Nonbinary,3,HR Business Partner,2018-03-11,Active,Remote,2,Bachelor,55,True,2,3,5994.26,EUR,Permanent,True,2026-10-20 10:30:00
+299,E00299,Lena,Schmidt,23,Male,4,Product Analyst,2021-05-16,Active,On-site,1,Vocational,9,False,3,2,4494.86,EUR,Fixed-term,False,2026-10-20 10:30:00
+300,E00300,Tara,Fischer,50,Male,3,Financial Analyst,2023-09-03,Active,On-site,3,Vocational,52,True,2,3,2400,EUR,Fixed-term,True,2026-10-20 10:30:00
+301,E00301,David,Novak,23,Nonbinary,2,Sales Executive,2020-12-30,Active,On-site,3,Master,21,True,3,3,5229.87,EUR,Permanent,True,2026-10-20 10:30:00
+302,E00302,Maya,Wagner,45,Male,3,Project Manager,2014-11-17,Active,On-site,5,Bachelor,18,False,1,2,5402.14,EUR,Permanent,False,2026-10-20 10:30:00
+303,E00303,Sofia,Demir,30,Female,4,Data Analyst,2015-12-21,Active,On-site,3,Vocational,36,False,3,3,5059.58,EUR,Permanent,True,2026-10-20 10:30:00
+304,E00304,Lena,Meyer,41,Male,6,Product Analyst,2020-03-31,Exited,Hybrid,3,Doctorate,48,True,2,1,3451.27,EUR,Fixed-term,True,2026-10-20 10:30:00
+305,E00305,Milan,Aliyev,62,Female,4,Software Engineer,2020-03-27,Active,Hybrid,4,Doctorate,8,False,3,3,4593.51,EUR,Fixed-term,True,2026-10-20 10:30:00
+306,E00306,Noah,Yilmaz,54,Female,3,HR Specialist,2016-01-17,Active,Remote,5,Master,19,False,3,3,4573.71,EUR,Fixed-term,True,2026-10-20 10:30:00
+307,E00307,Noah,Fischer,62,Male,3,Financial Analyst,2026-06-08,Active,On-site,1,Vocational,4,True,3,3,4200.14,EUR,Fixed-term,True,2026-10-20 10:30:00
+308,E00308,Alex,Weber,61,Male,4,HR Business Partner,2019-04-05,Active,On-site,4,Doctorate,48,False,3,2,6534.03,EUR,Permanent,True,2026-10-20 10:30:00
+309,E00309,Mira,Novak,36,Male,6,Operations Coordinator,2023-02-14,Active,Remote,1,Vocational,33,False,3,4,3353.5,EUR,Permanent,True,2026-10-20 10:30:00
+310,E00310,Emil,Fischer,29,Female,1,Operations Coordinator,2021-02-09,Active,On-site,4,Bachelor,33,False,3,3,4924.69,EUR,Permanent,True,2026-10-20 10:30:00
+311,E00311,Nina,Novak,41,Nonbinary,3,Software Engineer,2020-02-24,Exited,Remote,1,Master,44,False,2,2,5474.46,EUR,Fixed-term,False,2026-10-20 10:30:00
+312,E00312,Elena,Fischer,41,Male,4,Recruiter,2024-09-04,Active,On-site,5,Master,35,False,4,2,5045.71,EUR,Fixed-term,False,2026-10-20 10:30:00
+313,E00313,Nina,Aliyev,30,Nonbinary,2,Data Analyst,2016-04-16,Active,Remote,1,Master,7,False,3,1,7177.14,EUR,Permanent,True,2026-10-20 10:30:00
+314,E00314,Leyla,Wagner,24,Nonbinary,4,Operations Coordinator,2025-08-05,Active,Hybrid,3,Bachelor,43,True,3,3,3533.31,EUR,Permanent,True,2026-10-20 10:30:00
+315,E00315,Deniz,Schmidt,54,Nonbinary,1,Project Manager,2014-10-03,Exited,On-site,3,Vocational,5,False,4,2,6837.64,EUR,Fixed-term,True,2026-10-20 10:30:00
+316,E00316,Rosa,Yilmaz,40,Male,3,HR Business Partner,2017-04-30,Active,Remote,3,Doctorate,26,False,4,4,3220.51,EUR,Permanent,True,2026-10-20 10:30:00
+317,E00317,Tara,Schmidt,41,Nonbinary,1,Recruiter,2023-03-19,Active,Hybrid,5,Doctorate,47,False,4,3,4073.65,EUR,Fixed-term,False,2026-10-20 10:30:00
+318,E00318,Mira,Klein,49,Female,2,Product Analyst,2017-05-18,Exited,On-site,3,Master,22,False,1,2,8119.14,EUR,Fixed-term,True,2026-10-20 10:30:00
+319,E00319,Sofia,Hoffmann,31,Female,4,Project Manager,2017-11-26,Active,On-site,1,Master,21,True,3,3,6475.28,EUR,Fixed-term,False,2026-10-20 10:30:00
+320,E00320,Omar,Weber,32,Nonbinary,2,HR Specialist,2025-03-31,Active,On-site,2,Vocational,47,True,3,2,5029.02,EUR,Fixed-term,True,2026-10-20 10:30:00
+321,E00321,Nora,Becker,21,Nonbinary,1,Sales Executive,2015-07-09,Active,Remote,4,Master,50,False,1,1,5461.09,EUR,Fixed-term,True,2026-10-20 10:30:00
+322,E00322,Nina,Klein,44,Nonbinary,6,HR Business Partner,2016-11-28,Active,On-site,4,Master,3,False,3,4,4940.94,EUR,Fixed-term,False,2026-10-20 10:30:00
+323,E00323,Nina,Klein,45,Nonbinary,4,Account Manager,2022-11-12,Exited,Hybrid,1,Doctorate,55,False,1,1,5043.23,EUR,Fixed-term,False,2026-10-20 10:30:00
+324,E00324,Felix,Yilmaz,30,Female,4,Product Analyst,2016-02-23,Active,On-site,4,Vocational,43,True,4,3,6563.24,EUR,Fixed-term,True,2026-10-20 10:30:00
+325,E00325,Mira,Fischer,28,Nonbinary,6,HR Specialist,2016-09-05,Active,Remote,5,Vocational,8,False,3,4,4619.21,EUR,Permanent,True,2026-10-20 10:30:00
+326,E00326,Amir,Demir,54,Male,7,Product Analyst,2019-07-23,Active,On-site,3,Doctorate,43,True,3,3,5925.53,EUR,Fixed-term,True,2026-10-20 10:30:00
+327,E00327,Sofia,Weber,32,Nonbinary,3,Project Manager,2014-03-26,Active,Remote,5,Vocational,49,False,4,3,3907.95,EUR,Permanent,True,2026-10-20 10:30:00
+328,E00328,David,Hassan,41,Female,6,HR Specialist,2024-09-22,Active,On-site,4,Master,15,False,3,2,3789.62,EUR,Permanent,False,2026-10-20 10:30:00
+329,E00329,Omar,Schmidt,24,Nonbinary,5,HR Specialist,2020-09-09,Active,Remote,5,Bachelor,9,False,1,3,6328.31,EUR,Fixed-term,False,2026-10-20 10:30:00
+330,E00330,Mira,Demir,43,Female,2,Operations Coordinator,2021-06-03,Active,Remote,3,Doctorate,44,False,4,2,5639.23,EUR,Permanent,True,2026-10-20 10:30:00
+331,E00331,Tara,Weber,30,Male,1,Software Engineer,2020-07-04,Active,Hybrid,1,Master,9,False,3,4,4033.88,EUR,Permanent,True,2026-10-20 10:30:00
+332,E00332,Omar,Demir,32,Nonbinary,5,Operations Coordinator,2021-01-07,Active,On-site,2,Vocational,28,True,1,1,5829.9,EUR,Fixed-term,True,2026-10-20 10:30:00
+333,E00333,Leyla,Klein,57,Female,2,Data Analyst,2023-07-12,Active,Hybrid,1,Master,47,False,3,1,4990.07,EUR,Permanent,True,2026-10-20 10:30:00
+334,E00334,Omar,Becker,49,Male,6,Operations Coordinator,2018-09-08,Active,On-site,5,Bachelor,10,False,3,1,5297.22,EUR,Permanent,True,2026-10-20 10:30:00
+335,E00335,Milan,Schmidt,59,Nonbinary,3,Data Analyst,2023-12-08,Active,Hybrid,1,Bachelor,4,False,3,1,4840.97,EUR,Permanent,True,2026-10-20 10:30:00
+336,E00336,Tara,Hassan,29,Male,4,Recruiter,2022-09-06,Active,Remote,1,Doctorate,55,False,4,3,4761.82,EUR,Permanent,False,2026-10-20 10:30:00
+337,E00337,Sofia,Klein,36,Male,2,Account Manager,2020-11-20,Exited,Hybrid,2,Bachelor,12,True,4,3,5545.37,EUR,Permanent,True,2026-10-20 10:30:00
+338,E00338,Jonas,Wolf,21,Male,4,Account Manager,2013-12-31,Active,On-site,3,Vocational,48,False,3,1,3414.37,EUR,Fixed-term,True,2026-10-20 10:30:00
+339,E00339,Alex,Meyer,44,Female,8,Product Analyst,2014-02-17,Active,Hybrid,4,Doctorate,28,True,4,4,5647.83,EUR,Fixed-term,False,2026-10-20 10:30:00
+340,E00340,Sofia,Becker,23,Nonbinary,6,Sales Executive,2024-03-06,Exited,Remote,2,Bachelor,51,False,3,3,4403.27,EUR,Fixed-term,True,2026-10-20 10:30:00
+341,E00341,Tara,Wagner,54,Female,6,Account Manager,2014-09-23,Active,On-site,1,Master,32,False,4,2,6599.63,EUR,Fixed-term,True,2026-10-20 10:30:00
+342,E00342,Sofia,Novak,56,Nonbinary,8,Recruiter,2019-03-08,Active,On-site,3,Bachelor,29,False,2,3,6639.06,EUR,Permanent,True,2026-10-20 10:30:00
+343,E00343,Emil,Becker,24,Female,7,HR Specialist,2016-06-25,Active,Hybrid,2,Bachelor,34,False,2,4,6152.0,EUR,Permanent,True,2026-10-20 10:30:00
+344,E00344,Milan,Wolf,29,Female,5,Data Analyst,2018-10-12,Active,Remote,1,Vocational,53,False,2,2,6489.0,EUR,Fixed-term,True,2026-10-20 10:30:00
+345,E00345,Nora,Becker,42,Male,3,Operations Coordinator,2015-03-10,Active,Hybrid,3,Master,19,False,4,3,6683.0,EUR,Permanent,True,2026-10-20 10:30:00
+346,E00346,Deniz,Weber,26,Female,2,Financial Analyst,2022-01-04,Active,Hybrid,2,Master,27,False,4,4,5814.94,EUR,Permanent,False,2026-10-20 10:30:00
+347,E00347,Mira,Aliyev,26,Male,4,Operations Coordinator,2022-10-30,Active,Hybrid,5,Master,38,True,2,4,5014.45,EUR,Permanent,False,2026-10-20 10:30:00
+348,E00348,Jonas,Klein,34,Male,3,Software Engineer,2018-10-18,Active,Remote,4,Master,5,False,2,2,4550.57,EUR,Fixed-term,True,2026-10-20 10:30:00
+349,E00349,Sofia,Hassan,48,Nonbinary,2,Recruiter,2022-05-26,Active,Remote,5,Vocational,38,False,2,4,6523.39,EUR,Permanent,True,2026-10-20 10:30:00
+350,E00350,David,Aliyev,56,Nonbinary,7,HR Specialist,2024-03-13,Active,Remote,4,Bachelor,18,True,4,3,4597.04,EUR,Fixed-term,False,2026-10-20 10:30:00
+351,E00351,David,Weber,37,Male,1,Operations Coordinator,2018-03-13,Active,Remote,4,Bachelor,46,False,3,3,5719.9,EUR,Permanent,False,2026-10-20 10:30:00
+352,E00352,Leyla,Becker,33,Female,4,Sales Executive,2025-01-13,Active,Hybrid,4,Master,4,False,4,4,2890.46,EUR,Permanent,True,2026-10-20 10:30:00
+353,E00353,Nina,Fischer,37,Male,2,Financial Analyst,2023-11-07,Active,Hybrid,4,Master,2,True,4,4,5813.3,EUR,Fixed-term,False,2026-10-20 10:30:00
+354,E00354,Felix,Wolf,29,Nonbinary,1,Service Technician,2015-05-26,Active,Hybrid,2,Master,43,True,1,3,6094.74,EUR,Fixed-term,False,2026-10-20 10:30:00
+355,E00355,Maya,Demir,22,Male,6,HR Specialist,2020-10-26,Active,Hybrid,3,Master,14,False,4,4,4830.08,EUR,Fixed-term,True,2026-10-20 10:30:00
+356,E00356,Nina,Fischer,38,Nonbinary,4,Recruiter,2025-11-11,Active,Hybrid,3,Master,23,False,3,2,2857.09,EUR,Permanent,True,2026-10-20 10:30:00
+357,E00357,David,Kaya,24,Male,2,Recruiter,2020-03-13,Active,On-site,1,Bachelor,2,True,4,3,5743.27,EUR,Permanent,True,2026-10-20 10:30:00
+358,E00358,Jonas,Wolf,24,Nonbinary,2,Data Analyst,2020-11-24,Active,On-site,2,Doctorate,28,True,4,4,4767.7,EUR,Fixed-term,False,2026-10-20 10:30:00
+359,E00359,Noah,Hassan,60,Male,4,Project Manager,2023-11-07,Active,Remote,1,Doctorate,48,True,3,4,5467.55,EUR,Permanent,True,2026-10-20 10:30:00
+360,E00360,Maya,Weber,32,Nonbinary,7,Operations Coordinator,2019-03-30,Exited,Remote,2,Master,50,True,3,4,4813.31,EUR,Fixed-term,True,2026-10-20 10:30:00
+361,E00361,Rosa,Hassan,49,Female,8,Financial Analyst,2023-08-15,Active,Remote,5,Doctorate,31,False,2,3,5489.67,EUR,Fixed-term,True,2026-10-20 10:30:00
+362,E00362,Noah,Demir,41,Male,7,Product Analyst,2018-12-20,Exited,Remote,1,Master,7,False,2,4,5354.24,EUR,Permanent,True,2026-10-20 10:30:00
+363,E00363,Deniz,Schmidt,31,Nonbinary,2,Sales Executive,2017-01-31,Active,On-site,3,Bachelor,52,True,2,4,7140.93,EUR,Fixed-term,True,2026-10-20 10:30:00
+364,E00364,Amir,Hassan,44,Nonbinary,4,Data Analyst,2014-02-16,Active,Remote,3,Doctorate,51,False,3,3,5221.2,EUR,Permanent,True,2026-10-20 10:30:00
+365,E00365,Elena,Kaya,57,Male,7,Recruiter,2023-07-30,Exited,Remote,1,Master,39,False,3,4,5482.01,EUR,Fixed-term,True,2026-10-20 10:30:00
+366,E00366,Rosa,Wolf,61,Nonbinary,6,Operations Coordinator,2023-05-06,Active,Remote,3,Vocational,49,True,3,2,4414.42,EUR,Permanent,False,2026-10-20 10:30:00
+367,E00367,David,Schmidt,24,Female,7,Recruiter,2022-10-15,Active,On-site,3,Doctorate,6,False,4,3,5406.22,EUR,Fixed-term,True,2026-10-20 10:30:00
+368,E00368,Milan,Demir,22,Female,3,HR Business Partner,2021-07-30,Active,On-site,4,Master,7,False,1,2,4057.19,EUR,Permanent,True,2026-10-20 10:30:00
+369,E00369,Rosa,Yilmaz,23,Male,3,HR Specialist,2015-10-01,Exited,Hybrid,3,Bachelor,43,True,1,2,5378.77,EUR,Permanent,True,2026-10-20 10:30:00
+370,E00370,Jonas,Hassan,51,Male,8,HR Business Partner,2014-02-01,Active,Hybrid,1,Doctorate,20,True,4,1,5347.91,EUR,Fixed-term,True,2026-10-20 10:30:00
+371,E00371,Amir,Schmidt,22,Female,8,Product Analyst,2020-04-19,Active,On-site,4,Vocational,28,False,2,3,5144.0,EUR,Fixed-term,False,2026-10-20 10:30:00
+372,E00372,Deniz,Klein,29,Female,6,Recruiter,2016-03-20,Active,Remote,4,Bachelor,25,False,2,4,5973.69,EUR,Permanent,True,2026-10-20 10:30:00
+373,E00373,Tara,Wagner,37,Nonbinary,6,Operations Coordinator,2016-05-06,Exited,Hybrid,1,Bachelor,23,False,2,2,4976.3,EUR,Fixed-term,True,2026-10-20 10:30:00
+374,E00374,Felix,Klein,37,Nonbinary,2,Operations Coordinator,2017-10-20,Active,On-site,3,Vocational,9,False,4,3,6201.03,EUR,Permanent,True,2026-10-20 10:30:00
+375,E00375,Amir,Novak,48,Nonbinary,3,Financial Analyst,2020-07-15,Active,Remote,5,Bachelor,28,False,1,3,5023.02,EUR,Permanent,True,2026-10-20 10:30:00
+376,E00376,Amir,Yilmaz,35,Female,3,Product Analyst,2020-07-28,Active,Hybrid,4,Bachelor,9,False,3,1,3178.54,EUR,Permanent,True,2026-10-20 10:30:00
+377,E00377,Lena,Wagner,50,Male,8,Data Analyst,2020-09-02,Active,Hybrid,4,Doctorate,25,False,3,3,5347.32,EUR,Permanent,False,2026-10-20 10:30:00
+378,E00378,Leyla,Hassan,48,Male,6,Software Engineer,2025-07-17,Exited,Hybrid,3,Doctorate,19,True,4,2,4014.33,EUR,Permanent,True,2026-10-20 10:30:00
+379,E00379,Amir,Weber,61,Male,4,Sales Executive,2026-05-25,Active,Remote,5,Master,32,True,4,3,5800.13,EUR,Fixed-term,False,2026-10-20 10:30:00
+380,E00380,David,Hassan,25,Female,3,HR Business Partner,2019-07-02,Active,Hybrid,1,Vocational,47,False,4,2,6064.23,EUR,Permanent,True,2026-10-20 10:30:00
+381,E00381,Alex,Wolf,30,Male,4,Financial Analyst,2023-01-06,Active,Hybrid,3,Vocational,26,False,1,4,4087.8,EUR,Permanent,True,2026-10-20 10:30:00
+382,E00382,Sofia,Aliyev,41,Male,2,Product Analyst,2024-02-02,Active,Remote,2,Doctorate,8,False,3,3,4522.28,EUR,Fixed-term,True,2026-10-20 10:30:00
+383,E00383,Emil,Aliyev,39,Female,8,Financial Analyst,2024-03-25,Exited,On-site,3,Doctorate,19,False,4,3,4478.28,EUR,Permanent,True,2026-10-20 10:30:00
+384,E00384,Felix,Hoffmann,47,Nonbinary,8,Operations Coordinator,2018-10-26,Exited,On-site,3,Vocational,45,True,4,4,3440.34,EUR,Fixed-term,True,2026-10-20 10:30:00
+385,E00385,Leyla,Kaya,54,Male,2,Account Manager,2018-03-23,Active,Remote,5,Bachelor,50,True,2,3,7767.89,EUR,Fixed-term,False,2026-10-20 10:30:00
+386,E00386,Felix,Weber,49,Female,4,HR Specialist,2023-02-28,Active,On-site,2,Doctorate,23,False,4,3,3664.78,EUR,Permanent,True,2026-10-20 10:30:00
+387,E00387,Felix,Yilmaz,46,Male,4,Service Technician,2019-08-28,Active,Remote,3,Bachelor,40,False,2,3,5956.12,EUR,Permanent,True,2026-10-20 10:30:00
+388,E00388,Milan,Hassan,56,Male,3,Data Analyst,2025-07-25,Exited,Remote,2,Master,23,False,4,2,4986.6,EUR,Permanent,True,2026-10-20 10:30:00
+389,E00389,Jonas,Hassan,45,Nonbinary,8,Data Analyst,2015-09-01,Active,On-site,4,Bachelor,52,True,3,2,5505.55,EUR,Fixed-term,True,2026-10-20 10:30:00
+390,E00390,Milan,Novak,32,Male,2,HR Business Partner,2018-04-09,Active,Hybrid,5,Doctorate,46,False,3,2,6279.23,EUR,Permanent,True,2026-10-20 10:30:00
+391,E00391,Noah,Kaya,53,Female,7,HR Business Partner,2026-06-29,Exited,Hybrid,2,Master,4,False,1,2,5355.3,EUR,Fixed-term,True,2026-10-20 10:30:00
+392,E00392,Emil,Demir,41,Male,8,Operations Coordinator,2019-07-22,Active,On-site,3,Doctorate,11,False,3,4,5613.75,EUR,Fixed-term,False,2026-10-20 10:30:00
+393,E00393,Mira,Schmidt,49,Female,3,Recruiter,2016-02-06,Active,Hybrid,5,Doctorate,23,False,2,4,6122.63,EUR,Fixed-term,True,2026-10-20 10:30:00
+394,E00394,Emil,Wolf,21,Male,8,Product Analyst,2015-08-17,Active,Hybrid,1,Bachelor,11,False,1,3,5254.17,EUR,Fixed-term,True,2026-10-20 10:30:00
+395,E00395,Nina,Yilmaz,59,Male,1,HR Specialist,2023-03-30,Active,Remote,5,Vocational,16,True,3,3,4238.95,EUR,Permanent,True,2026-10-20 10:30:00
+396,E00396,Elena,Aliyev,57,Male,1,HR Business Partner,2015-02-27,Active,On-site,2,Vocational,51,True,3,4,4204.54,EUR,Permanent,True,2026-10-20 10:30:00
+397,E00397,Tara,Schmidt,21,Nonbinary,3,Software Engineer,2016-01-08,Active,Remote,3,Master,44,False,3,1,6441.96,EUR,Permanent,False,2026-10-20 10:30:00
+398,E00398,Alex,Becker,60,Female,2,Operations Coordinator,2018-03-20,Exited,On-site,5,Doctorate,28,False,2,3,7610.19,EUR,Fixed-term,True,2026-10-20 10:30:00
+399,E00399,Milan,Wolf,42,Nonbinary,6,Data Analyst,2018-02-12,Active,On-site,2,Doctorate,27,False,2,3,4976.34,EUR,Fixed-term,True,2026-10-20 10:30:00
+400,E00400,Amir,Kaya,36,Female,3,HR Specialist,2024-01-31,Active,Remote,3,Doctorate,28,False,1,4,3742.46,EUR,Permanent,True,2026-10-20 10:30:00
+401,E00401,Emil,Yilmaz,28,Nonbinary,3,Sales Executive,2020-07-08,Exited,On-site,5,Doctorate,22,True,1,3,2610.51,EUR,Fixed-term,True,2026-10-20 10:30:00
+402,E00402,Nina,Demir,46,Male,2,Account Manager,2025-09-07,Active,Hybrid,3,Bachelor,49,False,3,2,6791.56,EUR,Fixed-term,True,2026-10-20 10:30:00
+403,E00403,Jonas,Hassan,47,Female,7,Sales Executive,2015-01-16,Active,Hybrid,5,Bachelor,34,False,2,2,7127.11,EUR,Permanent,True,2026-10-20 10:30:00
+404,E00404,Nina,Becker,21,Male,1,Service Technician,2025-08-04,Active,Remote,2,Vocational,52,False,4,4,2443.8,EUR,Fixed-term,True,2026-10-20 10:30:00
+405,E00405,Felix,Fischer,50,Male,3,Software Engineer,2016-01-16,Active,On-site,2,Doctorate,19,False,1,3,6344.82,EUR,Fixed-term,True,2026-10-20 10:30:00
+406,E00406,David,Hassan,22,Male,8,HR Specialist,2020-10-02,Active,Remote,4,Bachelor,53,False,3,2,5330.73,EUR,Permanent,True,2026-10-20 10:30:00
+407,E00407,Noah,Demir,47,Male,4,Service Technician,2024-04-06,Exited,Hybrid,1,Master,43,True,2,3,4011.77,EUR,Fixed-term,True,2026-10-20 10:30:00
+408,E00408,Emil,Kaya,29,Female,6,Sales Executive,2013-10-12,Active,Remote,1,Bachelor,48,False,3,3,7514.57,EUR,Permanent,False,2026-10-20 10:30:00
+409,E00409,Emil,Novak,62,Nonbinary,6,HR Business Partner,2014-10-28,Active,On-site,4,Bachelor,42,True,1,1,4956.36,EUR,Fixed-term,True,2026-10-20 10:30:00
+410,E00410,Maya,Becker,27,Nonbinary,6,Data Analyst,2015-07-23,Active,On-site,1,Master,13,False,3,4,5640.3,EUR,Fixed-term,True,2026-10-20 10:30:00
+411,E00411,Noah,Fischer,40,Male,3,Account Manager,2019-01-15,Active,On-site,4,Bachelor,37,True,3,3,5485.79,EUR,Permanent,True,2026-10-20 10:30:00
+412,E00412,Jonas,Demir,23,Male,4,Financial Analyst,2022-12-27,Active,On-site,5,Vocational,5,False,3,2,4662.58,EUR,Fixed-term,True,2026-10-20 10:30:00
+413,E00413,Maya,Schmidt,33,Nonbinary,6,Account Manager,2016-10-22,Active,On-site,5,Doctorate,44,True,3,3,5654.17,EUR,Fixed-term,True,2026-10-20 10:30:00
+414,E00414,Lena,Hassan,34,Male,1,HR Specialist,2023-04-11,Active,On-site,1,Doctorate,38,False,3,3,4410.25,EUR,Fixed-term,False,2026-10-20 10:30:00
+415,E00415,Tara,Novak,48,Nonbinary,6,Operations Coordinator,2024-03-18,Active,On-site,3,Doctorate,25,False,3,4,4868.8,EUR,Permanent,True,2026-10-20 10:30:00
+416,E00416,Felix,Hoffmann,42,Nonbinary,5,HR Business Partner,2014-10-04,Active,On-site,3,Bachelor,31,False,4,4,7268.64,EUR,Fixed-term,True,2026-10-20 10:30:00
+417,E00417,Noah,Hassan,52,Nonbinary,6,Project Manager,2022-12-12,Active,Remote,2,Doctorate,10,True,4,3,5203.29,EUR,Permanent,True,2026-10-20 10:30:00
+418,E00418,Deniz,Weber,36,Female,3,Account Manager,2015-03-09,Active,On-site,1,Doctorate,51,True,3,3,5597.26,EUR,Fixed-term,True,2026-10-20 10:30:00
+419,E00419,Rosa,Kaya,53,Male,7,Financial Analyst,2021-10-12,Active,On-site,2,Master,9,False,2,3,4695.6,EUR,Permanent,True,2026-10-20 10:30:00
+420,E00420,Nina,Schmidt,60,Nonbinary,3,Project Manager,2023-03-01,Active,Hybrid,4,Bachelor,29,False,3,1,6728.55,EUR,Fixed-term,False,2026-10-20 10:30:00
+421,E00421,Milan,Klein,45,Nonbinary,7,Operations Coordinator,2023-03-05,Active,Hybrid,5,Master,31,False,4,3,6803.25,EUR,Permanent,False,2026-10-20 10:30:00
+422,E00422,Omar,Wolf,40,Male,7,Product Analyst,2016-02-20,Active,Remote,4,Doctorate,28,False,3,3,5505.8,EUR,Fixed-term,True,2026-10-20 10:30:00
+423,E00423,Elena,Wolf,60,Nonbinary,6,HR Business Partner,2018-11-10,Active,Hybrid,1,Bachelor,9,True,3,3,5914.51,EUR,Permanent,True,2026-10-20 10:30:00
+424,E00424,David,Klein,26,Female,1,Product Analyst,2026-05-20,Active,Hybrid,5,Vocational,4,True,3,3,3367.8,EUR,Fixed-term,True,2026-10-20 10:30:00
+425,E00425,Jonas,Wagner,32,Male,2,Operations Coordinator,2024-11-25,Active,On-site,2,Vocational,46,False,4,4,5395.78,EUR,Permanent,False,2026-10-20 10:30:00
+426,E00426,Jonas,Hoffmann,27,Female,2,Product Analyst,2026-03-23,Active,Hybrid,5,Vocational,29,False,4,4,3950.07,EUR,Fixed-term,True,2026-10-20 10:30:00
+427,E00427,Alex,Schmidt,49,Nonbinary,5,Service Technician,2016-04-24,Active,Remote,3,Bachelor,42,True,3,2,5260.85,EUR,Permanent,True,2026-10-20 10:30:00
+428,E00428,Alex,Fischer,59,Nonbinary,2,Product Analyst,2026-06-26,Active,Remote,2,Doctorate,48,False,2,4,5130.55,EUR,Fixed-term,True,2026-10-20 10:30:00
+429,E00429,Maya,Wolf,51,Nonbinary,6,HR Business Partner,2025-02-16,Active,On-site,3,Bachelor,38,False,3,1,2867.82,EUR,Permanent,True,2026-10-20 10:30:00
+430,E00430,Leyla,Hoffmann,42,Nonbinary,7,Operations Coordinator,2015-09-26,Exited,Hybrid,3,Vocational,40,False,2,4,5837.65,EUR,Fixed-term,False,2026-10-20 10:30:00
+431,E00431,Leyla,Wolf,54,Female,6,HR Specialist,2021-08-29,Exited,On-site,1,Master,29,False,1,1,4262.48,EUR,Permanent,True,2026-10-20 10:30:00
+432,E00432,Emil,Novak,26,Male,1,Account Manager,2020-03-01,Active,Hybrid,4,Doctorate,24,False,1,4,5584.68,EUR,Permanent,True,2026-10-20 10:30:00
+433,E00433,Lena,Klein,47,Nonbinary,3,Project Manager,2018-08-06,Active,Hybrid,1,Doctorate,40,False,2,2,5411.87,EUR,Permanent,True,2026-10-20 10:30:00
+434,E00434,Milan,Novak,49,Female,1,Account Manager,2022-05-15,Active,Hybrid,1,Bachelor,44,False,3,2,3811.7,EUR,Fixed-term,True,2026-10-20 10:30:00
+435,E00435,Nina,Schmidt,25,Nonbinary,3,Project Manager,2015-02-20,Exited,Hybrid,3,Bachelor,51,True,2,2,8195.11,EUR,Fixed-term,False,2026-10-20 10:30:00
+436,E00436,Deniz,Becker,61,Female,4,Operations Coordinator,2022-08-05,Active,Remote,1,Vocational,28,False,3,2,3608.05,EUR,Fixed-term,False,2026-10-20 10:30:00
+437,E00437,Tara,Aliyev,52,Nonbinary,8,Service Technician,2026-04-15,Active,On-site,3,Doctorate,32,True,4,3,3320.0,EUR,Permanent,False,2026-10-20 10:30:00
+438,E00438,Omar,Hoffmann,48,Nonbinary,3,Service Technician,2015-10-05,Active,On-site,4,Master,45,False,4,2,7296.03,EUR,Permanent,True,2026-10-20 10:30:00
+439,E00439,Rosa,Fischer,29,Female,3,Product Analyst,2019-05-18,Active,On-site,3,Master,17,False,3,4,6498.67,EUR,Permanent,True,2026-10-20 10:30:00
+440,E00440,David,Hoffmann,33,Nonbinary,4,Account Manager,2014-03-16,Exited,Remote,2,Vocational,37,False,1,4,5514.88,EUR,Fixed-term,False,2026-10-20 10:30:00
+441,E00441,Milan,Wolf,28,Nonbinary,2,Service Technician,2020-01-05,Active,Remote,2,Bachelor,28,True,3,1,7872.72,EUR,Permanent,True,2026-10-20 10:30:00
+442,E00442,David,Meyer,30,Nonbinary,8,Product Analyst,2021-11-29,Active,Remote,5,Doctorate,33,False,4,2,3848.73,EUR,Fixed-term,False,2026-10-20 10:30:00
+443,E00443,Alex,Hoffmann,58,Nonbinary,7,Financial Analyst,2019-07-16,Active,Hybrid,3,Doctorate,37,False,3,4,7143.25,EUR,Permanent,True,2026-10-20 10:30:00
+444,E00444,Nina,Wagner,52,Female,8,Software Engineer,2023-01-21,Active,Remote,2,Bachelor,4,True,4,3,4107.19,EUR,Fixed-term,True,2026-10-20 10:30:00
+445,E00445,Milan,Wolf,33,Male,6,HR Specialist,2019-11-29,Active,On-site,1,Vocational,34,False,4,3,7142.79,EUR,Permanent,True,2026-10-20 10:30:00
+446,E00446,Deniz,Meyer,51,Male,3,HR Specialist,2018-04-10,Active,Hybrid,5,Doctorate,43,True,3,4,4709.44,EUR,Fixed-term,True,2026-10-20 10:30:00
+447,E00447,Amir,Yilmaz,57,Female,4,Service Technician,2022-07-14,Active,Hybrid,3,Bachelor,15,False,3,3,5107.61,EUR,Permanent,True,2026-10-20 10:30:00
+448,E00448,Tara,Hassan,23,Male,4,Data Analyst,2015-02-07,Active,On-site,2,Bachelor,20,False,3,3,7336.37,EUR,Fixed-term,True,2026-10-20 10:30:00
+449,E00449,Jonas,Kaya,56,Female,2,Recruiter,2020-07-10,Active,Remote,3,Master,31,False,3,3,4228.14,EUR,Fixed-term,True,2026-10-20 10:30:00
+450,E00450,Tara,Wolf,43,Male,7,Sales Executive,2024-09-27,Active,Remote,1,Doctorate,27,False,3,3,5138.49,EUR,Fixed-term,True,2026-10-20 10:30:00
+451,E00451,Maya,Hassan,50,Nonbinary,4,HR Business Partner,2018-02-12,Active,Remote,1,Master,4,True,4,2,4354.15,EUR,Fixed-term,True,2026-10-20 10:30:00
+452,E00452,Nina,Meyer,21,Male,3,Software Engineer,2020-11-19,Active,Hybrid,2,Vocational,39,False,3,2,3298.69,EUR,Fixed-term,True,2026-10-20 10:30:00
+453,E00453,Nina,Wolf,54,Female,2,Data Analyst,2023-09-16,Exited,Hybrid,1,Vocational,55,True,4,3,5005.96,EUR,Permanent,True,2026-10-20 10:30:00
+454,E00454,Tara,Wolf,62,Male,8,Service Technician,2017-02-27,Exited,Remote,2,Doctorate,47,True,2,3,6588.57,EUR,Permanent,False,2026-10-20 10:30:00
+455,E00455,Maya,Meyer,30,Nonbinary,7,Software Engineer,2017-09-27,Active,Remote,3,Doctorate,29,False,3,3,4667.03,EUR,Fixed-term,True,2026-10-20 10:30:00
+456,E00456,Jonas,Yilmaz,54,Female,5,Data Analyst,2020-07-03,Active,Hybrid,2,Bachelor,19,False,3,2,5964.59,EUR,Fixed-term,True,2026-10-20 10:30:00
+457,E00457,Jonas,Demir,48,Female,2,Software Engineer,2018-12-21,Active,Hybrid,3,Vocational,16,False,4,1,6332.85,EUR,Permanent,True,2026-10-20 10:30:00
+458,E00458,Milan,Hoffmann,50,Nonbinary,6,Sales Executive,2020-11-08,Active,Hybrid,2,Bachelor,23,False,1,3,5220.7,EUR,Permanent,True,2026-10-20 10:30:00
+459,E00459,Nora,Fischer,44,Female,2,Data Analyst,2023-09-09,Active,Remote,4,Bachelor,16,True,4,3,4667.84,EUR,Permanent,True,2026-10-20 10:30:00
+460,E00460,Omar,Novak,54,Female,6,Software Engineer,2021-07-05,Active,Remote,1,Bachelor,5,False,4,4,4910.83,EUR,Permanent,True,2026-10-20 10:30:00
+461,E00461,Deniz,Novak,40,Nonbinary,5,HR Specialist,2018-03-22,Active,On-site,2,Master,42,False,1,4,5704.68,EUR,Permanent,False,2026-10-20 10:30:00
+462,E00462,David,Hassan,24,Nonbinary,6,Operations Coordinator,2014-09-23,Active,Remote,2,Vocational,3,False,3,4,3685.77,EUR,Fixed-term,True,2026-10-20 10:30:00
+463,E00463,Tara,Meyer,59,Male,4,Project Manager,2022-09-23,Active,On-site,3,Master,28,False,4,2,3367.36,EUR,Permanent,True,2026-10-20 10:30:00
+464,E00464,Lena,Fischer,55,Male,7,Product Analyst,2023-07-14,Active,On-site,2,Vocational,41,False,1,3,4638.9,EUR,Fixed-term,True,2026-10-20 10:30:00
+465,E00465,Omar,Yilmaz,32,Female,8,Project Manager,2018-01-12,Active,Remote,3,Vocational,48,False,3,2,6294.36,EUR,Fixed-term,True,2026-10-20 10:30:00
+466,E00466,Jonas,Klein,57,Female,1,Data Analyst,2024-02-21,Active,Hybrid,3,Bachelor,23,False,4,3,4710.32,EUR,Fixed-term,True,2026-10-20 10:30:00
+467,E00467,Alex,Wolf,27,Nonbinary,3,Service Technician,2025-01-22,Active,Remote,1,Vocational,14,False,1,4,4502.25,EUR,Fixed-term,True,2026-10-20 10:30:00
+468,E00468,Alex,Weber,22,Female,2,Software Engineer,2017-10-23,Active,Hybrid,4,Doctorate,37,False,1,4,6429.38,EUR,Fixed-term,True,2026-10-20 10:30:00
+469,E00469,Milan,Wagner,40,Male,4,Product Analyst,2019-01-16,Active,Hybrid,1,Vocational,4,True,2,3,5370.55,EUR,Permanent,True,2026-10-20 10:30:00
+470,E00470,Emil,Meyer,60,Nonbinary,4,Service Technician,2018-04-02,Exited,Remote,2,Bachelor,43,False,3,4,6375.8,EUR,Permanent,True,2026-10-20 10:30:00
+471,E00471,Felix,Meyer,55,Male,7,Operations Coordinator,2015-09-10,Active,Remote,2,Vocational,37,False,3,3,7675.58,EUR,Permanent,True,2026-10-20 10:30:00
+472,E00472,Lena,Hoffmann,41,Female,5,Financial Analyst,2020-09-02,Active,On-site,4,Master,34,False,3,3,5985.03,EUR,Permanent,True,2026-10-20 10:30:00
+473,E00473,Leyla,Kaya,28,Male,1,HR Specialist,2015-05-13,Active,Remote,2,Vocational,35,False,3,3,5721.08,EUR,Permanent,True,2026-10-20 10:30:00
+474,E00474,Maya,Kaya,30,Nonbinary,2,Service Technician,2022-01-29,Active,Hybrid,5,Vocational,18,False,4,2,6064.41,EUR,Permanent,True,2026-10-20 10:30:00
+475,E00475,Noah,Weber,24,Male,7,Service Technician,2023-03-05,Active,Hybrid,1,Bachelor,16,True,2,3,5242.89,EUR,Fixed-term,True,2026-10-20 10:30:00
+476,E00476,Felix,Becker,61,Female,1,Project Manager,2015-02-20,Active,Hybrid,5,Master,46,False,1,4,6176.24,EUR,Fixed-term,True,2026-10-20 10:30:00
+477,E00477,Leyla,Demir,59,Nonbinary,7,Operations Coordinator,2026-03-20,Active,On-site,4,Vocational,32,True,3,3,5688.0,EUR,Permanent,True,2026-10-20 10:30:00
+478,E00478,Leyla,Kaya,49,Nonbinary,4,Service Technician,2021-12-25,Active,Remote,4,Bachelor,24,False,3,1,5054.54,EUR,Permanent,True,2026-10-20 10:30:00
+479,E00479,Jonas,Hassan,56,Male,1,HR Business Partner,2022-01-14,Exited,Remote,3,Doctorate,23,True,3,3,3771.2,EUR,Permanent,True,2026-10-20 10:30:00
+480,E00480,Leyla,Hassan,41,Male,1,HR Business Partner,2019-03-08,Active,Hybrid,4,Doctorate,4,True,3,4,6661.71,EUR,Fixed-term,True,2026-10-20 10:30:00
+481,E00481,Omar,Becker,53,Female,2,Service Technician,2022-12-19,Active,On-site,2,Master,31,True,3,4,6585.08,EUR,Fixed-term,True,2026-10-20 10:30:00
+482,E00482,David,Kaya,34,Nonbinary,5,Software Engineer,2023-12-01,Active,Hybrid,3,Bachelor,19,False,2,4,6508.16,EUR,Fixed-term,True,2026-10-20 10:30:00
+483,E00483,Deniz,Hassan,60,Nonbinary,1,Sales Executive,2015-11-11,Exited,On-site,2,Master,15,True,1,4,4829.37,EUR,Permanent,False,2026-10-20 10:30:00
+484,E00484,Jonas,Wolf,48,Nonbinary,8,Account Manager,2026-03-22,Active,On-site,2,Doctorate,9,True,3,3,4307.4,EUR,Permanent,True,2026-10-20 10:30:00
+485,E00485,Milan,Hoffmann,55,Nonbinary,6,Product Analyst,2013-12-04,Active,Remote,1,Bachelor,17,False,4,4,6980.28,EUR,Fixed-term,True,2026-10-20 10:30:00
+486,E00486,Maya,Becker,49,Male,6,HR Business Partner,2015-01-16,Active,Hybrid,3,Vocational,39,True,4,4,6565.29,EUR,Permanent,True,2026-10-20 10:30:00
+487,E00487,David,Yilmaz,50,Nonbinary,7,Project Manager,2022-08-07,Exited,Remote,1,Vocational,55,False,2,3,5879.42,EUR,Fixed-term,True,2026-10-20 10:30:00
+488,E00488,Alex,Novak,50,Nonbinary,3,Service Technician,2016-02-15,Active,On-site,5,Vocational,16,False,3,4,6357.39,EUR,Fixed-term,True,2026-10-20 10:30:00
+489,E00489,Nora,Demir,21,Nonbinary,6,Operations Coordinator,2016-02-23,Active,On-site,4,Doctorate,30,False,3,1,5290.18,EUR,Permanent,True,2026-10-20 10:30:00
+490,E00490,Noah,Wolf,39,Nonbinary,3,Data Analyst,2019-09-18,Active,Remote,2,Bachelor,13,False,3,4,4658.73,EUR,Permanent,True,2026-10-20 10:30:00
+491,E00491,Nina,Novak,56,Male,2,Recruiter,2018-08-04,Active,Hybrid,5,Doctorate,25,False,2,2,6132.9,EUR,Permanent,True,2026-10-20 10:30:00
+492,E00492,Rosa,Becker,51,Female,6,Account Manager,2014-10-16,Active,Hybrid,5,Master,16,False,4,2,8265.22,EUR,Fixed-term,True,2026-10-20 10:30:00
+493,E00493,Leyla,Weber,47,Male,6,Project Manager,2022-06-09,Exited,Hybrid,1,Bachelor,2,False,3,2,5042.53,EUR,Permanent,True,2026-10-20 10:30:00
+494,E00494,Leyla,Wolf,25,Male,2,Project Manager,2020-01-14,Active,Remote,5,Bachelor,7,True,2,3,5133.44,EUR,Permanent,True,2026-10-20 10:30:00
+495,E00495,Noah,Novak,29,Nonbinary,6,Recruiter,2016-07-08,Active,Hybrid,5,Master,31,False,2,1,6198.68,EUR,Permanent,False,2026-10-20 10:30:00
+496,E00496,Nina,Wolf,62,Nonbinary,7,Operations Coordinator,2023-06-13,Active,Hybrid,3,Bachelor,8,False,4,2,5999.82,EUR,Fixed-term,True,2026-10-20 10:30:00
+497,E00497,Nora,Yilmaz,51,Nonbinary,4,Service Technician,2017-01-17,Active,Remote,1,Doctorate,10,True,3,3,6294.2,EUR,Permanent,True,2026-10-20 10:30:00
+498,E00498,Elena,Aliyev,40,Nonbinary,3,Financial Analyst,2017-10-07,Active,On-site,5,Master,32,False,3,3,4821.54,EUR,Permanent,True,2026-10-20 10:30:00
+499,E00499,Lena,Meyer,24,Male,4,Account Manager,2015-12-23,Exited,Remote,3,Vocational,41,True,2,2,6702.18,EUR,Fixed-term,True,2026-10-20 10:30:00
+500,E00500,Lena,Schmidt,25,Male,6,Account Manager,2026-03-04,Exited,On-site,3,Bachelor,12,False,3,4,4454.15,EUR,Fixed-term,True,2026-10-20 10:30:00
+501,E00501,Nina,Weber,55,Female,5,Recruiter,2022-02-16,Active,Hybrid,2,Master,32,False,2,3,4765.37,EUR,Permanent,True,2026-10-20 10:30:00
+502,E00502,Deniz,Meyer,42,Male,2,HR Specialist,2024-10-10,Exited,Remote,2,Vocational,35,False,2,3,4044.79,EUR,Fixed-term,False,2026-10-20 10:30:00
+503,E00503,Deniz,Wagner,46,Nonbinary,2,Service Technician,2024-06-10,Exited,Hybrid,4,Doctorate,9,True,1,2,3251.03,EUR,Permanent,True,2026-10-20 10:30:00
+504,E00504,Deniz,Yilmaz,58,Male,1,Account Manager,2022-08-14,Active,Hybrid,4,Bachelor,16,False,3,4,5340.07,EUR,Permanent,True,2026-10-20 10:30:00
+505,E00505,Noah,Wagner,47,Nonbinary,6,Financial Analyst,2016-01-01,Active,Remote,3,Doctorate,55,False,4,3,7329.23,EUR,Permanent,True,2026-10-20 10:30:00
+506,E00506,Mira,Hassan,41,Nonbinary,5,Account Manager,2024-06-23,Active,On-site,1,Bachelor,46,False,4,3,4371.77,EUR,Permanent,True,2026-10-20 10:30:00
+507,E00507,Omar,Fischer,44,Male,2,HR Business Partner,2024-02-08,Active,Remote,1,Bachelor,16,True,3,3,5638.31,EUR,Permanent,True,2026-10-20 10:30:00
+508,E00508,Jonas,Weber,28,Nonbinary,3,Data Analyst,2023-08-30,Active,On-site,2,Doctorate,30,True,3,2,4160.08,EUR,Fixed-term,False,2026-10-20 10:30:00
+509,E00509,Noah,Aliyev,28,Male,4,Recruiter,2017-11-03,Active,Hybrid,2,Master,52,False,4,2,5137.19,EUR,Fixed-term,True,2026-10-20 10:30:00
+510,E00510,Jonas,Meyer,42,Male,4,HR Specialist,2018-03-11,Active,Remote,5,Vocational,19,False,4,4,5317.15,EUR,Permanent,True,2026-10-20 10:30:00
+511,E00511,David,Fischer,49,Female,1,Operations Coordinator,2016-06-14,Active,Remote,4,Doctorate,12,False,3,1,6323.98,EUR,Fixed-term,True,2026-10-20 10:30:00
+512,E00512,Noah,Wolf,49,Female,4,Account Manager,2019-02-06,Active,Hybrid,5,Vocational,7,False,3,3,3639.75,EUR,Permanent,True,2026-10-20 10:30:00
+513,E00513,Alex,Klein,23,Female,5,Recruiter,2022-03-23,Exited,On-site,5,Master,40,True,2,3,5627.89,EUR,Permanent,True,2026-10-20 10:30:00
+514,E00514,Milan,Yilmaz,62,Male,8,Product Analyst,2023-04-01,Exited,On-site,2,Vocational,28,False,2,3,4556.46,EUR,Permanent,True,2026-10-20 10:30:00
+515,E00515,David,Fischer,50,Male,7,Operations Coordinator,2019-11-14,Exited,On-site,2,Vocational,53,True,4,3,6596.37,EUR,Fixed-term,True,2026-10-20 10:30:00
+516,E00516,Tara,Hoffmann,23,Male,2,Recruiter,2020-03-31,Exited,Remote,3,Vocational,10,True,3,2,5357.3,EUR,Permanent,True,2026-10-20 10:30:00
+517,E00517,Deniz,Demir,45,Female,8,Project Manager,2014-10-06,Active,Hybrid,3,Vocational,52,False,3,3,5793.6,EUR,Fixed-term,False,2026-10-20 10:30:00
+518,E00518,Alex,Klein,43,Male,2,Account Manager,2020-10-22,Active,Hybrid,3,Doctorate,44,False,1,1,4825.09,EUR,Permanent,False,2026-10-20 10:30:00
+519,E00519,Maya,Wagner,55,Male,5,Sales Executive,2015-10-23,Active,Hybrid,4,Vocational,48,False,4,3,5998.47,EUR,Permanent,False,2026-10-20 10:30:00
+520,E00520,Rosa,Becker,44,Male,2,HR Business Partner,2019-07-14,Active,Remote,3,Doctorate,30,False,2,4,5981.16,EUR,Fixed-term,False,2026-10-20 10:30:00
+521,E00521,Rosa,Wagner,34,Male,4,Financial Analyst,2023-04-30,Active,On-site,1,Bachelor,30,True,3,4,4346.31,EUR,Fixed-term,True,2026-10-20 10:30:00
+522,E00522,Noah,Hoffmann,57,Male,6,Operations Coordinator,2021-08-17,Active,Hybrid,2,Doctorate,33,False,3,2,5328.33,EUR,Permanent,True,2026-10-20 10:30:00
+523,E00523,Rosa,Meyer,52,Male,6,Operations Coordinator,2024-03-30,Active,Remote,3,Master,53,False,1,4,5000.71,EUR,Permanent,True,2026-10-20 10:30:00
+524,E00524,Sofia,Becker,33,Nonbinary,1,Operations Coordinator,2014-05-30,Active,Remote,2,Doctorate,30,False,2,3,6381.89,EUR,Fixed-term,False,2026-10-20 10:30:00
+525,E00525,Milan,Yilmaz,32,Female,6,Financial Analyst,2013-12-22,Active,Hybrid,1,Vocational,46,True,1,3,5689.29,EUR,Permanent,True,2026-10-20 10:30:00
+526,E00526,Amir,Schmidt,26,Female,7,HR Specialist,2024-05-18,Active,Hybrid,3,Doctorate,35,False,3,4,5734.63,EUR,Fixed-term,False,2026-10-20 10:30:00
+527,E00527,Maya,Demir,43,Male,2,HR Specialist,2020-04-14,Active,Hybrid,3,Master,6,False,1,3,7188.49,EUR,Permanent,True,2026-10-20 10:30:00
+528,E00528,Nora,Fischer,57,Nonbinary,4,Financial Analyst,2024-02-24,Active,Remote,4,Bachelor,35,False,2,4,4229.14,EUR,Fixed-term,True,2026-10-20 10:30:00
+529,E00529,Nina,Klein,61,Male,2,Financial Analyst,2016-01-06,Exited,Remote,4,Doctorate,31,True,1,3,6871.26,EUR,Fixed-term,True,2026-10-20 10:30:00
+530,E00530,Leyla,Klein,59,Female,2,Project Manager,2024-09-02,Active,On-site,1,Doctorate,44,False,3,3,6144.78,EUR,Fixed-term,True,2026-10-20 10:30:00
+531,E00531,Alex,Kaya,32,Nonbinary,2,Financial Analyst,2021-02-12,Active,Hybrid,1,Doctorate,46,True,2,3,5266.04,EUR,Fixed-term,False,2026-10-20 10:30:00
+532,E00532,Deniz,Klein,23,Male,2,HR Business Partner,2017-06-08,Active,Hybrid,2,Master,27,False,3,3,7217.8,EUR,Fixed-term,False,2026-10-20 10:30:00
+533,E00533,Maya,Yilmaz,57,Male,6,Data Analyst,2015-05-03,Active,Remote,2,Bachelor,2,True,2,1,7332.99,EUR,Fixed-term,True,2026-10-20 10:30:00
+534,E00534,Amir,Klein,62,Female,3,Account Manager,2024-10-17,Active,Remote,2,Master,37,False,4,4,2728.6,EUR,Permanent,True,2026-10-20 10:30:00
+535,E00535,Emil,Yilmaz,54,Male,8,Service Technician,2021-04-09,Active,On-site,4,Doctorate,27,True,3,3,5292.18,EUR,Permanent,False,2026-10-20 10:30:00
+536,E00536,Sofia,Kaya,21,Female,5,Recruiter,2024-01-21,Active,On-site,1,Doctorate,3,False,3,1,4957.13,EUR,Permanent,True,2026-10-20 10:30:00
+537,E00537,David,Weber,61,Female,4,Data Analyst,2021-02-23,Active,Remote,2,Master,20,False,3,3,4889.76,EUR,Permanent,True,2026-10-20 10:30:00
+538,E00538,Leyla,Klein,40,Nonbinary,6,Project Manager,2014-12-26,Active,Remote,2,Doctorate,12,True,3,3,5566.85,EUR,Permanent,False,2026-10-20 10:30:00
+539,E00539,Felix,Schmidt,54,Male,2,Account Manager,2014-05-26,Active,On-site,1,Master,15,False,3,4,7960.49,EUR,Fixed-term,True,2026-10-20 10:30:00
+540,E00540,David,Weber,22,Male,7,Data Analyst,2025-09-08,Active,Remote,3,Vocational,39,False,2,2,6193.11,EUR,Permanent,False,2026-10-20 10:30:00
+541,E00541,Mira,Meyer,52,Male,2,Financial Analyst,2016-08-03,Active,On-site,3,Doctorate,31,False,3,1,5763.65,EUR,Fixed-term,True,2026-10-20 10:30:00
+542,E00542,Amir,Aliyev,39,Female,8,Financial Analyst,2025-01-07,Exited,Hybrid,3,Bachelor,14,False,3,2,3437.21,EUR,Permanent,True,2026-10-20 10:30:00
+543,E00543,David,Wagner,58,Nonbinary,2,Recruiter,2023-04-09,Active,Hybrid,4,Bachelor,9,False,4,3,7157.08,EUR,Fixed-term,False,2026-10-20 10:30:00
+544,E00544,Alex,Klein,48,Nonbinary,5,Recruiter,2018-06-15,Active,Remote,3,Master,14,False,3,4,7653.92,EUR,Fixed-term,True,2026-10-20 10:30:00
+545,E00545,Emil,Fischer,37,Nonbinary,2,Product Analyst,2017-06-14,Active,Remote,2,Doctorate,10,False,2,3,6089.65,EUR,Fixed-term,False,2026-10-20 10:30:00
+546,E00546,Omar,Wolf,39,Female,3,Service Technician,2024-03-11,Active,On-site,5,Master,19,True,3,2,3738.55,EUR,Fixed-term,True,2026-10-20 10:30:00
+547,E00547,Jonas,Demir,25,Male,3,Operations Coordinator,2026-06-04,Active,Remote,2,Vocational,2,False,4,2,3215.73,EUR,Fixed-term,True,2026-10-20 10:30:00
+548,E00548,Nina,Aliyev,49,Female,2,Account Manager,2014-04-02,Active,On-site,3,Doctorate,19,False,2,4,8086.09,EUR,Permanent,False,2026-10-20 10:30:00
+549,E00549,Alex,Yilmaz,61,Nonbinary,4,Recruiter,2017-02-13,Active,Remote,4,Vocational,45,True,4,3,5576.07,EUR,Fixed-term,False,2026-10-20 10:30:00
+550,E00550,Elena,Hoffmann,37,Male,4,Product Analyst,2022-07-18,Active,Remote,4,Bachelor,45,False,3,1,4013.11,EUR,Fixed-term,True,2026-10-20 10:30:00
+551,E00551,Jonas,Klein,60,Female,5,Product Analyst,2021-03-22,Exited,Remote,2,Vocational,20,False,1,2,5926.21,EUR,Permanent,False,2026-10-20 10:30:00
+552,E00552,Mira,Hoffmann,36,Male,3,Recruiter,2024-10-09,Active,Hybrid,1,Bachelor,43,False,4,4,5275.05,EUR,Fixed-term,True,2026-10-20 10:30:00
+553,E00553,Mira,Hoffmann,27,Female,4,Financial Analyst,2024-07-14,Exited,Remote,1,Master,12,True,2,4,4638.17,EUR,Fixed-term,True,2026-10-20 10:30:00
+554,E00554,Nina,Becker,36,Nonbinary,1,Service Technician,2021-08-22,Active,Hybrid,5,Bachelor,10,False,3,3,6291.55,EUR,Fixed-term,True,2026-10-20 10:30:00
+555,E00555,Deniz,Aliyev,57,Male,2,HR Business Partner,2015-10-08,Exited,On-site,1,Master,30,True,2,3,6988.1,EUR,Permanent,True,2026-10-20 10:30:00
+556,E00556,Sofia,Klein,48,Male,1,Software Engineer,2022-10-14,Active,On-site,2,Vocational,48,False,3,4,3600.73,EUR,Permanent,True,2026-10-20 10:30:00
+557,E00557,Nora,Novak,39,Female,4,Operations Coordinator,2014-08-25,Active,Remote,3,Bachelor,48,False,4,2,5789.33,EUR,Permanent,True,2026-10-20 10:30:00
+558,E00558,Emil,Kaya,39,Nonbinary,2,HR Business Partner,2017-09-23,Active,Hybrid,1,Doctorate,17,True,2,3,4358.01,EUR,Permanent,True,2026-10-20 10:30:00
+559,E00559,Leyla,Hassan,40,Female,5,Operations Coordinator,2019-04-05,Active,On-site,1,Bachelor,13,False,3,3,5518.31,EUR,Permanent,True,2026-10-20 10:30:00
+560,E00560,Omar,Demir,32,Male,2,Sales Executive,2021-08-10,Active,Remote,4,Bachelor,11,False,3,3,6352.04,EUR,Permanent,False,2026-10-20 10:30:00
+561,E00561,Noah,Klein,59,Male,5,Recruiter,2026-06-19,Active,Remote,1,Doctorate,12,False,4,3,4316.8,EUR,Fixed-term,True,2026-10-20 10:30:00
+562,E00562,Tara,Wagner,45,Female,4,Service Technician,2016-04-13,Active,Hybrid,5,Bachelor,40,False,3,3,4882.42,EUR,Fixed-term,True,2026-10-20 10:30:00
+563,E00563,Jonas,Weber,33,Male,2,Data Analyst,2022-04-14,Active,On-site,4,Doctorate,38,True,3,3,6276.49,EUR,Permanent,True,2026-10-20 10:30:00
+564,E00564,Milan,Klein,23,Nonbinary,4,Data Analyst,2023-06-27,Active,On-site,3,Vocational,44,False,3,2,3854.81,EUR,Permanent,True,2026-10-20 10:30:00
+565,E00565,Felix,Novak,61,Female,4,Operations Coordinator,2013-10-08,Active,Hybrid,4,Bachelor,54,True,1,3,5361.48,EUR,Fixed-term,True,2026-10-20 10:30:00
+566,E00566,Amir,Weber,62,Male,3,Operations Coordinator,2018-08-29,Active,On-site,4,Vocational,37,False,4,2,6046.98,EUR,Permanent,True,2026-10-20 10:30:00
+567,E00567,Milan,Demir,23,Male,7,Product Analyst,2023-11-26,Active,On-site,5,Doctorate,33,True,4,3,3999.28,EUR,Permanent,False,2026-10-20 10:30:00
+568,E00568,Rosa,Novak,38,Male,5,Financial Analyst,2018-01-27,Active,Hybrid,4,Vocational,55,False,4,4,7339.9,EUR,Permanent,False,2026-10-20 10:30:00
+569,E00569,Lena,Becker,39,Male,8,Sales Executive,2018-12-11,Active,Remote,5,Doctorate,15,False,3,3,5797.31,EUR,Fixed-term,False,2026-10-20 10:30:00
+570,E00570,Jonas,Becker,22,Nonbinary,3,Data Analyst,2018-07-26,Exited,Hybrid,1,Master,30,False,3,2,4734.58,EUR,Permanent,True,2026-10-20 10:30:00
+571,E00571,Jonas,Novak,29,Female,5,Account Manager,2015-10-07,Active,Hybrid,5,Bachelor,41,False,1,2,6521.88,EUR,Permanent,False,2026-10-20 10:30:00
+572,E00572,Maya,Novak,61,Female,5,Operations Coordinator,2025-09-07,Active,Hybrid,2,Master,17,False,2,2,4955.88,EUR,Fixed-term,False,2026-10-20 10:30:00
+573,E00573,Alex,Aliyev,21,Male,2,Data Analyst,2018-01-04,Active,On-site,2,Master,32,True,2,2,6312.81,EUR,Fixed-term,True,2026-10-20 10:30:00
+574,E00574,Rosa,Meyer,29,Female,2,Sales Executive,2018-11-05,Active,Remote,5,Doctorate,14,True,3,1,6702.05,EUR,Permanent,True,2026-10-20 10:30:00
+575,E00575,Sofia,Yilmaz,51,Female,6,HR Specialist,2016-08-20,Active,Remote,2,Master,49,False,4,4,6460.86,EUR,Fixed-term,True,2026-10-20 10:30:00
+576,E00576,Alex,Novak,52,Nonbinary,3,Project Manager,2017-05-01,Active,Remote,4,Bachelor,25,False,4,2,6392.13,EUR,Fixed-term,True,2026-10-20 10:30:00
+577,E00577,Jonas,Hoffmann,44,Male,4,Operations Coordinator,2025-01-19,Exited,Hybrid,5,Master,49,True,4,2,4337.61,EUR,Fixed-term,True,2026-10-20 10:30:00
+578,E00578,Felix,Yilmaz,46,Female,2,Sales Executive,2022-06-02,Exited,On-site,1,Master,51,True,3,3,5752.38,EUR,Permanent,True,2026-10-20 10:30:00
+579,E00579,Nina,Aliyev,22,Male,3,Data Analyst,2024-11-12,Active,Remote,3,Doctorate,6,False,3,3,4224.94,EUR,Fixed-term,True,2026-10-20 10:30:00
+580,E00580,Rosa,Kaya,30,Nonbinary,5,Software Engineer,2018-02-20,Active,Hybrid,5,Master,40,True,4,2,5361.0,EUR,Fixed-term,True,2026-10-20 10:30:00
+581,E00581,Deniz,Demir,25,Nonbinary,4,HR Specialist,2023-03-31,Active,Hybrid,1,Bachelor,41,False,4,3,3619.75,EUR,Fixed-term,False,2026-10-20 10:30:00
+582,E00582,Lena,Hoffmann,55,Nonbinary,8,Financial Analyst,2017-01-30,Exited,Hybrid,4,Bachelor,11,False,1,3,4842.1,EUR,Permanent,False,2026-10-20 10:30:00
+583,E00583,Lena,Hoffmann,52,Male,2,HR Specialist,2022-02-21,Active,Hybrid,4,Bachelor,54,False,4,3,6250.3,EUR,Permanent,True,2026-10-20 10:30:00
+584,E00584,Maya,Demir,47,Female,6,HR Specialist,2016-10-08,Exited,On-site,1,Vocational,36,False,1,3,5940.86,EUR,Fixed-term,False,2026-10-20 10:30:00
+585,E00585,Omar,Novak,57,Nonbinary,1,Product Analyst,2015-05-20,Active,Hybrid,2,Master,47,False,4,4,5037.38,EUR,Fixed-term,True,2026-10-20 10:30:00
+586,E00586,Elena,Meyer,39,Nonbinary,2,Account Manager,2022-07-21,Active,Remote,1,Doctorate,6,False,4,3,5552.61,EUR,Fixed-term,True,2026-10-20 10:30:00
+587,E00587,Noah,Hoffmann,31,Female,2,Financial Analyst,2025-01-02,Active,Remote,3,Master,25,False,3,3,5287.13,EUR,Fixed-term,True,2026-10-20 10:30:00
+588,E00588,Lena,Klein,51,Female,3,HR Specialist,2022-07-03,Active,Remote,5,Master,19,False,4,4,4941.6,EUR,Fixed-term,True,2026-10-20 10:30:00
+589,E00589,Nina,Weber,49,Nonbinary,3,Sales Executive,2022-01-10,Active,Hybrid,4,Doctorate,28,False,3,4,5273.87,EUR,Fixed-term,True,2026-10-20 10:30:00
+590,E00590,Lena,Weber,27,Male,7,Sales Executive,2017-01-05,Active,On-site,3,Bachelor,29,False,1,1,6980.99,EUR,Fixed-term,True,2026-10-20 10:30:00
+591,E00591,Deniz,Demir,48,Male,4,HR Business Partner,2021-01-10,Active,Hybrid,5,Doctorate,10,False,4,4,4383.56,EUR,Fixed-term,True,2026-10-20 10:30:00
+592,E00592,Deniz,Aliyev,50,Female,1,Sales Executive,2016-08-12,Active,Remote,1,Bachelor,13,False,2,3,5661.35,EUR,Fixed-term,True,2026-10-20 10:30:00
+593,E00593,Rosa,Hoffmann,47,Male,4,Software Engineer,2021-06-14,Active,Hybrid,1,Bachelor,18,False,2,1,4653.12,EUR,Fixed-term,False,2026-10-20 10:30:00
+594,E00594,Deniz,Becker,28,Male,1,Data Analyst,2022-07-09,Active,Remote,4,Vocational,14,False,4,2,4724.76,EUR,Fixed-term,True,2026-10-20 10:30:00
+595,E00595,Maya,Aliyev,62,Male,4,HR Specialist,2024-05-13,Active,Remote,3,Vocational,41,False,2,4,3765.07,EUR,Permanent,False,2026-10-20 10:30:00
+596,E00596,Mira,Novak,21,Nonbinary,6,Recruiter,2014-11-15,Active,On-site,4,Doctorate,2,False,3,4,6039.61,EUR,Permanent,True,2026-10-20 10:30:00
+597,E00597,Alex,Hassan,46,Female,1,Recruiter,2018-09-10,Active,On-site,5,Bachelor,35,False,4,3,3107.08,EUR,Permanent,True,2026-10-20 10:30:00
+598,E00598,Mira,Novak,41,Male,3,Product Analyst,2020-03-18,Active,Hybrid,1,Doctorate,10,True,2,3,5269.05,EUR,Fixed-term,True,2026-10-20 10:30:00
+599,E00599,Milan,Wolf,27,Female,3,Product Analyst,2014-11-05,Active,Hybrid,3,Vocational,6,False,3,4,7601.86,EUR,Fixed-term,False,2026-10-20 10:30:00
+600,E00600,Jonas,Yilmaz,32,Male,3,Project Manager,2024-10-02,Active,On-site,1,Vocational,45,False,4,3,3193.01,EUR,Fixed-term,True,2026-10-20 10:30:00
+601,E00601,Felix,Becker,51,Nonbinary,7,Operations Coordinator,2016-08-19,Active,On-site,5,Master,19,True,3,4,6302.01,EUR,Permanent,False,2026-10-20 10:30:00
+602,E00602,Alex,Becker,56,Female,6,Data Analyst,2014-11-08,Active,Remote,1,Doctorate,6,False,3,3,6204.83,EUR,Permanent,True,2026-10-20 10:30:00
+603,E00603,Felix,Becker,38,Nonbinary,3,HR Business Partner,2017-11-01,Active,On-site,4,Master,30,False,3,2,4611.75,EUR,Fixed-term,True,2026-10-20 10:30:00
+604,E00604,Alex,Novak,52,Nonbinary,8,Sales Executive,2014-03-12,Active,Remote,4,Vocational,21,False,4,3,7326.15,EUR,Fixed-term,False,2026-10-20 10:30:00
+605,E00605,Tara,Kaya,44,Nonbinary,5,Service Technician,2013-10-27,Active,On-site,2,Bachelor,4,True,2,3,8350.88,EUR,Permanent,True,2026-10-20 10:30:00
+606,E00606,Amir,Kaya,25,Nonbinary,5,Service Technician,2024-01-03,Exited,On-site,4,Vocational,26,True,4,4,5228.93,EUR,Fixed-term,True,2026-10-20 10:30:00
+607,E00607,Nora,Hoffmann,33,Female,2,Data Analyst,2017-08-23,Active,On-site,1,Vocational,44,False,3,4,7071.42,EUR,Permanent,True,2026-10-20 10:30:00
+608,E00608,Sofia,Wolf,40,Male,2,HR Specialist,2020-07-07,Active,On-site,1,Master,39,False,3,2,5147.99,EUR,Permanent,True,2026-10-20 10:30:00
+609,E00609,Emil,Novak,60,Male,7,Account Manager,2022-09-06,Active,Remote,4,Doctorate,14,False,4,2,4451.71,EUR,Permanent,False,2026-10-20 10:30:00
+610,E00610,Nora,Meyer,46,Female,3,Operations Coordinator,2023-09-19,Active,On-site,1,Vocational,20,False,4,4,4838.26,EUR,Permanent,True,2026-10-20 10:30:00
+611,E00611,Jonas,Novak,38,Nonbinary,3,Financial Analyst,2023-11-02,Active,Hybrid,5,Master,29,False,3,3,4767.33,EUR,Fixed-term,True,2026-10-20 10:30:00
+612,E00612,Amir,Aliyev,22,Male,3,Data Analyst,2015-04-24,Active,Remote,3,Vocational,4,True,2,3,6946.51,EUR,Fixed-term,True,2026-10-20 10:30:00
+613,E00613,Leyla,Schmidt,25,Nonbinary,7,HR Business Partner,2020-11-11,Exited,Hybrid,4,Master,34,True,1,3,6094.7,EUR,Fixed-term,True,2026-10-20 10:30:00
+614,E00614,Rosa,Wagner,34,Nonbinary,8,Recruiter,2022-03-20,Active,On-site,1,Bachelor,51,False,2,3,3801.66,EUR,Fixed-term,True,2026-10-20 10:30:00
+615,E00615,Nora,Klein,50,Nonbinary,6,Service Technician,2019-05-06,Exited,Remote,4,Vocational,32,True,2,4,5350.66,EUR,Fixed-term,False,2026-10-20 10:30:00
+616,E00616,Nina,Meyer,49,Female,1,Operations Coordinator,2021-07-25,Active,Remote,1,Doctorate,25,False,3,3,4113.16,EUR,Fixed-term,True,2026-10-20 10:30:00
+617,E00617,David,Kaya,32,Male,6,Recruiter,2023-09-17,Active,Hybrid,5,Doctorate,24,False,4,3,5864.84,EUR,Permanent,True,2026-10-20 10:30:00
+618,E00618,Alex,Novak,32,Female,4,Product Analyst,2017-01-13,Active,On-site,5,Vocational,21,True,4,2,5353.8,EUR,Fixed-term,True,2026-10-20 10:30:00
+619,E00619,Noah,Meyer,35,Female,1,HR Business Partner,2021-04-18,Active,Hybrid,2,Doctorate,20,False,3,3,3927.26,EUR,Permanent,False,2026-10-20 10:30:00
+620,E00620,Noah,Fischer,25,Male,4,HR Business Partner,2023-04-06,Exited,On-site,1,Bachelor,7,True,4,3,5919.86,EUR,Fixed-term,False,2026-10-20 10:30:00
+621,E00621,Sofia,Schmidt,42,Female,2,HR Specialist,2015-09-12,Active,On-site,2,Master,21,False,3,2,5604.91,EUR,Fixed-term,True,2026-10-20 10:30:00
+622,E00622,Nina,Wagner,36,Nonbinary,5,Sales Executive,2026-07-02,Exited,On-site,1,Master,12,False,3,3,5261.21,EUR,Permanent,True,2026-10-20 10:30:00
+623,E00623,Omar,Schmidt,58,Nonbinary,7,Service Technician,2020-10-05,Active,Remote,1,Bachelor,9,False,4,4,5422.91,EUR,Fixed-term,False,2026-10-20 10:30:00
+624,E00624,Jonas,Becker,28,Nonbinary,2,Project Manager,2015-07-28,Active,On-site,5,Vocational,45,False,2,4,6843.77,EUR,Permanent,True,2026-10-20 10:30:00
+625,E00625,Tara,Wagner,32,Female,6,Operations Coordinator,2021-07-08,Active,Remote,4,Bachelor,16,False,4,3,4509.73,EUR,Fixed-term,True,2026-10-20 10:30:00
+626,E00626,Maya,Schmidt,49,Male,7,Software Engineer,2020-07-03,Exited,Remote,3,Doctorate,53,False,2,4,5829.28,EUR,Fixed-term,True,2026-10-20 10:30:00
+627,E00627,Deniz,Novak,24,Nonbinary,2,Project Manager,2019-10-12,Active,Hybrid,5,Vocational,9,True,1,4,6762.79,EUR,Fixed-term,True,2026-10-20 10:30:00
+628,E00628,Nora,Klein,29,Male,2,HR Specialist,2014-04-11,Active,Hybrid,4,Vocational,33,True,2,2,7075.3,EUR,Permanent,True,2026-10-20 10:30:00
+629,E00629,David,Novak,53,Nonbinary,6,Service Technician,2021-07-07,Exited,Remote,5,Vocational,18,False,1,2,4871.97,EUR,Permanent,True,2026-10-20 10:30:00
+630,E00630,Jonas,Novak,36,Female,2,Sales Executive,2018-05-21,Active,On-site,2,Doctorate,7,True,2,4,4707.17,EUR,Fixed-term,False,2026-10-20 10:30:00
+631,E00631,Rosa,Yilmaz,46,Nonbinary,8,Financial Analyst,2018-10-08,Active,On-site,5,Master,46,False,3,1,6912.68,EUR,Permanent,False,2026-10-20 10:30:00
+632,E00632,Amir,Schmidt,51,Female,2,Service Technician,2022-10-30,Exited,On-site,2,Doctorate,48,True,1,4,5123.64,EUR,Permanent,True,2026-10-20 10:30:00
+633,E00633,Elena,Meyer,30,Male,3,Sales Executive,2023-12-11,Active,Remote,3,Vocational,36,False,3,4,5157.4,EUR,Permanent,True,2026-10-20 10:30:00
+634,E00634,Elena,Weber,54,Female,6,HR Business Partner,2017-12-05,Exited,Remote,4,Doctorate,52,False,4,2,5764.49,EUR,Permanent,True,2026-10-20 10:30:00
+635,E00635,Milan,Meyer,47,Nonbinary,7,Recruiter,2017-10-16,Active,Hybrid,3,Master,37,False,4,3,5664.32,EUR,Fixed-term,True,2026-10-20 10:30:00
+636,E00636,Maya,Novak,25,Nonbinary,7,Sales Executive,2017-11-27,Active,Hybrid,2,Bachelor,23,True,4,4,7746.88,EUR,Fixed-term,True,2026-10-20 10:30:00
+637,E00637,Omar,Meyer,59,Female,8,HR Business Partner,2019-10-07,Exited,Hybrid,2,Vocational,51,False,3,3,4621.69,EUR,Fixed-term,True,2026-10-20 10:30:00
+638,E00638,Omar,Fischer,45,Nonbinary,1,Operations Coordinator,2019-08-19,Active,Hybrid,2,Doctorate,46,False,2,2,4133.35,EUR,Permanent,True,2026-10-20 10:30:00
+639,E00639,Maya,Aliyev,27,Male,7,Product Analyst,2019-11-23,Active,Remote,2,Bachelor,37,False,3,3,6023.02,EUR,Permanent,True,2026-10-20 10:30:00
+640,E00640,Noah,Hassan,41,Male,8,Account Manager,2013-10-06,Active,On-site,1,Bachelor,35,False,3,3,5959.8,EUR,Fixed-term,True,2026-10-20 10:30:00
+641,E00641,Nina,Wagner,44,Male,7,Data Analyst,2020-02-29,Active,Remote,4,Bachelor,50,False,3,2,5454.88,EUR,Permanent,True,2026-10-20 10:30:00
+642,E00642,Deniz,Yilmaz,59,Nonbinary,6,HR Business Partner,2021-09-28,Active,On-site,5,Doctorate,18,False,4,3,4586.33,EUR,Permanent,True,2026-10-20 10:30:00
+643,E00643,Noah,Kaya,41,Male,4,Recruiter,2013-12-25,Active,Remote,3,Doctorate,50,True,3,3,6860.33,EUR,Permanent,False,2026-10-20 10:30:00
+644,E00644,Milan,Novak,50,Male,8,Service Technician,2016-10-31,Exited,Hybrid,4,Master,34,True,3,3,6264.79,EUR,Permanent,True,2026-10-20 10:30:00
+645,E00645,Sofia,Wolf,49,Male,5,Project Manager,2020-11-20,Active,Remote,5,Doctorate,32,False,4,3,5247.39,EUR,Permanent,False,2026-10-20 10:30:00
+646,E00646,Sofia,Klein,55,Female,6,Data Analyst,2015-10-25,Active,Remote,4,Doctorate,35,False,3,4,6323.43,EUR,Fixed-term,True,2026-10-20 10:30:00
+647,E00647,Omar,Fischer,32,Nonbinary,7,Project Manager,2020-09-05,Active,On-site,2,Vocational,44,True,3,4,6817.4,EUR,Fixed-term,True,2026-10-20 10:30:00
+648,E00648,Milan,Meyer,44,Nonbinary,4,Operations Coordinator,2015-03-27,Active,Remote,2,Vocational,37,False,2,2,6372.93,EUR,Fixed-term,False,2026-10-20 10:30:00
+649,E00649,Emil,Fischer,51,Nonbinary,4,HR Specialist,2024-06-13,Active,On-site,5,Master,18,False,1,3,4747.67,EUR,Permanent,False,2026-10-20 10:30:00
+650,E00650,Jonas,Demir,44,Female,5,Operations Coordinator,2025-09-12,Exited,On-site,4,Master,33,True,2,4,5802.33,EUR,Permanent,True,2026-10-20 10:30:00
+651,E00651,Nina,Novak,22,Female,7,Data Analyst,2015-03-02,Active,Remote,5,Doctorate,32,False,2,4,7322.91,EUR,Fixed-term,False,2026-10-20 10:30:00
+652,E00652,Elena,Fischer,49,Female,4,Sales Executive,2017-08-24,Exited,Hybrid,4,Vocational,5,True,4,3,4851.36,EUR,Fixed-term,True,2026-10-20 10:30:00
+653,E00653,Tara,Klein,52,Female,2,Service Technician,2017-06-16,Exited,Hybrid,1,Vocational,28,True,3,3,6650.22,EUR,Fixed-term,True,2026-10-20 10:30:00
+654,E00654,Lena,Wagner,33,Male,6,Account Manager,2020-09-22,Exited,On-site,1,Master,50,False,2,2,4853.72,EUR,Permanent,True,2026-10-20 10:30:00
+655,E00655,Rosa,Meyer,23,Nonbinary,7,HR Specialist,2016-08-18,Active,Remote,5,Doctorate,25,False,4,3,6555.46,EUR,Fixed-term,False,2026-10-20 10:30:00
+656,E00656,Nora,Hoffmann,30,Female,6,HR Business Partner,2022-11-29,Active,Hybrid,3,Bachelor,34,False,4,3,3765.28,EUR,Fixed-term,True,2026-10-20 10:30:00
+657,E00657,Rosa,Demir,38,Female,8,Project Manager,2015-05-25,Exited,On-site,1,Doctorate,38,True,3,3,6205.03,EUR,Permanent,True,2026-10-20 10:30:00
+658,E00658,David,Novak,60,Nonbinary,2,Operations Coordinator,2024-11-04,Active,On-site,2,Master,10,False,4,3,5077.6,EUR,Permanent,True,2026-10-20 10:30:00
+659,E00659,Lena,Schmidt,43,Male,4,Software Engineer,2015-08-27,Active,On-site,1,Bachelor,22,True,2,3,6685.87,EUR,Fixed-term,True,2026-10-20 10:30:00
+660,E00660,Emil,Wolf,41,Male,3,Recruiter,2026-03-15,Active,Remote,3,Vocational,37,False,3,3,4293.27,EUR,Fixed-term,False,2026-10-20 10:30:00
+661,E00661,Maya,Fischer,61,Nonbinary,6,Financial Analyst,2021-01-27,Active,On-site,3,Vocational,33,True,4,4,4782.85,EUR,Permanent,True,2026-10-20 10:30:00
+662,E00662,Jonas,Hassan,58,Female,6,HR Business Partner,2024-06-08,Active,Hybrid,1,Master,6,False,4,3,4428.56,EUR,Permanent,True,2026-10-20 10:30:00
+663,E00663,Emil,Wolf,56,Male,8,Sales Executive,2015-07-28,Active,Remote,4,Bachelor,37,True,2,3,5796.17,EUR,Permanent,True,2026-10-20 10:30:00
+664,E00664,Nora,Fischer,39,Nonbinary,4,Product Analyst,2015-06-23,Active,Hybrid,2,Master,52,True,3,4,5824.83,EUR,Fixed-term,True,2026-10-20 10:30:00
+665,E00665,Milan,Meyer,52,Female,8,Service Technician,2022-11-01,Active,On-site,3,Master,45,True,3,3,4945.16,EUR,Fixed-term,True,2026-10-20 10:30:00
+666,E00666,Elena,Meyer,56,Nonbinary,6,Data Analyst,2015-10-14,Exited,Remote,5,Vocational,29,False,4,4,5134.56,EUR,Fixed-term,False,2026-10-20 10:30:00
+667,E00667,Maya,Kaya,26,Male,4,HR Business Partner,2021-02-23,Active,On-site,4,Master,11,True,4,3,4205.13,EUR,Permanent,True,2026-10-20 10:30:00
+668,E00668,Maya,Fischer,35,Nonbinary,3,Operations Coordinator,2015-02-07,Exited,Remote,3,Doctorate,38,True,1,3,5751.05,EUR,Permanent,True,2026-10-20 10:30:00
+669,E00669,Leyla,Wolf,22,Female,2,Service Technician,2021-11-14,Active,Remote,3,Doctorate,19,False,3,3,5124.75,EUR,Permanent,False,2026-10-20 10:30:00
+670,E00670,Deniz,Aliyev,29,Nonbinary,4,Product Analyst,2025-01-22,Active,Hybrid,1,Bachelor,40,False,4,4,4518.39,EUR,Permanent,False,2026-10-20 10:30:00
+671,E00671,Emil,Aliyev,25,Female,2,Product Analyst,2014-04-03,Active,On-site,4,Doctorate,50,False,3,3,9324.76,EUR,Permanent,True,2026-10-20 10:30:00
+672,E00672,Nina,Fischer,45,Female,1,Service Technician,2021-10-18,Active,Hybrid,4,Doctorate,19,True,3,3,4727.21,EUR,Permanent,True,2026-10-20 10:30:00
+673,E00673,Leyla,Aliyev,36,Male,4,HR Business Partner,2025-01-27,Active,On-site,2,Vocational,54,False,4,2,4329.04,EUR,Fixed-term,False,2026-10-20 10:30:00
+674,E00674,Mira,Meyer,60,Nonbinary,2,Product Analyst,2016-11-04,Exited,On-site,1,Master,17,False,3,2,6416.31,EUR,Fixed-term,True,2026-10-20 10:30:00
+675,E00675,Nina,Yilmaz,56,Female,1,HR Business Partner,2013-10-24,Active,On-site,1,Master,19,False,2,1,4429.06,EUR,Fixed-term,False,2026-10-20 10:30:00
+676,E00676,David,Becker,28,Male,3,Data Analyst,2025-08-29,Active,Remote,1,Master,12,False,3,3,3805.01,EUR,Permanent,True,2026-10-20 10:30:00
+677,E00677,David,Novak,30,Female,3,Data Analyst,2025-06-23,Active,Remote,2,Vocational,13,True,2,3,2400,EUR,Permanent,True,2026-10-20 10:30:00
+678,E00678,Leyla,Aliyev,58,Female,6,Sales Executive,2019-05-24,Active,Remote,3,Vocational,48,False,4,2,5781.17,EUR,Fixed-term,True,2026-10-20 10:30:00
+679,E00679,Lena,Fischer,28,Female,7,Software Engineer,2020-03-02,Exited,Hybrid,3,Vocational,37,False,3,1,5853.27,EUR,Permanent,False,2026-10-20 10:30:00
+680,E00680,Elena,Wagner,27,Female,4,Service Technician,2015-01-30,Active,On-site,5,Bachelor,22,False,4,3,6660.83,EUR,Fixed-term,True,2026-10-20 10:30:00
+681,E00681,Elena,Fischer,60,Nonbinary,5,Sales Executive,2015-04-26,Active,Remote,4,Doctorate,4,False,2,2,6871.46,EUR,Permanent,False,2026-10-20 10:30:00
+682,E00682,Noah,Demir,23,Nonbinary,7,Account Manager,2022-09-15,Active,Remote,2,Master,50,False,2,4,5037.74,EUR,Fixed-term,True,2026-10-20 10:30:00
+683,E00683,Milan,Hassan,44,Nonbinary,3,Operations Coordinator,2019-05-14,Active,Hybrid,4,Bachelor,34,False,3,3,5471.91,EUR,Fixed-term,True,2026-10-20 10:30:00
+684,E00684,Lena,Demir,43,Male,5,HR Business Partner,2014-05-17,Exited,Remote,1,Doctorate,37,False,2,4,7445.06,EUR,Fixed-term,True,2026-10-20 10:30:00
+685,E00685,Jonas,Demir,44,Female,6,HR Business Partner,2025-03-03,Active,Remote,5,Bachelor,3,False,4,3,3307.11,EUR,Permanent,True,2026-10-20 10:30:00
+686,E00686,Leyla,Yilmaz,37,Male,3,Account Manager,2017-04-14,Exited,Remote,3,Vocational,9,True,2,3,4928.51,EUR,Permanent,False,2026-10-20 10:30:00
+687,E00687,David,Hassan,55,Male,3,Data Analyst,2021-02-07,Active,Remote,1,Doctorate,21,False,4,3,4221.94,EUR,Permanent,True,2026-10-20 10:30:00
+688,E00688,Felix,Novak,34,Nonbinary,4,Software Engineer,2020-05-11,Active,Hybrid,3,Bachelor,40,True,2,4,3456.47,EUR,Fixed-term,False,2026-10-20 10:30:00
+689,E00689,Felix,Hassan,55,Male,5,Operations Coordinator,2018-09-11,Active,Remote,5,Doctorate,29,False,4,4,5823.22,EUR,Fixed-term,False,2026-10-20 10:30:00
+690,E00690,Nora,Hassan,24,Male,2,Software Engineer,2017-10-12,Active,Remote,4,Bachelor,33,False,2,3,5914.79,EUR,Permanent,False,2026-10-20 10:30:00
+691,E00691,Deniz,Meyer,48,Nonbinary,4,Recruiter,2021-11-19,Active,On-site,3,Bachelor,4,False,3,4,5186.32,EUR,Fixed-term,True,2026-10-20 10:30:00
+692,E00692,Amir,Kaya,33,Nonbinary,6,Software Engineer,2022-04-02,Active,Remote,3,Master,50,False,2,3,4442.05,EUR,Permanent,True,2026-10-20 10:30:00
+693,E00693,Rosa,Meyer,56,Nonbinary,4,HR Business Partner,2015-06-20,Active,On-site,3,Doctorate,33,False,2,4,6773.45,EUR,Fixed-term,False,2026-10-20 10:30:00
+694,E00694,Nina,Schmidt,29,Nonbinary,2,Project Manager,2018-01-16,Active,On-site,3,Bachelor,49,True,2,3,7354.82,EUR,Permanent,True,2026-10-20 10:30:00
+695,E00695,Nora,Kaya,59,Nonbinary,5,HR Business Partner,2019-02-25,Active,On-site,2,Master,45,False,3,4,5986.95,EUR,Fixed-term,True,2026-10-20 10:30:00
+696,E00696,Leyla,Weber,56,Male,2,HR Specialist,2016-05-21,Exited,On-site,2,Doctorate,45,False,1,3,4878.22,EUR,Permanent,True,2026-10-20 10:30:00
+697,E00697,Jonas,Becker,51,Female,7,Service Technician,2021-02-08,Active,On-site,4,Vocational,9,True,4,3,7547.46,EUR,Permanent,True,2026-10-20 10:30:00
+698,E00698,Leyla,Wagner,54,Nonbinary,2,Product Analyst,2020-07-30,Active,Remote,3,Master,34,True,1,1,5712.25,EUR,Permanent,True,2026-10-20 10:30:00
+699,E00699,Alex,Meyer,33,Male,4,Product Analyst,2017-10-11,Active,Remote,3,Master,13,False,4,3,5626.63,EUR,Permanent,True,2026-10-20 10:30:00
+700,E00700,Deniz,Becker,57,Nonbinary,7,Sales Executive,2014-10-01,Active,Hybrid,4,Doctorate,4,False,3,2,7944.15,EUR,Fixed-term,True,2026-10-20 10:30:00
+701,E00701,Noah,Aliyev,52,Male,3,Service Technician,2017-08-18,Exited,Remote,4,Bachelor,50,True,4,2,5440.54,EUR,Permanent,True,2026-10-20 10:30:00
+702,E00702,Tara,Klein,36,Male,5,Product Analyst,2014-05-30,Exited,On-site,1,Doctorate,16,True,3,2,7841.8,EUR,Fixed-term,True,2026-10-20 10:30:00
+703,E00703,Emil,Hassan,56,Female,7,Recruiter,2015-11-13,Active,Remote,2,Doctorate,55,False,3,4,6177.78,EUR,Fixed-term,True,2026-10-20 10:30:00
+704,E00704,David,Hoffmann,60,Nonbinary,6,HR Business Partner,2026-06-03,Active,Hybrid,5,Vocational,23,False,3,4,4494.88,EUR,Fixed-term,False,2026-10-20 10:30:00
+705,E00705,Rosa,Becker,26,Male,2,Project Manager,2018-03-14,Active,Hybrid,4,Bachelor,32,False,3,3,8426.16,EUR,Fixed-term,True,2026-10-20 10:30:00
+706,E00706,Lena,Meyer,53,Female,2,HR Specialist,2014-06-13,Active,On-site,1,Vocational,52,True,4,3,8974.22,EUR,Permanent,True,2026-10-20 10:30:00
+707,E00707,Elena,Novak,41,Female,2,Operations Coordinator,2022-10-29,Active,On-site,5,Vocational,25,False,2,3,6724.56,EUR,Permanent,True,2026-10-20 10:30:00
+708,E00708,Sofia,Wolf,48,Nonbinary,2,HR Specialist,2021-04-07,Active,Hybrid,1,Doctorate,15,False,2,3,5560.16,EUR,Fixed-term,False,2026-10-20 10:30:00
+709,E00709,Rosa,Hoffmann,25,Female,8,Data Analyst,2016-07-29,Active,On-site,3,Bachelor,36,False,2,3,5949.72,EUR,Fixed-term,True,2026-10-20 10:30:00
+710,E00710,Alex,Wolf,55,Female,3,Software Engineer,2023-08-19,Active,Remote,3,Doctorate,51,True,3,3,4348.82,EUR,Fixed-term,False,2026-10-20 10:30:00
+711,E00711,Noah,Hassan,47,Female,1,Data Analyst,2025-02-13,Active,Hybrid,3,Master,41,False,4,3,4785.29,EUR,Fixed-term,True,2026-10-20 10:30:00
+712,E00712,Jonas,Weber,45,Male,5,Data Analyst,2016-05-16,Active,On-site,3,Doctorate,29,False,2,4,7422.98,EUR,Permanent,False,2026-10-20 10:30:00
+713,E00713,Noah,Hoffmann,35,Female,3,Service Technician,2018-10-03,Active,On-site,1,Master,5,False,3,4,6619.27,EUR,Fixed-term,False,2026-10-20 10:30:00
+714,E00714,Leyla,Meyer,44,Nonbinary,4,Data Analyst,2025-11-01,Active,On-site,5,Bachelor,16,False,3,4,4002.27,EUR,Fixed-term,True,2026-10-20 10:30:00
+715,E00715,Sofia,Novak,29,Male,5,Project Manager,2025-04-27,Active,Remote,2,Doctorate,14,True,4,3,5346.99,EUR,Fixed-term,True,2026-10-20 10:30:00
+716,E00716,Milan,Demir,62,Male,7,Financial Analyst,2020-10-05,Active,On-site,2,Doctorate,19,False,3,3,6394.74,EUR,Permanent,False,2026-10-20 10:30:00
+717,E00717,Rosa,Hassan,37,Nonbinary,7,Software Engineer,2013-11-24,Active,Remote,3,Master,15,False,2,1,7643.73,EUR,Fixed-term,True,2026-10-20 10:30:00
+718,E00718,Tara,Wagner,40,Female,6,Service Technician,2014-12-14,Active,On-site,5,Doctorate,42,False,3,2,6485.86,EUR,Fixed-term,True,2026-10-20 10:30:00
+719,E00719,Nina,Meyer,50,Nonbinary,7,Account Manager,2022-06-25,Active,Remote,4,Vocational,33,False,4,2,4945.87,EUR,Permanent,True,2026-10-20 10:30:00
+720,E00720,Nora,Wagner,45,Female,6,Project Manager,2018-03-04,Active,Remote,3,Vocational,27,True,3,4,3400.37,EUR,Fixed-term,True,2026-10-20 10:30:00
+721,E00721,Nina,Meyer,42,Female,4,Sales Executive,2020-05-31,Active,Hybrid,2,Bachelor,36,False,3,3,4616.54,EUR,Permanent,False,2026-10-20 10:30:00
+722,E00722,Deniz,Wagner,48,Nonbinary,5,Product Analyst,2018-11-17,Active,Remote,2,Master,9,True,2,3,7917.36,EUR,Fixed-term,False,2026-10-20 10:30:00
+723,E00723,Deniz,Demir,37,Female,6,Project Manager,2019-03-26,Active,On-site,3,Bachelor,46,True,4,2,4382.6,EUR,Permanent,True,2026-10-20 10:30:00
+724,E00724,Maya,Wolf,40,Female,3,Recruiter,2018-01-29,Exited,Hybrid,1,Bachelor,7,False,4,2,5215.79,EUR,Permanent,True,2026-10-20 10:30:00
+725,E00725,Leyla,Wolf,45,Nonbinary,5,Recruiter,2018-10-31,Active,Remote,4,Vocational,36,False,2,3,6586.04,EUR,Permanent,True,2026-10-20 10:30:00
+726,E00726,Omar,Becker,40,Male,1,Financial Analyst,2014-04-02,Active,Hybrid,5,Doctorate,19,False,3,3,3657.15,EUR,Fixed-term,False,2026-10-20 10:30:00
+727,E00727,Deniz,Fischer,51,Male,3,Sales Executive,2016-08-09,Active,Hybrid,1,Bachelor,2,False,2,3,6100.89,EUR,Fixed-term,True,2026-10-20 10:30:00
+728,E00728,Jonas,Yilmaz,28,Male,2,Account Manager,2016-12-13,Exited,Remote,5,Master,2,True,2,3,8414.57,EUR,Fixed-term,True,2026-10-20 10:30:00
+729,E00729,Nora,Hassan,45,Nonbinary,2,Service Technician,2025-11-29,Active,Hybrid,3,Master,30,True,3,4,4614.87,EUR,Permanent,True,2026-10-20 10:30:00
+730,E00730,Felix,Novak,23,Female,5,Software Engineer,2020-09-15,Active,On-site,4,Master,11,False,3,3,6257.05,EUR,Fixed-term,False,2026-10-20 10:30:00
+731,E00731,Omar,Yilmaz,31,Female,4,Software Engineer,2016-05-30,Active,Hybrid,5,Doctorate,23,True,3,2,5097.53,EUR,Permanent,False,2026-10-20 10:30:00
+732,E00732,Omar,Demir,36,Nonbinary,5,Software Engineer,2018-09-12,Active,Hybrid,2,Doctorate,37,False,3,3,6593.41,EUR,Permanent,True,2026-10-20 10:30:00
+733,E00733,Deniz,Becker,33,Nonbinary,4,Sales Executive,2024-07-20,Active,On-site,1,Vocational,15,False,1,3,2929.5,EUR,Fixed-term,True,2026-10-20 10:30:00
+734,E00734,David,Kaya,43,Nonbinary,8,Service Technician,2024-11-15,Active,On-site,2,Bachelor,21,False,4,3,3656.64,EUR,Permanent,True,2026-10-20 10:30:00
+735,E00735,Emil,Aliyev,40,Female,1,Sales Executive,2016-02-19,Active,Remote,1,Vocational,12,False,3,4,5946.23,EUR,Permanent,True,2026-10-20 10:30:00
+736,E00736,Jonas,Aliyev,44,Nonbinary,4,Recruiter,2022-12-21,Exited,Hybrid,3,Master,53,False,2,3,2947.79,EUR,Fixed-term,True,2026-10-20 10:30:00
+737,E00737,Noah,Wolf,26,Nonbinary,7,HR Specialist,2024-03-17,Active,On-site,1,Vocational,19,False,3,3,4781.94,EUR,Permanent,True,2026-10-20 10:30:00
+738,E00738,David,Yilmaz,50,Female,8,Product Analyst,2019-10-07,Exited,On-site,1,Bachelor,3,False,3,3,5640.16,EUR,Fixed-term,True,2026-10-20 10:30:00
+739,E00739,Rosa,Fischer,49,Nonbinary,4,Account Manager,2024-04-23,Active,Hybrid,5,Master,7,True,2,3,4901.21,EUR,Fixed-term,True,2026-10-20 10:30:00
+740,E00740,Felix,Fischer,47,Male,4,Recruiter,2019-01-30,Exited,Remote,4,Bachelor,48,True,1,2,3299.46,EUR,Fixed-term,False,2026-10-20 10:30:00
+741,E00741,Elena,Meyer,25,Female,3,Data Analyst,2022-02-09,Active,Remote,1,Doctorate,14,False,2,1,4931.01,EUR,Permanent,True,2026-10-20 10:30:00
+742,E00742,Rosa,Hoffmann,25,Female,8,Data Analyst,2017-04-01,Active,Remote,2,Bachelor,46,False,1,3,5393.44,EUR,Fixed-term,False,2026-10-20 10:30:00
+743,E00743,Nora,Meyer,52,Male,4,HR Business Partner,2021-02-06,Exited,Remote,1,Bachelor,50,True,3,4,4149.52,EUR,Permanent,True,2026-10-20 10:30:00
+744,E00744,Emil,Becker,34,Male,5,Software Engineer,2021-05-01,Active,On-site,2,Vocational,9,False,4,3,4882.87,EUR,Permanent,True,2026-10-20 10:30:00
+745,E00745,David,Yilmaz,32,Female,7,Financial Analyst,2019-10-11,Active,On-site,4,Doctorate,20,False,3,3,5952.13,EUR,Permanent,False,2026-10-20 10:30:00
+746,E00746,Amir,Klein,52,Male,2,Data Analyst,2026-05-19,Exited,Remote,2,Doctorate,9,True,2,2,4580.98,EUR,Fixed-term,True,2026-10-20 10:30:00
+747,E00747,Felix,Aliyev,50,Female,8,Sales Executive,2021-03-27,Active,Hybrid,5,Master,12,False,3,3,6530.38,EUR,Fixed-term,True,2026-10-20 10:30:00
+748,E00748,Elena,Aliyev,37,Nonbinary,3,Data Analyst,2017-05-20,Active,On-site,5,Bachelor,24,False,4,3,5382.18,EUR,Permanent,True,2026-10-20 10:30:00
+749,E00749,Felix,Schmidt,57,Male,8,Product Analyst,2024-08-14,Active,Hybrid,2,Master,5,True,4,2,3895.52,EUR,Fixed-term,True,2026-10-20 10:30:00
+750,E00750,Alex,Weber,28,Female,3,Product Analyst,2017-10-16,Exited,On-site,2,Doctorate,4,False,1,4,4923.47,EUR,Fixed-term,True,2026-10-20 10:30:00
+751,E00751,Milan,Wagner,31,Female,1,Recruiter,2013-10-26,Active,On-site,4,Bachelor,23,True,2,3,4658.94,EUR,Permanent,False,2026-10-20 10:30:00
+752,E00752,Noah,Aliyev,52,Male,2,Recruiter,2024-09-05,Active,Remote,1,Doctorate,35,True,4,4,5627.19,EUR,Permanent,True,2026-10-20 10:30:00
+753,E00753,Rosa,Wolf,40,Male,3,Software Engineer,2022-01-13,Active,On-site,4,Bachelor,41,False,4,2,2876.14,EUR,Permanent,True,2026-10-20 10:30:00
+754,E00754,Jonas,Hoffmann,44,Female,3,Data Analyst,2016-08-22,Active,On-site,5,Vocational,22,True,3,3,7210.05,EUR,Permanent,True,2026-10-20 10:30:00
+755,E00755,Jonas,Hoffmann,29,Female,1,Service Technician,2020-07-23,Active,Remote,2,Vocational,38,False,2,4,5337.61,EUR,Fixed-term,True,2026-10-20 10:30:00
+756,E00756,Omar,Demir,32,Female,4,Operations Coordinator,2024-06-23,Active,Hybrid,1,Doctorate,38,False,3,4,4847.31,EUR,Permanent,False,2026-10-20 10:30:00
+757,E00757,Alex,Meyer,58,Nonbinary,2,Recruiter,2020-01-06,Active,Remote,4,Master,2,False,2,2,7462.57,EUR,Fixed-term,False,2026-10-20 10:30:00
+758,E00758,Amir,Demir,47,Male,8,Project Manager,2017-10-12,Active,Hybrid,3,Master,12,True,3,3,5518.12,EUR,Permanent,True,2026-10-20 10:30:00
+759,E00759,Milan,Demir,57,Nonbinary,6,Project Manager,2025-11-23,Active,Hybrid,5,Doctorate,29,True,2,2,2627.79,EUR,Permanent,False,2026-10-20 10:30:00
+760,E00760,Nora,Becker,38,Nonbinary,5,Sales Executive,2023-05-25,Active,Hybrid,3,Bachelor,14,True,2,4,6701.13,EUR,Fixed-term,False,2026-10-20 10:30:00
+761,E00761,Elena,Kaya,40,Nonbinary,5,Recruiter,2018-01-17,Active,On-site,4,Vocational,3,True,1,2,7755.98,EUR,Permanent,True,2026-10-20 10:30:00
+762,E00762,David,Yilmaz,55,Nonbinary,8,Operations Coordinator,2023-10-24,Active,Hybrid,1,Vocational,46,False,4,1,2984.75,EUR,Fixed-term,True,2026-10-20 10:30:00
+763,E00763,Elena,Kaya,27,Female,3,Sales Executive,2017-09-20,Active,Hybrid,4,Master,45,False,4,2,4262.49,EUR,Fixed-term,True,2026-10-20 10:30:00
+764,E00764,Leyla,Kaya,38,Nonbinary,3,Project Manager,2015-09-09,Active,Remote,5,Bachelor,52,False,4,3,5428.54,EUR,Fixed-term,True,2026-10-20 10:30:00
+765,E00765,Emil,Becker,31,Female,2,Financial Analyst,2015-08-18,Active,On-site,3,Master,40,True,3,3,7664.07,EUR,Permanent,True,2026-10-20 10:30:00
+766,E00766,Maya,Aliyev,57,Nonbinary,3,Operations Coordinator,2016-01-23,Active,On-site,2,Master,49,True,2,3,4151.5,EUR,Fixed-term,False,2026-10-20 10:30:00
+767,E00767,Alex,Fischer,49,Nonbinary,7,Data Analyst,2022-11-27,Exited,Hybrid,3,Doctorate,31,True,1,1,4767.29,EUR,Permanent,True,2026-10-20 10:30:00
+768,E00768,Nora,Fischer,60,Male,3,Service Technician,2020-07-12,Active,On-site,3,Bachelor,23,False,3,3,5690.13,EUR,Permanent,True,2026-10-20 10:30:00
+769,E00769,David,Kaya,38,Nonbinary,7,Sales Executive,2021-08-06,Active,On-site,2,Vocational,2,False,4,4,5632.78,EUR,Permanent,True,2026-10-20 10:30:00
+770,E00770,Felix,Yilmaz,27,Female,6,Software Engineer,2020-02-10,Active,Remote,2,Bachelor,11,False,2,2,3809.83,EUR,Fixed-term,True,2026-10-20 10:30:00
+771,E00771,Alex,Weber,22,Male,4,HR Specialist,2022-07-04,Active,Hybrid,1,Doctorate,4,False,3,4,4553.88,EUR,Fixed-term,True,2026-10-20 10:30:00
+772,E00772,Jonas,Hoffmann,56,Female,4,Software Engineer,2016-05-26,Active,On-site,4,Bachelor,50,False,3,4,4321.46,EUR,Permanent,True,2026-10-20 10:30:00
+773,E00773,Leyla,Aliyev,54,Male,2,Recruiter,2020-06-26,Exited,On-site,4,Master,8,False,4,4,7385.3,EUR,Permanent,True,2026-10-20 10:30:00
+774,E00774,Sofia,Schmidt,49,Female,4,Recruiter,2022-12-28,Active,Remote,5,Vocational,41,False,3,4,4035.07,EUR,Permanent,False,2026-10-20 10:30:00
+775,E00775,Tara,Becker,24,Nonbinary,8,HR Business Partner,2016-01-05,Active,On-site,2,Vocational,23,True,3,3,4766.84,EUR,Permanent,True,2026-10-20 10:30:00
+776,E00776,Noah,Demir,21,Nonbinary,3,Financial Analyst,2020-09-08,Active,Hybrid,3,Master,23,False,4,4,5194.19,EUR,Fixed-term,True,2026-10-20 10:30:00
+777,E00777,Nina,Fischer,28,Female,7,Financial Analyst,2015-01-12,Exited,Remote,2,Bachelor,30,True,2,3,6316.14,EUR,Permanent,True,2026-10-20 10:30:00
+778,E00778,Jonas,Hassan,26,Male,7,HR Business Partner,2024-05-11,Active,Hybrid,2,Doctorate,10,False,3,3,5737.6,EUR,Permanent,False,2026-10-20 10:30:00
+779,E00779,Deniz,Demir,30,Female,6,Software Engineer,2015-09-16,Active,On-site,2,Vocational,31,True,4,4,4744.77,EUR,Permanent,True,2026-10-20 10:30:00
+780,E00780,Lena,Hassan,31,Nonbinary,6,Sales Executive,2015-08-12,Active,Hybrid,4,Bachelor,42,False,4,3,6663.84,EUR,Fixed-term,True,2026-10-20 10:30:00
+781,E00781,Sofia,Novak,47,Female,7,HR Specialist,2019-06-18,Exited,Hybrid,5,Bachelor,6,False,4,4,4018.18,EUR,Fixed-term,True,2026-10-20 10:30:00
+782,E00782,Maya,Hoffmann,62,Female,6,Software Engineer,2025-11-27,Active,On-site,5,Bachelor,20,False,3,2,4794.69,EUR,Permanent,True,2026-10-20 10:30:00
+783,E00783,Mira,Aliyev,44,Nonbinary,2,HR Specialist,2018-02-10,Active,On-site,5,Vocational,5,False,3,2,6214.72,EUR,Fixed-term,True,2026-10-20 10:30:00
+784,E00784,Sofia,Demir,35,Male,6,Sales Executive,2020-02-14,Exited,Hybrid,1,Doctorate,27,True,1,2,6137.71,EUR,Permanent,True,2026-10-20 10:30:00
+785,E00785,David,Yilmaz,42,Nonbinary,8,HR Specialist,2026-03-01,Active,Hybrid,3,Master,35,False,4,3,3729.8,EUR,Permanent,False,2026-10-20 10:30:00
+786,E00786,Milan,Meyer,50,Nonbinary,1,Project Manager,2025-05-23,Active,Remote,3,Doctorate,51,False,4,4,2477.69,EUR,Fixed-term,True,2026-10-20 10:30:00
+787,E00787,Leyla,Demir,46,Male,5,Account Manager,2017-11-20,Active,Hybrid,4,Doctorate,37,False,4,3,6369.81,EUR,Permanent,True,2026-10-20 10:30:00
+788,E00788,Lena,Weber,22,Female,8,HR Specialist,2019-08-12,Active,On-site,4,Vocational,30,True,3,2,5939.51,EUR,Permanent,True,2026-10-20 10:30:00
+789,E00789,Emil,Novak,45,Male,1,HR Specialist,2015-01-19,Active,Remote,1,Vocational,9,False,4,3,6747.35,EUR,Fixed-term,False,2026-10-20 10:30:00
+790,E00790,Lena,Weber,46,Male,3,Service Technician,2017-06-02,Exited,Hybrid,1,Master,13,False,4,2,6115.0,EUR,Fixed-term,True,2026-10-20 10:30:00
+791,E00791,Rosa,Fischer,55,Male,8,Operations Coordinator,2020-08-06,Active,Remote,4,Vocational,43,False,3,2,3916.35,EUR,Fixed-term,True,2026-10-20 10:30:00
+792,E00792,Sofia,Kaya,28,Nonbinary,6,Project Manager,2025-10-06,Active,Remote,4,Doctorate,18,False,4,2,2938.5,EUR,Permanent,True,2026-10-20 10:30:00
+793,E00793,Noah,Fischer,47,Nonbinary,8,Financial Analyst,2018-04-19,Exited,Hybrid,4,Doctorate,45,True,2,4,2983.37,EUR,Fixed-term,True,2026-10-20 10:30:00
+794,E00794,Emil,Meyer,38,Nonbinary,6,Data Analyst,2014-10-08,Active,Hybrid,2,Bachelor,48,True,3,4,5731.7,EUR,Permanent,True,2026-10-20 10:30:00
+795,E00795,Omar,Kaya,32,Female,8,HR Business Partner,2021-05-11,Active,On-site,4,Master,53,False,1,3,4245.97,EUR,Permanent,True,2026-10-20 10:30:00
+796,E00796,Leyla,Weber,53,Female,2,Account Manager,2019-02-08,Active,Hybrid,3,Vocational,3,False,3,2,6621.29,EUR,Permanent,True,2026-10-20 10:30:00
+797,E00797,Milan,Kaya,33,Female,1,Financial Analyst,2017-10-08,Active,On-site,4,Bachelor,14,False,3,3,5683.49,EUR,Permanent,True,2026-10-20 10:30:00
+798,E00798,Jonas,Hoffmann,52,Female,2,Data Analyst,2021-02-11,Active,Remote,2,Master,40,False,3,3,7023.68,EUR,Fixed-term,False,2026-10-20 10:30:00
+799,E00799,Deniz,Klein,37,Female,4,Software Engineer,2025-01-13,Active,Remote,1,Doctorate,49,True,4,1,4636.16,EUR,Permanent,True,2026-10-20 10:30:00
+800,E00800,Emil,Wagner,59,Female,3,Software Engineer,2021-12-05,Active,Hybrid,3,Doctorate,39,False,3,1,4297.51,EUR,Permanent,True,2026-10-20 10:30:00
+801,E00801,Rosa,Hassan,40,Male,6,Project Manager,2026-05-31,Active,Hybrid,4,Doctorate,3,False,4,4,3740.05,EUR,Fixed-term,False,2026-10-20 10:30:00
+802,E00802,Elena,Weber,41,Nonbinary,4,Data Analyst,2018-12-27,Exited,On-site,4,Master,8,False,1,2,4077.05,EUR,Fixed-term,True,2026-10-20 10:30:00
+803,E00803,Milan,Fischer,40,Nonbinary,6,HR Specialist,2019-01-25,Exited,Remote,1,Master,46,False,3,2,4699.16,EUR,Permanent,True,2026-10-20 10:30:00
+804,E00804,Felix,Meyer,34,Female,4,Recruiter,2021-01-17,Active,Remote,4,Bachelor,55,False,2,3,4967.27,EUR,Fixed-term,False,2026-10-20 10:30:00
+805,E00805,Lena,Weber,28,Female,2,Data Analyst,2023-10-02,Active,Hybrid,3,Vocational,14,False,2,3,5235.61,EUR,Permanent,True,2026-10-20 10:30:00
+806,E00806,Felix,Weber,36,Male,4,Sales Executive,2016-01-04,Exited,Remote,1,Bachelor,41,True,1,2,6165.68,EUR,Permanent,True,2026-10-20 10:30:00
+807,E00807,Tara,Meyer,53,Female,3,Project Manager,2025-04-10,Active,Remote,2,Bachelor,18,False,3,3,2400,EUR,Permanent,True,2026-10-20 10:30:00
+808,E00808,Rosa,Fischer,46,Female,6,Project Manager,2015-05-31,Active,Hybrid,3,Master,4,False,1,3,5963.65,EUR,Fixed-term,False,2026-10-20 10:30:00
+809,E00809,Maya,Kaya,31,Male,7,HR Specialist,2025-08-26,Active,Remote,4,Vocational,21,True,2,3,5898.49,EUR,Permanent,True,2026-10-20 10:30:00
+810,E00810,Noah,Yilmaz,21,Female,3,Sales Executive,2020-05-12,Exited,Remote,2,Master,22,True,3,4,5832.75,EUR,Permanent,True,2026-10-20 10:30:00
+811,E00811,Lena,Weber,58,Nonbinary,6,Project Manager,2019-02-27,Active,Remote,4,Bachelor,24,False,3,1,3279.5,EUR,Fixed-term,True,2026-10-20 10:30:00
+812,E00812,Milan,Wolf,40,Nonbinary,2,Data Analyst,2018-10-27,Active,On-site,5,Master,15,False,3,4,6984.18,EUR,Fixed-term,True,2026-10-20 10:30:00
+813,E00813,Leyla,Novak,23,Female,3,Service Technician,2022-10-13,Active,Hybrid,3,Doctorate,10,False,3,3,4438.51,EUR,Permanent,True,2026-10-20 10:30:00
+814,E00814,Nina,Hoffmann,27,Female,7,Project Manager,2021-10-21,Active,Hybrid,2,Vocational,51,False,4,4,6790.32,EUR,Permanent,True,2026-10-20 10:30:00
+815,E00815,Alex,Yilmaz,48,Male,2,Financial Analyst,2018-07-31,Active,Hybrid,3,Bachelor,5,True,4,4,8478.61,EUR,Fixed-term,True,2026-10-20 10:30:00
+816,E00816,David,Hoffmann,39,Male,4,Service Technician,2019-12-11,Active,On-site,1,Doctorate,43,False,4,3,4564.57,EUR,Permanent,False,2026-10-20 10:30:00
+817,E00817,Jonas,Weber,32,Nonbinary,4,Account Manager,2021-08-14,Active,Hybrid,1,Doctorate,12,False,3,3,4983.73,EUR,Fixed-term,True,2026-10-20 10:30:00
+818,E00818,Mira,Klein,46,Male,3,Operations Coordinator,2020-04-02,Active,Remote,4,Bachelor,17,False,4,3,3896.16,EUR,Permanent,True,2026-10-20 10:30:00
+819,E00819,Felix,Demir,62,Nonbinary,4,Sales Executive,2020-10-17,Active,Remote,1,Doctorate,12,False,4,4,5798.17,EUR,Fixed-term,True,2026-10-20 10:30:00
+820,E00820,Tara,Klein,47,Nonbinary,6,Software Engineer,2018-07-10,Exited,Remote,2,Vocational,50,True,1,3,4404.94,EUR,Permanent,False,2026-10-20 10:30:00
+821,E00821,Noah,Becker,44,Male,4,Account Manager,2016-03-09,Active,Remote,1,Vocational,32,False,4,4,5656.76,EUR,Fixed-term,True,2026-10-20 10:30:00
+822,E00822,Maya,Fischer,23,Nonbinary,8,Project Manager,2019-09-13,Active,Hybrid,3,Master,40,True,4,3,5590.19,EUR,Permanent,True,2026-10-20 10:30:00
+823,E00823,Elena,Schmidt,24,Female,3,HR Business Partner,2026-03-18,Active,On-site,3,Doctorate,37,False,2,4,5778.14,EUR,Fixed-term,True,2026-10-20 10:30:00
+824,E00824,David,Wagner,59,Male,6,Project Manager,2021-05-17,Active,Remote,5,Vocational,16,False,2,2,5875.37,EUR,Permanent,True,2026-10-20 10:30:00
+825,E00825,Lena,Weber,40,Male,6,Product Analyst,2018-09-02,Exited,Remote,4,Doctorate,10,False,2,3,4867.33,EUR,Permanent,True,2026-10-20 10:30:00
+826,E00826,Emil,Novak,36,Male,8,Service Technician,2019-06-15,Active,Hybrid,4,Bachelor,20,False,4,4,4833.52,EUR,Permanent,False,2026-10-20 10:30:00
+827,E00827,Noah,Hassan,28,Male,8,Operations Coordinator,2025-06-26,Active,Hybrid,3,Vocational,24,False,2,3,4857.39,EUR,Permanent,True,2026-10-20 10:30:00
+828,E00828,Milan,Hoffmann,31,Male,6,Data Analyst,2015-06-23,Active,On-site,3,Vocational,12,False,3,3,5414.52,EUR,Permanent,True,2026-10-20 10:30:00
+829,E00829,Noah,Demir,50,Male,6,Service Technician,2023-01-29,Active,On-site,3,Bachelor,31,False,2,4,3324.29,EUR,Fixed-term,True,2026-10-20 10:30:00
+830,E00830,Milan,Demir,39,Nonbinary,3,Service Technician,2013-12-03,Active,On-site,3,Master,21,False,3,3,6384.0,EUR,Fixed-term,False,2026-10-20 10:30:00
+831,E00831,Omar,Fischer,33,Male,7,Sales Executive,2024-02-11,Active,Hybrid,1,Master,16,True,1,3,3874.99,EUR,Permanent,True,2026-10-20 10:30:00
+832,E00832,Sofia,Meyer,24,Female,6,Data Analyst,2014-03-19,Active,Hybrid,1,Bachelor,44,False,2,4,4998.43,EUR,Permanent,False,2026-10-20 10:30:00
+833,E00833,Tara,Hoffmann,25,Male,8,Recruiter,2017-10-01,Active,On-site,3,Master,36,False,3,3,5393.25,EUR,Permanent,False,2026-10-20 10:30:00
+834,E00834,Alex,Kaya,40,Nonbinary,4,Financial Analyst,2026-06-25,Active,On-site,4,Master,54,True,3,3,3487.78,EUR,Fixed-term,True,2026-10-20 10:30:00
+835,E00835,Omar,Weber,21,Female,3,Account Manager,2019-09-17,Active,On-site,3,Master,29,False,4,2,5381.43,EUR,Permanent,True,2026-10-20 10:30:00
+836,E00836,Rosa,Fischer,52,Male,6,Service Technician,2024-03-15,Exited,Remote,1,Doctorate,29,False,3,2,4712.38,EUR,Permanent,True,2026-10-20 10:30:00
+837,E00837,Milan,Kaya,57,Male,2,Account Manager,2025-06-07,Active,Remote,5,Master,18,True,3,3,5852.09,EUR,Fixed-term,False,2026-10-20 10:30:00
+838,E00838,Omar,Wagner,22,Female,2,Financial Analyst,2015-05-22,Active,Hybrid,2,Doctorate,49,True,2,2,7228.3,EUR,Fixed-term,True,2026-10-20 10:30:00
+839,E00839,Leyla,Hassan,61,Male,2,Financial Analyst,2024-06-05,Exited,Hybrid,5,Doctorate,49,True,3,4,6006.52,EUR,Permanent,True,2026-10-20 10:30:00
+840,E00840,Mira,Schmidt,52,Nonbinary,8,Project Manager,2016-11-07,Exited,Hybrid,2,Master,40,True,1,2,5775.32,EUR,Permanent,True,2026-10-20 10:30:00
+841,E00841,Mira,Meyer,29,Female,4,HR Specialist,2015-09-18,Active,Remote,4,Bachelor,36,False,2,3,5645.91,EUR,Permanent,False,2026-10-20 10:30:00
+842,E00842,Tara,Wolf,45,Male,6,Financial Analyst,2016-03-30,Active,On-site,4,Vocational,5,True,2,4,5920.83,EUR,Fixed-term,False,2026-10-20 10:30:00
+843,E00843,Elena,Demir,53,Nonbinary,5,Service Technician,2016-11-11,Active,Hybrid,2,Master,16,True,3,3,6407.48,EUR,Permanent,True,2026-10-20 10:30:00
+844,E00844,Emil,Demir,50,Female,4,Service Technician,2016-10-14,Active,Remote,2,Doctorate,12,False,4,3,7156.67,EUR,Permanent,True,2026-10-20 10:30:00
+845,E00845,Rosa,Klein,40,Nonbinary,4,Account Manager,2017-11-21,Exited,On-site,5,Bachelor,37,True,4,3,5331.81,EUR,Permanent,True,2026-10-20 10:30:00
+846,E00846,Tara,Kaya,32,Male,4,Account Manager,2020-12-03,Active,Remote,4,Doctorate,25,True,3,4,3791.85,EUR,Permanent,True,2026-10-20 10:30:00
+847,E00847,Mira,Hoffmann,61,Nonbinary,2,Financial Analyst,2014-07-14,Active,Remote,5,Vocational,10,False,4,2,4551.93,EUR,Permanent,True,2026-10-20 10:30:00
+848,E00848,Elena,Hoffmann,23,Nonbinary,2,HR Business Partner,2025-12-14,Active,On-site,2,Master,33,True,3,2,4736.75,EUR,Fixed-term,True,2026-10-20 10:30:00
+849,E00849,Noah,Meyer,32,Nonbinary,4,Sales Executive,2014-07-13,Active,Remote,2,Bachelor,8,False,4,3,5127.31,EUR,Fixed-term,False,2026-10-20 10:30:00
+850,E00850,Emil,Wagner,21,Female,3,Service Technician,2019-01-08,Active,Hybrid,3,Vocational,48,False,4,3,5472.48,EUR,Permanent,True,2026-10-20 10:30:00
+851,E00851,Emil,Weber,21,Male,3,Financial Analyst,2017-04-07,Exited,Remote,5,Master,52,False,2,1,5395.3,EUR,Fixed-term,True,2026-10-20 10:30:00
+852,E00852,Sofia,Wagner,30,Male,5,HR Specialist,2022-02-26,Active,Hybrid,1,Bachelor,15,False,3,3,5368.81,EUR,Permanent,True,2026-10-20 10:30:00
+853,E00853,Elena,Demir,34,Male,7,Product Analyst,2017-12-19,Exited,On-site,4,Vocational,25,False,3,3,4644.93,EUR,Permanent,False,2026-10-20 10:30:00
+854,E00854,Emil,Hassan,28,Male,4,Operations Coordinator,2021-04-25,Exited,On-site,2,Doctorate,36,True,1,3,5830.6,EUR,Fixed-term,False,2026-10-20 10:30:00
+855,E00855,Alex,Weber,55,Nonbinary,8,Software Engineer,2019-11-11,Active,On-site,4,Doctorate,38,False,3,2,6142.25,EUR,Permanent,False,2026-10-20 10:30:00
+856,E00856,Leyla,Fischer,53,Female,1,Product Analyst,2015-10-16,Active,On-site,5,Vocational,55,False,3,2,5351.49,EUR,Fixed-term,False,2026-10-20 10:30:00
+857,E00857,Rosa,Hassan,56,Female,3,Sales Executive,2015-10-03,Active,Remote,5,Vocational,33,True,4,3,7107.21,EUR,Fixed-term,True,2026-10-20 10:30:00
+858,E00858,Jonas,Klein,30,Male,2,Recruiter,2014-06-20,Active,Remote,2,Vocational,19,False,3,3,7254.21,EUR,Fixed-term,True,2026-10-20 10:30:00
+859,E00859,Jonas,Yilmaz,39,Nonbinary,3,Project Manager,2026-06-24,Active,On-site,5,Master,52,True,4,4,2568.3,EUR,Fixed-term,True,2026-10-20 10:30:00
+860,E00860,Mira,Weber,42,Male,7,HR Specialist,2023-05-28,Active,On-site,5,Doctorate,37,False,2,3,5806.58,EUR,Fixed-term,False,2026-10-20 10:30:00
+861,E00861,Milan,Aliyev,53,Male,5,Recruiter,2026-06-04,Active,Remote,5,Vocational,9,False,4,3,5361.86,EUR,Permanent,True,2026-10-20 10:30:00
+862,E00862,Deniz,Meyer,44,Male,1,Software Engineer,2015-10-20,Active,Remote,5,Master,55,False,1,2,6929.31,EUR,Permanent,True,2026-10-20 10:30:00
+863,E00863,Milan,Becker,45,Female,1,Project Manager,2020-10-26,Exited,Hybrid,1,Vocational,10,True,2,4,2453.57,EUR,Fixed-term,True,2026-10-20 10:30:00
+864,E00864,Lena,Klein,43,Male,2,Operations Coordinator,2019-09-22,Exited,Remote,2,Bachelor,40,False,3,3,6629.11,EUR,Fixed-term,True,2026-10-20 10:30:00
+865,E00865,Alex,Becker,31,Nonbinary,4,HR Business Partner,2018-06-17,Active,Remote,4,Master,3,False,3,2,6990.82,EUR,Permanent,True,2026-10-20 10:30:00
+866,E00866,Mira,Demir,22,Nonbinary,8,Project Manager,2018-08-17,Active,Hybrid,1,Bachelor,42,True,3,1,3750.04,EUR,Fixed-term,True,2026-10-20 10:30:00
+867,E00867,Felix,Hoffmann,57,Male,6,Service Technician,2021-08-26,Active,On-site,2,Doctorate,38,False,4,4,4152.94,EUR,Fixed-term,True,2026-10-20 10:30:00
+868,E00868,Elena,Novak,55,Nonbinary,3,Software Engineer,2022-06-13,Active,Hybrid,3,Vocational,30,False,2,2,5635.92,EUR,Permanent,False,2026-10-20 10:30:00
+869,E00869,Nina,Becker,43,Nonbinary,2,Account Manager,2023-05-09,Active,Remote,1,Vocational,30,False,4,4,6546.53,EUR,Permanent,True,2026-10-20 10:30:00
+870,E00870,Milan,Weber,61,Male,4,Software Engineer,2018-08-31,Exited,On-site,5,Master,19,False,3,2,4558.3,EUR,Fixed-term,False,2026-10-20 10:30:00
+871,E00871,Jonas,Fischer,62,Male,6,Financial Analyst,2013-12-24,Active,Hybrid,2,Bachelor,44,True,3,4,6187.82,EUR,Permanent,False,2026-10-20 10:30:00
+872,E00872,David,Hassan,36,Male,6,HR Business Partner,2019-01-08,Active,Hybrid,4,Vocational,21,False,1,3,5687.95,EUR,Permanent,True,2026-10-20 10:30:00
+873,E00873,Lena,Schmidt,44,Nonbinary,3,Product Analyst,2025-09-27,Exited,Remote,3,Doctorate,22,True,2,3,5164.16,EUR,Permanent,True,2026-10-20 10:30:00
+874,E00874,Jonas,Meyer,39,Male,3,Financial Analyst,2020-02-22,Active,On-site,1,Master,6,False,4,4,4882.72,EUR,Fixed-term,True,2026-10-20 10:30:00
+875,E00875,Maya,Becker,23,Nonbinary,5,Recruiter,2020-07-29,Exited,Hybrid,3,Vocational,18,False,1,1,5481.24,EUR,Fixed-term,True,2026-10-20 10:30:00
+876,E00876,Emil,Meyer,25,Male,8,Product Analyst,2014-04-28,Exited,On-site,5,Vocational,52,True,3,4,7749.64,EUR,Fixed-term,True,2026-10-20 10:30:00
+877,E00877,Nina,Fischer,57,Female,4,HR Business Partner,2023-05-29,Active,Remote,2,Bachelor,49,False,3,2,4175.16,EUR,Fixed-term,True,2026-10-20 10:30:00
+878,E00878,Noah,Hassan,50,Female,1,Service Technician,2020-05-01,Active,On-site,4,Vocational,26,False,2,2,5843.05,EUR,Fixed-term,True,2026-10-20 10:30:00
+879,E00879,Jonas,Wagner,58,Nonbinary,4,Account Manager,2018-04-01,Active,Hybrid,2,Vocational,50,False,2,3,5934.49,EUR,Permanent,True,2026-10-20 10:30:00
+880,E00880,Sofia,Aliyev,41,Nonbinary,4,Financial Analyst,2020-05-11,Active,Hybrid,5,Master,25,True,2,3,3732.74,EUR,Permanent,True,2026-10-20 10:30:00
+881,E00881,Milan,Yilmaz,28,Female,8,Operations Coordinator,2023-01-29,Active,Hybrid,3,Vocational,10,False,2,4,5133.43,EUR,Fixed-term,False,2026-10-20 10:30:00
+882,E00882,Elena,Kaya,32,Nonbinary,8,Service Technician,2016-10-13,Active,Remote,1,Master,26,False,3,4,5203.5,EUR,Fixed-term,True,2026-10-20 10:30:00
+883,E00883,Rosa,Novak,39,Female,3,Project Manager,2019-09-26,Active,On-site,1,Bachelor,30,True,3,3,5547.37,EUR,Permanent,False,2026-10-20 10:30:00
+884,E00884,Rosa,Hoffmann,55,Female,7,Software Engineer,2023-10-15,Active,Remote,1,Master,32,False,3,2,6292.13,EUR,Permanent,True,2026-10-20 10:30:00
+885,E00885,Leyla,Novak,32,Male,6,Financial Analyst,2016-12-15,Active,Hybrid,4,Vocational,12,True,2,3,5893.11,EUR,Fixed-term,True,2026-10-20 10:30:00
+886,E00886,Noah,Aliyev,28,Male,2,Product Analyst,2022-01-01,Active,Hybrid,5,Vocational,6,False,3,2,7109.12,EUR,Permanent,True,2026-10-20 10:30:00
+887,E00887,Emil,Schmidt,48,Male,7,HR Specialist,2015-05-13,Exited,Hybrid,4,Master,32,False,4,2,7709.07,EUR,Fixed-term,True,2026-10-20 10:30:00
+888,E00888,Sofia,Klein,57,Male,6,Account Manager,2023-01-05,Active,Remote,4,Vocational,23,False,1,3,5297.42,EUR,Permanent,True,2026-10-20 10:30:00
+889,E00889,Omar,Klein,54,Female,2,HR Specialist,2020-01-25,Active,Hybrid,2,Doctorate,51,False,4,3,5649.74,EUR,Permanent,True,2026-10-20 10:30:00
+890,E00890,Amir,Aliyev,44,Nonbinary,3,Project Manager,2014-11-07,Exited,Hybrid,2,Doctorate,28,False,2,4,6286.84,EUR,Fixed-term,False,2026-10-20 10:30:00
+891,E00891,Rosa,Hassan,37,Nonbinary,5,Software Engineer,2025-11-09,Active,Hybrid,3,Doctorate,28,False,4,3,5441.13,EUR,Permanent,True,2026-10-20 10:30:00
+892,E00892,Omar,Hoffmann,32,Female,3,Project Manager,2025-12-28,Active,Hybrid,2,Vocational,7,False,3,3,2972.38,EUR,Fixed-term,True,2026-10-20 10:30:00
+893,E00893,Nora,Kaya,37,Male,3,Product Analyst,2017-01-26,Active,Hybrid,4,Doctorate,10,False,3,3,3875.71,EUR,Permanent,False,2026-10-20 10:30:00
+894,E00894,Mira,Wolf,31,Nonbinary,4,Operations Coordinator,2025-11-11,Active,Hybrid,5,Master,54,True,3,4,3814.78,EUR,Permanent,False,2026-10-20 10:30:00
+895,E00895,Omar,Fischer,26,Female,2,Financial Analyst,2016-07-15,Exited,Hybrid,3,Vocational,28,True,2,2,5745.22,EUR,Fixed-term,False,2026-10-20 10:30:00
+896,E00896,Rosa,Klein,33,Nonbinary,7,Recruiter,2021-04-14,Active,On-site,5,Master,39,False,3,4,4795.24,EUR,Fixed-term,True,2026-10-20 10:30:00
+897,E00897,Deniz,Weber,58,Female,5,Financial Analyst,2013-10-17,Active,On-site,3,Bachelor,14,False,2,3,6628.8,EUR,Fixed-term,True,2026-10-20 10:30:00
+898,E00898,David,Demir,27,Female,2,HR Specialist,2018-10-29,Active,Hybrid,3,Doctorate,16,True,4,4,5583.89,EUR,Permanent,True,2026-10-20 10:30:00
+899,E00899,Omar,Novak,30,Nonbinary,4,Service Technician,2022-12-13,Active,Remote,2,Doctorate,37,True,4,3,5640.13,EUR,Fixed-term,False,2026-10-20 10:30:00
+900,E00900,Maya,Wolf,55,Male,2,Service Technician,2024-10-26,Active,On-site,3,Bachelor,3,False,4,3,5767.36,EUR,Fixed-term,True,2026-10-20 10:30:00

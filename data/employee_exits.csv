@@ -1,0 +1,157 @@
+exit_id,employee_id,exit_date,exit_reason,exit_interview_completed,regrettable_exit,final_settlement_eur
+1,13,2025-11-15,Work-life balance,False,True,2162.27
+2,23,2026-07-04,Compensation,False,True,564.3
+3,29,2026-01-21,Other,False,True,1685.66
+4,32,2026-06-04,Relocation,False,True,2614.99
+5,37,2026-07-13,Management,True,True,3069.23
+6,40,2026-04-06,Other,False,True,737.02
+7,45,2026-04-16,Other,True,True,355.05
+8,50,2026-04-28,Management,True,True,2731.53
+9,53,2026-08-12,Compensation,False,False,384.64
+10,55,2026-02-13,Compensation,True,True,948.47
+11,57,2025-11-05,Other,True,True,2343.18
+12,60,2026-05-01,Relocation,False,False,732.77
+13,69,2025-12-04,Career opportunity,False,True,1631.06
+14,75,2026-06-29,Work-life balance,True,True,403.11
+15,92,2026-03-09,Management,True,True,521.17
+16,97,2026-06-13,Compensation,True,False,874.85
+17,98,2025-09-26,Other,True,False,946.67
+18,103,2026-08-09,Management,True,False,789.83
+19,110,2025-12-13,Management,True,True,2443.44
+20,123,2026-05-12,Other,False,False,2919.61
+21,129,2025-09-04,Relocation,True,True,3296.63
+22,133,2026-05-07,Career opportunity,True,False,987.7
+23,134,2026-04-19,Compensation,False,True,1199.19
+24,143,2025-09-28,Career opportunity,True,True,643.54
+25,150,2026-03-18,Compensation,True,False,3328.3
+26,161,2026-08-25,Other,True,True,1767.2
+27,164,2026-02-15,Relocation,False,False,2858.89
+28,178,2026-09-28,Relocation,False,True,1913.62
+29,185,2026-06-02,Relocation,False,False,2303.66
+30,188,2025-10-16,Compensation,False,False,2807.52
+31,210,2026-06-07,Work-life balance,True,True,546.74
+32,212,2026-07-07,Management,False,False,2676.48
+33,213,2026-01-17,Relocation,False,False,2994.17
+34,218,2025-12-04,Compensation,True,False,3330.86
+35,222,2026-08-21,Management,False,True,1747.9
+36,228,2026-06-07,Other,False,False,2357.7
+37,232,2025-11-04,Work-life balance,True,False,1425.98
+38,240,2026-03-09,Management,True,True,920.06
+39,246,2026-04-24,Relocation,True,False,3050.49
+40,249,2026-03-22,Management,False,True,2045.86
+41,255,2026-01-02,Management,False,True,2359.3
+42,256,2026-05-05,Relocation,False,False,1231.27
+43,275,2026-07-07,Compensation,False,True,2685.64
+44,289,2026-07-23,Compensation,True,True,1331.29
+45,290,2026-06-29,Compensation,True,True,639.93
+46,304,2026-05-01,Relocation,False,True,787.6
+47,311,2026-01-30,Relocation,False,False,3362.92
+48,315,2025-08-29,Other,False,True,2711.1
+49,318,2026-01-28,Work-life balance,True,True,1804.82
+50,323,2026-05-21,Relocation,False,True,2026.47
+51,337,2026-01-01,Relocation,True,False,3153.17
+52,340,2025-12-21,Compensation,True,True,3310.85
+53,360,2026-01-26,Other,False,False,3128.04
+54,362,2026-08-26,Management,True,False,1299.78
+55,365,2026-01-22,Career opportunity,True,False,794.37
+56,369,2026-03-11,Other,False,True,2542.9
+57,373,2026-08-29,Compensation,True,True,2116.78
+58,378,2026-03-24,Work-life balance,True,False,470.84
+59,383,2025-10-23,Management,False,False,1342.84
+60,384,2026-05-01,Other,True,False,1578.14
+61,388,2026-08-29,Relocation,True,True,1830.71
+62,391,2026-07-30,Management,False,True,3253.55
+63,398,2026-07-23,Management,False,False,3085.63
+64,401,2026-03-11,Other,True,True,1833.06
+65,407,2025-10-24,Relocation,False,True,3005.34
+66,430,2026-06-02,Relocation,True,False,2676.57
+67,431,2026-01-04,Career opportunity,True,False,2453.78
+68,435,2025-11-05,Career opportunity,False,True,587.23
+69,440,2026-03-22,Management,True,True,901.42
+70,453,2026-08-07,Career opportunity,True,True,3323.51
+71,454,2026-07-18,Career opportunity,False,False,2504.21
+72,470,2026-05-22,Compensation,True,False,2118.8
+73,479,2026-02-03,Relocation,True,False,1459.97
+74,483,2026-04-24,Work-life balance,True,False,643.25
+75,487,2026-03-10,Work-life balance,True,False,632.77
+76,493,2025-10-02,Career opportunity,True,False,1665.15
+77,499,2026-04-25,Work-life balance,True,True,2325.46
+78,500,2026-04-04,Career opportunity,True,True,3261.21
+79,502,2025-10-27,Work-life balance,False,False,3213.77
+80,503,2026-07-18,Other,True,True,765.99
+81,513,2025-11-28,Relocation,False,True,407.14
+82,514,2026-04-29,Management,False,True,917.15
+83,515,2026-07-06,Management,True,True,3082.05
+84,516,2026-01-30,Career opportunity,True,False,2246.7
+85,529,2026-04-04,Relocation,True,False,1201.52
+86,542,2026-07-30,Compensation,False,False,2547.06
+87,551,2026-04-28,Career opportunity,True,False,2254.36
+88,553,2026-06-14,Career opportunity,False,True,1049.24
+89,555,2026-08-22,Other,True,False,516.74
+90,570,2025-09-24,Other,False,False,1640.37
+91,577,2025-10-29,Career opportunity,True,True,1341.48
+92,578,2026-01-20,Compensation,False,True,916.87
+93,582,2026-08-25,Other,False,False,942.04
+94,584,2026-03-11,Compensation,False,True,1399.92
+95,606,2026-06-18,Work-life balance,False,True,3369.13
+96,613,2026-03-11,Other,True,False,1577.21
+97,615,2025-09-01,Career opportunity,False,True,1933.56
+98,620,2026-01-28,Compensation,False,False,995.82
+99,622,2026-08-02,Career opportunity,True,False,2746.51
+100,626,2025-11-03,Compensation,True,True,2115.26
+101,629,2026-01-17,Management,False,False,2951.03
+102,632,2026-09-12,Compensation,False,True,802.78
+103,634,2026-04-24,Work-life balance,True,False,1755.96
+104,637,2026-09-18,Compensation,False,False,917.74
+105,644,2025-09-01,Compensation,True,True,2958.98
+106,650,2025-10-13,Career opportunity,False,False,2981.87
+107,652,2026-05-10,Relocation,True,True,2279.88
+108,653,2025-11-20,Other,True,False,2110.67
+109,654,2026-07-01,Relocation,True,True,354.61
+110,657,2026-01-17,Other,True,False,864.49
+111,666,2026-07-03,Other,True,True,1914.78
+112,668,2025-10-04,Compensation,False,True,616.3
+113,674,2026-01-10,Work-life balance,True,False,984.33
+114,679,2026-02-11,Other,True,True,469.4
+115,684,2026-05-21,Management,False,True,284.65
+116,686,2026-08-31,Relocation,False,False,2602.14
+117,696,2026-06-22,Work-life balance,False,True,572.34
+118,701,2026-07-21,Work-life balance,False,False,293.82
+119,702,2025-11-07,Career opportunity,True,True,348.18
+120,724,2026-05-09,Work-life balance,False,True,3043.42
+121,728,2026-04-28,Relocation,False,True,1655.83
+122,736,2025-11-18,Compensation,True,True,3307.07
+123,738,2025-12-18,Compensation,False,False,3287.96
+124,740,2026-06-12,Relocation,False,True,1301.91
+125,743,2026-02-13,Compensation,False,False,2043.82
+126,746,2026-06-19,Work-life balance,False,False,2886.78
+127,750,2026-04-17,Management,True,False,836.55
+128,767,2026-06-25,Work-life balance,False,True,2108.19
+129,773,2026-05-27,Relocation,True,True,1129.95
+130,777,2026-05-15,Compensation,True,False,793.1
+131,781,2025-11-13,Relocation,False,True,2926.99
+132,784,2026-01-21,Other,False,True,1103.49
+133,790,2025-09-01,Work-life balance,False,False,1995.37
+134,793,2026-03-31,Compensation,True,True,2637.59
+135,802,2026-02-04,Management,True,True,545.46
+136,803,2025-11-13,Management,True,False,2078.41
+137,806,2025-11-09,Relocation,False,False,3077.54
+138,810,2026-03-08,Other,True,False,1475.18
+139,820,2026-06-03,Other,False,True,527.92
+140,825,2026-03-01,Relocation,True,False,1103.04
+141,836,2026-08-21,Management,False,False,3308.39
+142,839,2026-02-10,Career opportunity,False,False,3353.51
+143,840,2025-12-20,Career opportunity,False,False,1810.8
+144,845,2025-08-30,Career opportunity,False,True,1243.55
+145,851,2025-12-17,Management,False,False,2279.15
+146,853,2026-08-15,Compensation,False,False,2899.83
+147,854,2026-06-03,Work-life balance,False,True,2730.86
+148,863,2026-04-12,Relocation,False,False,650.41
+149,864,2025-09-06,Other,False,True,1185.77
+150,870,2025-09-21,Other,True,True,1125.01
+151,873,2026-07-26,Work-life balance,True,True,631.98
+152,875,2026-08-09,Other,True,True,2180.89
+153,876,2025-11-06,Management,False,True,2252.9
+154,887,2025-11-24,Compensation,False,False,3232.79
+155,890,2025-12-13,Other,False,True,905.58
+156,895,2025-11-06,Compensation,False,True,316.95
